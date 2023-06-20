@@ -2,7 +2,7 @@
 main:
 
 sidebar-category:
-  - title: "Category"
+  - title: "CATEGORY"
     children:
       - title: "Development"
         url:  "/Development/"
