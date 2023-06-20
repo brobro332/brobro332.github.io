@@ -1,10 +1,10 @@
 ---
-title: "Computer-Science"
+title: "Development"
 layout: archive
-permalink: /Computer-Science
+permalink: categories/Development
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.Computer-Science %}
+{% assign posts = site.categories.Development %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
