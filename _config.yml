@@ -290,6 +290,7 @@ defaults:
       comments: true
       share: false
       related: true
+      future: true
       sidebar:                 
         nav: "sidebar-category"
   # _pages
