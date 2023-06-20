@@ -1,7 +1,17 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+
+sidebar-category:
+  - title: "Category"
+    children:
+      - title: "Development"
+        url:  "/Development/"
+      - title: "Algorithm"
+        url: "/Algorithm/"
+      - title: "Computer-Science"
+        url:  "/Computer-Science/"
+      - title: "etc."
+        url:  "/etc/"
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
