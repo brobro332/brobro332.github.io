@@ -6,3 +6,7 @@
 - Algorithm
 - Compute Science
 - etc.
+
+📄 Theme
+- minimal-mistakes-master
+- https://github.com/mmistakes/minimal-mistakes
