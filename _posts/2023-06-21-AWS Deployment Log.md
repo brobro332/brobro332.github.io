@@ -63,7 +63,7 @@ published: true
 한 번에 성공했다. 이 이후로는 15분 내로 최신본으로 프로젝트 재배포 가능했음
 
   - ```IntelliJ```에서 War 파일 빌드한다.
-  - War 파일을 압축 풀고서 MariaDB Connector lib 삭제 / yml 수정(생략이 가능하다.)
+  - War 파일을 압축 풀고서 MariaDB Connector lib 삭제 / yml 수정(생략 가능)
   - cmd 콘솔창에서 ROOT 폴더로 이동하고, ```jar cvf ROOT.war *``` 명령어 입력
   - ```MobaXterm``` 들어가서 mysql 들어가서 데이터베이스 드랍 후 생성(DB 구조가 바뀐 경우에만 수행)
   - ```shutdown.sh``` 실행 후 ROOT / ROOT.war 삭제
