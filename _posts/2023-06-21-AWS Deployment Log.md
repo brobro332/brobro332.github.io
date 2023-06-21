@@ -1,6 +1,6 @@
 ---
 title: "AWS Deployment Log"
-excerpt: "Trial Log to deploy a Project"
+excerpt: "Document to deploy a Project"
 categories: 
 - Development
 tags:
