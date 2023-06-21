@@ -2,9 +2,9 @@
 title: "AWS Deployment Log"
 excerpt: "Trial Log to deploy a Project"
 categories: 
-- Developer
+- Development
 tags:
-- [Developer, AWS, Deployment]
+- [Development, AWS, Deployment]
 published: true
 ---
 
@@ -42,6 +42,7 @@ published: true
 <br>
 
 - 2회차<br>
+
   - ​```java.lang.ClassNotFoundException: org.apache.jsp.WEB_002dINF.views``` 오류 발생 <br>
 ```리다이렉션 횟수가 너무 많습니다.``` -> ```JSP 404 Not Found Error``` <br>
     - jsp lib에 문제가 있나 살펴봤으나 문제 없음
@@ -74,27 +75,27 @@ published: true
 ---
 <br>
 
-4회차 <br><br>
+- 4회차 <br><br>
 SSL 인증서 등록하는 것이 좀 오래 걸렸다.
 
-- ```가비아```에서 도메인 구입 <br>
+  - ```가비아```에서 도메인 구입 <br>
 접속할 때 URL에 포트번호를 붙여야된다는 점을 늦게 깨달아서 <br>
 처음에는 DNS 등록에 문제가 있는 줄 알았다.
-- AWS에서 <br>
+  - AWS에서 <br>
 ACM / ROUTE 53 / 로드밸런서 / 타겟그룹을 건드려서 <br> 
 인증서 발급 및 https 등록을 해주었다. <br>
-- 타겟그룹에 문제가 발견돼서 HTTP 80포트를 이용하기 위해 아파치를 다운 받았다.
-- ```iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8080``` <br> 
+  - 타겟그룹에 문제가 발견돼서 HTTP 80포트를 이용하기 위해 아파치를 다운 받았다.
+  - ```iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8080``` <br> 
 명령어를  ```MobaXterm```에 입력하여 80번 포트로 접속하면 <br> 
 8080번 포트인 ```Tomcat```으로 리다이렉트 되도록 하였다.
-- 또한 스프링 시큐리티에서 "/"를 차단해놓으면 https 등록하는데도 문제가 있는 것 같다.
+  - 또한 스프링 시큐리티에서 "/"를 차단해놓으면 https 등록하는데도 문제가 있는 것 같다.
 <br><br>  
 
 <img src="/assets/images/2023-06-21-AWS Deployment Log/1.JPG">
-<b>로드밸런서 이미지</b>
+<b>✔ 로드밸런서 이미지</b>
 <br><br>  
 <img src="/assets/images/2023-06-21-AWS Deployment Log/2.JPG">
-<b>로드밸런서 규칙 설정 이미지</b>
+<b>✔ 로드밸런서 규칙 설정 이미지</b>
 <br><br><br>
 <img src="/assets/images/2023-06-21-AWS Deployment Log/3.JPG">
-<b>타겟그룹 이미지</b>
+<b>✔ 타겟그룹 이미지</b>
