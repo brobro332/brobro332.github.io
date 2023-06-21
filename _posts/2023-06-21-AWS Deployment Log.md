@@ -10,7 +10,7 @@ published: true
 
 <br><br>
 
-- 1회차 <br><br>
+- <b>1회차</b> <br><br>
 배포에는 성공하였으나, Tomcat 버전 및 여러 요소에서 문제가 발생했음
 
   - AWS 
@@ -41,7 +41,7 @@ published: true
 ---
 <br>
 
-- 2회차<br>
+- <b>2회차</b><br>
 
   - ​```java.lang.ClassNotFoundException: org.apache.jsp.WEB_002dINF.views``` 오류 발생 <br>
 ```리다이렉션 횟수가 너무 많습니다.``` -> ```JSP 404 Not Found Error``` <br>
@@ -59,7 +59,7 @@ published: true
 ---
 <br>
 
-- 3회차 <br><br>
+- <b>3회차</b> <br><br>
 한 번에 성공했다. 이 이후로는 15분 내로 최신본으로 프로젝트 재배포 가능했음
 
   - ```IntelliJ```에서 War 파일 빌드한다.
@@ -75,7 +75,7 @@ published: true
 ---
 <br>
 
-- 4회차 <br><br>
+- <b>4회차</b> <br><br>
 SSL 인증서 등록하는 것이 좀 오래 걸렸다.
 
   - ```가비아```에서 도메인 구입 <br>
