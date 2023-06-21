@@ -5,13 +5,13 @@ sidebar-category:
   - title: "CATEGORY"
     children:
       - title: "Development"
-        url:  "/categories/#Development"
+        url:  "/Development"
       - title: "Algorithm"
-        url: "/categories/#Algorithm"
+        url: "/Algorithm"
       - title: "Computer-Science"
-        url:  "/categories/#Computer-Science"
+        url:  "/Computer-Science"
       - title: "etc."
-        url:  "/categories/#etc"
+        url:  "/etc"
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
