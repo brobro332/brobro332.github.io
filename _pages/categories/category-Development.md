@@ -1,7 +1,7 @@
 ---
 title: "Development"
 layout: archive
-permalink: /Development
+permalink: categories/Development
 author_profile: true
 sidebar_main: true
 ---
