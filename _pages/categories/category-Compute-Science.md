@@ -1,7 +1,7 @@
 ---
 title: "Computer-Science"
 layout: archive
-permalink: categories/Computer-Science
+permalink: /Computer-Science
 author_profile: true
 sidebar_main: true
 ---
