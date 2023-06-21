@@ -4,6 +4,8 @@ main:
 sidebar-category:
   - title: "CATEGORY"
     children:
+      - title: "Project"
+        url:  "/Project"
       - title: "Development"
         url:  "/Development"
       - title: "Algorithm"
