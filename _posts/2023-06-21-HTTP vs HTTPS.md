@@ -6,10 +6,12 @@ categories:
 tags:
 - [Computer-Science, Network]
 published: true
+toc: true
+toc_sticky: true
 ---
 
 <br><br>
-**HTTP란?**<br>
+##### **HTTP란?**<br>
 - Hyper Text Transfer Protocol의 두문자어 <br> 
 - HTTP는 웹에서 이루어지는 모든 데이터 교환의 기초 <br>
 - 초기에는 HTML과 같은 하이퍼미디어 문서를 주로 전송했지만, <br>
@@ -31,27 +33,28 @@ published: true
 <b>```참고사이트```</b> - [https://surprisecomputer.tistory.com/54](https://surprisecomputer.tistory.com/54)
 <br><br>
 
-**HTTPS란?**<br>
+##### **HTTPS란?**<br>
 - 하이퍼텍스트 전송 프로토콜 보안(HTTPS)은 <br> 
 웹 브라우저와 웹 사이트 간에 데이터를 전송하는 데 <br> 
 사용되는 기본 프로토콜인 HTTP의 보안 버전 <br>
 - HTTPS는 암호화 프로토콜을 사용하여 통신을 암호화 <br>
 - 이 프로토콜은 이전에는 보안 소켓 계층(SSL)으로 알려졌지만, <br>
-전송 계층 보안(TLS)이라고 불립니다. <br>
-이 프로토콜은 비대칭 공개 키 인프라로 알려진 것을 사용하여 통신을 보호합니다. <br>
+전송 계층 보안(TLS)이라고 불림 <br>
+이 프로토콜은 비대칭 공개 키 인프라로 알려진 것을 사용하여 통신을 보호 <br>
 이 유형의 보안 시스템에서는 <br>
-두 개의 서로 다른 키를 사용하여 두 당사자 간의 통신을 암호화합니다.
-  - <b>```개인 키```</b> - 웹 사이트 소유자가 관리하며, 비공개로 유지됩니다. <br>
-  이 키는 웹 서버에 있으며 공개 키로 암호화된 정보를 해독하는 데 사용됩니다. <br>
+두 개의 서로 다른 키를 사용하여 두 당사자 간의 통신을 암호화
+  - <b>```개인 키```</b> - 웹 사이트 소유자가 관리하며, 비공개로 유지 <br>
+  이 키는 웹 서버에 있으며 공개 키로 암호화된 정보를 해독하는 데 사용 <br>
   - <b>```공개 키```</b> - 안전한 방식으로 서버와 상호 작용하고자 하는 <br>
-모든 사람이 사용할 수 있습니다. <br>
-공개 키로 암호화된 정보는 개인 키로만 해독할 수 있습니다. <br>
+모든 사람이 사용할 수 있음 <br>
+공개 키로 암호화된 정보는 개인 키로만 해독할 수 있음 <br>
 
 <b>```참고사이트```</b> - [https://www.cloudflare.com/ko-kr/learning/ssl/what-is-https/](https://www.cloudflare.com/ko-kr/learning/ssl/what-is-https/)
 <br><br>
 
 ---
-<br>
+
+##### **요약** <br>
 
 <i>HTTPS의 정의를 살펴보면 HTTP와 HTTPS의 차이점을 알 수 있다. <br> 
 요약하자면, 서버와 웹 브라우저간의 공유 데이터를 암호화하여 <br> 
