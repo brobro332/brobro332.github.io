@@ -29,8 +29,6 @@ toc_sticky: true
 - 클라이언트(웹 브라우저, 모바일 등)가 브라우저를 통해서 <br>
 어떠한 서비스를 URI를 통해 서버에 요청(Request)하면 <br> 
 서버에서는 해당 요청에 대한 결과를 응답(Response)하는 형태로 동작한다. <br>
-
-<b>```참고사이트```</b> - [https://surprisecomputer.tistory.com/54](https://surprisecomputer.tistory.com/54)
 <br><br>
 
 ##### **HTTPS란?**<br>
@@ -48,14 +46,22 @@ toc_sticky: true
   - <b>```공개 키```</b> - 안전한 방식으로 서버와 상호 작용하고자 하는 <br>
 모든 사람이 사용할 수 있음 <br>
 공개 키로 암호화된 정보는 개인 키로만 해독할 수 있음 <br>
-
-<b>```참고사이트```</b> - [https://www.cloudflare.com/ko-kr/learning/ssl/what-is-https/](https://www.cloudflare.com/ko-kr/learning/ssl/what-is-https/)
 <br><br>
 
 ---
+<br>
 
 ##### **요약** <br>
 
 <i>HTTPS의 정의를 살펴보면 HTTP와 HTTPS의 차이점을 알 수 있다. <br> 
 요약하자면, 서버와 웹 브라우저간의 공유 데이터를 암호화하여 <br> 
 HTTP의 보안을 강화하기 위해 생긴 프로토콜이 HTTPS임을 알 수 있다.</i>
+
+<br>
+---
+<br>
+
+
+<b>```참고사이트```</b> 
+- [https://www.cloudflare.com/ko-kr/learning/ssl/what-is-https/](https://www.cloudflare.com/ko-kr/learning/ssl/what-is-https/)
+- [https://surprisecomputer.tistory.com/54](https://surprisecomputer.tistory.com/54)
