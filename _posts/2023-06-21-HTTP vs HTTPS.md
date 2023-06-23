@@ -1,6 +1,6 @@
 ---
 title: "HTTP vs HTTPS"
-excerpt: "What's the difference between HTTP and HTTPS"
+excerpt: "Computer-Science HTTP vs HTTPS"
 categories: 
 - Computer-Science
 tags:

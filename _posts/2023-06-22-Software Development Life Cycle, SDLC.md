@@ -1,6 +1,6 @@
 ---
 title: "Software Development Life Cycle, SDLC"
-excerpt: "SDLC"
+excerpt: "Computer-Science SDLC"
 categories: 
 - Computer-Science
 tags:

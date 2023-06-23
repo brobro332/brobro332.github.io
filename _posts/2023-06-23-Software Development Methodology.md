@@ -1,6 +1,6 @@
 ---
 title: "Software Development Methodology"
-excerpt: "SDM"
+excerpt: "Computer-Science Software Development Methodology"
 categories: 
 - Computer-Science
 tags:
