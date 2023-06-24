@@ -1,10 +1,10 @@
 ---
 title: "Software Development Life Cycle, SDLC"
-excerpt: "Computer-Science SDLC"
+excerpt: "Computer-Science; SDLC"
 categories: 
 - Computer-Science
 tags:
-- [Computer-Science, Software-Engineering]
+- [Computer-Science, Software-Engineering, 정보처리기사]
 published: true
 toc: true
 toc_sticky: true

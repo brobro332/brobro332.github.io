@@ -1,10 +1,10 @@
 ---
 title: "Software Development Methodology"
-excerpt: "Computer-Science Software Development Methodology"
+excerpt: "Computer-Science; Software Development Methodology"
 categories: 
 - Computer-Science
 tags:
-- [Computer-Science, Software-Engineering]
+- [Computer-Science, Software-Engineering, 정보처리기사]
 published: true
 toc: true
 toc_sticky: true
