@@ -41,7 +41,7 @@ toc_sticky: true
     Firebase Cloud Messaging 서비스를 이용하였다. 
     - 구현 후 단위 테스트는 모바일 애플리케이션이 구현되지 않은 상태여서, 
     개인적으로 서버와 모바일 부분 각각 데모 버전의 프로젝트를 만들어서 진행했다.<br><br>
-    <img src="/assets/images/2023-06-24-Beacon Attendance & Monitoring System/1.JPG" width="300px" height="300px"><br><br>
+    <img src="/assets/images/2023-06-24-Beacon Attendance & Monitoring System/1.jpg" width="300px" height="300px"><br><br>
   - <b>SSE</b>
     - HTTP 스트리밍을 통해 서버에서 클라이언트로 단방향 통신을 위한 HTML5 통신 기술
     - 실시간 모니터링 기능을 구현하기 위해서는 웹소켓과 SSE 기술 중 하나를 선택해야했는데, <br>
@@ -71,7 +71,7 @@ toc_sticky: true
     - 웹 사용자페이지
   <img src="/assets/images/2023-06-24-Beacon Attendance & Monitoring System/4-1.JPG"><br><br>
     - 웹 관리자페이지
-  <img src="/assets/images/2023-06-24-Beacon Attendance & Monitoring System/4-2.PNG"><br><br>
+  <img src="/assets/images/2023-06-24-Beacon Attendance & Monitoring System/4-2.png"><br><br>
     - JPA를 통한 Select 메소드 등 백엔드 영역과 프론트 영역이 혼재돼있으나 <br> 
     Chart.js는 자바스크립트 관련 서비스이기에 프론트엔드 영역으로 구분하였다.
 
@@ -89,12 +89,12 @@ toc_sticky: true
 
 ##### **🎥 동영상**
 - 웹 사용자페이지
-  <video src="/assets/images/2023-06-24-Beacon Attendance & Monitoring System/5.MP4" width="800px" height="400px" controls></video>
+  <video src="/assets/images/2023-06-24-Beacon Attendance & Monitoring System/5.mp4" width="800px" height="400px" controls></video>
 
 <br>
 
 - 웹 관리자페이지
-  <video src="/assets/images/2023-06-24-Beacon Attendance & Monitoring System/6.MP4" width="800px" height="400px" controls></video>
+  <video src="/assets/images/2023-06-24-Beacon Attendance & Monitoring System/6.mp4" width="800px" height="400px" controls></video>
 
 <br>
 ---
