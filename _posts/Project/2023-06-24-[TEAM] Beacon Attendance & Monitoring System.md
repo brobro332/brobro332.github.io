@@ -58,10 +58,10 @@ toc_sticky: true
     - 관리자 페이지 footer.jsp 파일에 js파일을 include하여 <br>
     window 객체가 load되는 이벤트가 발생할 경우, <br>
     서버단의 메소드를 통해 관리자의 알림을 조회하게끔 하였다. <br>
+    즉, 실시간 갱신은 되지 않지만 페이지를 이동할 때마다 알림이 갱신된다. <br>
     그리고 MVC Interceptor를 통해 해당 Model을 <br>
     현재 관리자가 접속해있는 페이지로 넘겨줄 수 있게끔 하였으며,<br>
-    실시간 갱신은 되지 않지만 페이지를 이동할 때마다 갱신이 된다.
-    모든 관리자페이지에서 알림을 확인 가능하다.<br><br>
+    모든 관리자페이지에서 알림을 확인 가능하게 되었다.<br><br>
     <img src="/assets/images/2023-06-24-Beacon Attendance & Monitoring System/3.JPG"><br><br>
 
 ###### 프론트엔드 영역
