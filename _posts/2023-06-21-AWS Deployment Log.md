@@ -12,7 +12,7 @@ toc_sticky: true
 
 <br><br>
 
-- ##### <b>1회차</b> <br><br>
+##### <b>1회차</b> <br><br>
 배포에는 성공하였으나, Tomcat 버전 및 여러 요소에서 문제가 발생했음
 
   - AWS 
@@ -39,11 +39,7 @@ toc_sticky: true
     - ROOT.war 파일을 FileZila로 ec2 인스턴스에 넣어주어야 함
     - Context path="/"
 
-<br>
----
-<br>
-
-- ##### <b>2회차</b><br>
+##### <b>2회차</b><br>
 
   - ​<b>```java.lang.ClassNotFoundException: org.apache.jsp.WEB_002dINF.views```</b> 오류 발생 <br>
 <b>```특징```</b> - 리다이렉션 횟수가 너무 많습니다. -> JSP 404 Not Found Error <br>
@@ -57,11 +53,7 @@ toc_sticky: true
 [https://debugblog.tistory.com/9](https://debugblog.tistory.com/9) <br>
 감사하게도 관련 글이 있어서 문제를 해결할 수 있었다.
 
-<br>
----
-<br>
-
-- ##### <b>3회차</b> <br><br>
+##### <b>3회차</b> <br><br>
 한 번에 성공했다. 이 이후로는 15분 내로 최신본으로 프로젝트 재배포 가능했음
 
   - IntelliJ에서 War 파일 빌드한다.
@@ -73,11 +65,7 @@ toc_sticky: true
   - FileZilla를 통해 /usr/local/tomcat10/webapps/ 경로로 ROOT.war 전송
   - startup.sh 실행 : 네트워크/포트 상태 및 톰캣 에러 로그 확인하기
 
-​<br>
----
-<br>
-
-- ##### <b>4회차</b> <br><br>
+##### <b>4회차</b> <br><br>
 SSL 인증서 등록하는 것이 좀 오래 걸렸다.
 
   - 가비아에서 도메인 구입 <br>
@@ -93,11 +81,11 @@ ACM / ROUTE 53 / 로드밸런서 / 타겟그룹을 건드려서 <br>
   - 또한 스프링 시큐리티에서 "/"를 차단해놓으면 HTTPS 등록하는데도 문제가 있는 것 같다.
 <br><br>  
 
+- 로드밸런서 이미지
 <img src="/assets/images/2023-06-21-AWS Deployment Log/1.JPG">
-<b>✔ 로드밸런서 이미지</b>
 <br><br>  
+- 로드밸런서 규칙 설정 이미지
 <img src="/assets/images/2023-06-21-AWS Deployment Log/2.JPG">
-<b>✔ 로드밸런서 규칙 설정 이미지</b>
-<br><br><br>
+<br>
+- 타겟그룹 이미지
 <img src="/assets/images/2023-06-21-AWS Deployment Log/3.JPG">
-<b>✔ 타겟그룹 이미지</b>
