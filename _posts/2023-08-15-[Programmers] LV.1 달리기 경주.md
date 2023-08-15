@@ -1,10 +1,10 @@
 ---
-title: "달리기 경주"
-excerpt: "Algorithm"
+title: "[Programmers] LV.1 달리기 경주"
+excerpt: "Algorithm; Programmers;"
 categories: 
 - Algorithm
 tags:
-- [Algorithm]
+- [Algorithm, Programmers, LV.1]
 published: true
 toc: true
 toc_sticky: true
@@ -63,5 +63,6 @@ def solution(players, callings):
 처음에는 이중 for문을 이용해보았다. 이 경우에는 O(MN)의 시간 복잡도를 갖게 되어 최대 500억번을 실행하게 된다. <br>
 두 번째 시도로 for문을 하나 없앴으나 index 함수를 사용하여 동일하게 O(MN)의 시간 복잡도를 갖게 되었다. <br>
 세 번째 시도는 딕셔너리를 사용하였으며, index 함수를 대체할 수 있어 O(N)의 시간 복잡도로 개선할 수 있었다. <br><br>
+
 - 실행시간 1초의 경우 약 10억번의 연산이 가능
 - 이중 for문과 index 함수는 지양하기 -> 상황에 따라 딕셔너리를 통해 개선 가능
