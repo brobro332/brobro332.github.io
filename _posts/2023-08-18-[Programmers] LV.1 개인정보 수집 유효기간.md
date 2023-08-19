@@ -1,5 +1,5 @@
 ---
-title: "[Programmers] LV.1 카드 뭉치"
+title: "[Programmers] LV.1 개인정보 수집 유효기간"
 excerpt: "Algorithm; Programmers;"
 categories: 
 - Algorithm
@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
 ---
 
-#### ✅ 카드 뭉치
+#### ✅ 개인정보 수집 유효기간
 ```
 고객의 약관 동의를 얻어서 수집된 1~n번으로 분류되는 개인정보 n개가 있습니다. 약관 종류는 여러 가지 있으며 각 약관마다 개인정보 보관 유효기간이 정해져 있습니다. 당신은 각 개인정보가 어떤 약관으로 수집됐는지 알고 있습니다. 수집된 개인정보는 유효기간 전까지만 보관 가능하며, 유효기간이 지났다면 반드시 파기해야 합니다.
 
