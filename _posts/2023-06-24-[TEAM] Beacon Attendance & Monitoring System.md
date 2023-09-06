@@ -12,7 +12,7 @@ toc_sticky: true
 
 <br><br>
 
-# 🎞 [TEAM] Monitoring-Server-Project
+# 🎞 Monitoring-Server-Project
 
 
 ### **📄 Outline**
@@ -37,12 +37,12 @@ toc_sticky: true
 
 ### **🙋‍♂️ 나의 역할**
 
-#### 프로젝트 관리
+#### Ⅰ. 프로젝트 관리
 
 - 팀장으로서 프로젝트 일정 관리, 산출물 작성, 멘토링 활동진행 등 프로젝트에 대한 관리를 맡았다.
 
 
-#### 백엔드 영역 개발
+#### Ⅱ. 백엔드 영역 개발
 
 ##### **1. Firebase Cloud Messaging**
 
@@ -80,7 +80,7 @@ toc_sticky: true
 
 ---
 
-#### 프론트엔드 영역 개발
+#### Ⅲ. 프론트엔드 영역 개발
 - JSP와 JQuery를 통해 프론트 영역을 구현하였다.
 - Chart.js
 <img src="/assets/images/2023-06-24-Beacon Attendance & Monitoring System/4-1.JPG"><br><br>
@@ -88,7 +88,7 @@ toc_sticky: true
 
 ---
 
-#### 배포
+#### Ⅳ. 배포
 - Amazon Web Service의 EC2를 이용하였다.
 - 가장 보편적이고, 프로젝트 기간이 짧아 사용한 만큼 결제한다는 메리트가 있어 좋았다.
 - Elastic IP : 변하지 않는 고정 IP 주소를 위해 이용
