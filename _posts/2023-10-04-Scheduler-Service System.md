@@ -89,6 +89,14 @@ Scheduler-Project
 
 <br>
 
+## **📌 ERD**
+<div style="text-align: center;">
+<img src="/assets/images/2023-10-04-Scheduler-Service System/ERD.png" alt="Image: ERD">
+</div>
+<figcaption style="text-align: center; font-weight: bold;">💎 Image: ERD</figcaption>
+
+<br>
+
 ## **🎬 기능별 이미지 및 동영상**
 
 
