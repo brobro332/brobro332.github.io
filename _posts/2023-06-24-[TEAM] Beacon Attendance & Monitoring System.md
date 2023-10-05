@@ -12,10 +12,6 @@ toc_sticky: true
 
 <br><br>
 
-# 🎞 Monitoring-Server-Project
-
-<br>
-
 ## **📄 Outline**
 
 - 비콘을 통한 출결 자동화 및 현장 내 보안 모니터링

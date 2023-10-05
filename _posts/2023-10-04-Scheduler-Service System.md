@@ -12,10 +12,6 @@ toc_sticky: true
 
 <br><br>
 
-# 🎞 Scheduler-Project
-
-<br>
-
 ## **📄 Outline**
 
 - 프로젝트 플래너 작성을 지원하는 웹 서비스
