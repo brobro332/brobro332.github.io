@@ -1,6 +1,6 @@
 ---
-title: "[TEAM] Beacon Attendance & Monitoring System"
-excerpt: "Project; [TEAM] Beacon Attendance & Monitoring System"
+title: "[Team] Beacon Attendance & Monitoring System"
+excerpt: "Project; [Team] Beacon Attendance & Monitoring System"
 categories: 
 - Project
 tags:

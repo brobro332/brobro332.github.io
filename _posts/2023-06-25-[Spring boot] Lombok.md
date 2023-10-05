@@ -1,5 +1,5 @@
 ---
-title: "Lombok"
+title: "[Spring boot] Lombok"
 excerpt: "Development; Lombok"
 categories: 
 - Development
