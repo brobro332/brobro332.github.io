@@ -1,10 +1,10 @@
 ---
-title: "Scheduler-Service System"
-excerpt: "Project; Scheduler-Service System"
+title: "[Personal] Scheduler-Service"
+excerpt: "Project; Scheduler-Service"
 categories: 
 - Project
 tags:
-- [Project]
+- [Project, Personal]
 published: true
 toc: true
 toc_sticky: true
