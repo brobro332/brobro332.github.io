@@ -1,10 +1,10 @@
 ---
-title: "[Design-Pattern] 팩토리 패턴"
-excerpt: "Java; 팩토리 패턴; Design-Pattern"
+title: "[Design-Pattern] 팩토리 메서드 패턴"
+excerpt: "Java; 팩토리 메서드 패턴; Design-Pattern"
 categories: 
 - Java
 tags:
-- [Java, 팩토리 패턴, Design-Pattern]
+- [Java, 팩토리 메서드 패턴, Design-Pattern]
 published: true
 toc: true
 toc_sticky: true
@@ -14,7 +14,8 @@ toc_sticky: true
 
 ### ✅ 정의
 객체 생성을 추상화하고 객체를 생성하기 위한 인터페이스를 제공하는 디자인 패턴 <br>
-팩토리 패턴은 객체 생성과 관련된 많은 복잡성을 다루고, 코드의 재사용성과 유지보수성을 향상시키는 데 도움이 됨
+팩토리 메서드 패턴은 객체 생성과 관련된 많은 복잡성을 다루고, 코드의 재사용성과 유지보수성을 향상시키는 데 도움이 됨 <br>
+객체 생성을 서브클래스에서 처리하고, 클라이언트 코드를 객체 생성과 분리시킴
 
 <br>
 <hr style="border: 2px dashed #d3d3d3;">
