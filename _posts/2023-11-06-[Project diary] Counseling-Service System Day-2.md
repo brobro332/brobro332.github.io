@@ -38,7 +38,11 @@ toc_sticky: true
     - HTTP 기본 인증을 비활성화: HTTP 요청 헤더에 사용자 ID와 PW를 인코딩 및 포함시키지 않음
     - Endpoint 접근 거부 및 허용
     - JWT 필터 설정
-    - H2-Console에 접속하기 위한 설정 `.headers(authorize -> authorize.frameOptions(HeadersConfigurer.FrameOptionsConfig::sameOrigin));`
+    - H2-Console에 접속하기 위한 설정 
+      - 
+      ```java
+      .headers(authorize -> authorize.frameOptions(HeadersConfigurer.FrameOptionsConfig::sameOrigin));
+      ```
     
 ### 2️⃣ UserDetailsDTO
 - UserDetails 인터페이스에 대한 구현체
@@ -58,12 +62,13 @@ toc_sticky: true
     - signWith: 서명 키와 서명 알고리즘(HS256) 등록
   - refreshToken: accessToken 재발급을 위한 토큰으로 검증을 위한 중요한 정보는 필요하지 않음
 - getAuthentication: 토큰의 사용자 이름과 Claims 헤더의 "auth" 값을 통해 Authentication 객체 생성 및 반환
-  - ```java
-      Collection<? extends GrantedAuthority> authorities =
-          Arrays.stream(claims.get("auth").toString().split(","))
-              .map(SimpleGrantedAuthority::new)
-              .collect(Collectors.toList());
-              ```
+  - 
+  ```java
+  Collection<? extends GrantedAuthority> authorities =
+      Arrays.stream(claims.get("auth").toString().split(","))
+          .map(SimpleGrantedAuthority::new)
+          .collect(Collectors.toList());
+  ```
     - .stream(): 병렬처리를 별도의 멀티스레드 구현없이 쉽게 구현
     - .map(): 각 권한 문자열을 추출하여 SimpleGrantedAuthority 객체로 변환
     - .collect(): SimpleGrantedAuthority 객체들을 리스트로 수집
@@ -95,7 +100,10 @@ public class JwtToken {
 - UserController
 - UserService
   - join: 전형적인 회원가입 API 비즈니스 로직
-  - login: Authentication 객체를 만들어서 `jwtProvider.generateJwtToken(authentication);`
+  - login: Authentication 객체를 만든 후 
+  ```java 
+  jwtProvider.generateJwtToken(authentication);
+  ```
 - UserRepository
   - findOptionalByUsername: Optional 객체의 isPresent() 메서드를 이용하기 위함
 
