@@ -32,7 +32,6 @@ toc_sticky: true
   - WebSecurityCustomizer: 정적 자원 및 H2-Console에 대한 스프링 시큐리티 비활성화
   - BCryptPasswordEncoder: 패스워드 암호화를 위해 Config 내에 빈 등록해야함
   - SecurityFilterChain: 
-    - ❗ 애로사항: deprecated Error - 스프링 시큐리티 버전 5.2부터 Lambda를 이용하여 HTTP 보안을 구성해야함
     - csrf 비활성화: 서버에 인증정보를 저장하지 않으므로 csrf 공격에 취약하지 않음
     - STATELESS 설정: 세선쿠키 기반의 인증처리를 하지않음
     - Form 기반 로그인 비활성화: 커스텀으로 구성한 필터를 사용해야함
@@ -43,7 +42,7 @@ toc_sticky: true
     
 ### 2️⃣ UserDetailsDTO
 - UserDetails 인터페이스에 대한 구현체
-- 사용자 권한에 대한 getAuthorities 메서드를 구현해야함: 패스워드 없이 username + authorities를 통해 로그인 기능 구현할 예정
+- 사용자 권한에 대한 getAuthorities 메서드를 구현해야함: 토큰 검증 후 패스워드 없이 username + authorities를 통해 로그인 기능 구현할 예정
 
 ### 3️⃣ UserDetailsImpl
 - UserDetailsService 인터페이스에 대한 구현체
@@ -65,9 +64,9 @@ toc_sticky: true
               .map(SimpleGrantedAuthority::new)
               .collect(Collectors.toList());
               ```
-    - .stream(): ❗ 추후 내용 추가할 예정
-    - .map(): ❗ 추후 내용 추가할 예정
-    - .collect(): ❗ 추후 내용 추가할 예정
+    - .stream(): 병렬처리를 별도의 멀티스레드 구현없이 쉽게 구현
+    - .map(): 각 권한 문자열을 추출하여 SimpleGrantedAuthority 객체로 변환
+    - .collect(): SimpleGrantedAuthority 객체들을 리스트로 수집
 - validationToken: token의 유효성을 검증 후 예외처리
 - parseClaims: accessToken의 유효성을 검사한 후 유효하면 Claims 반환
 
@@ -99,3 +98,17 @@ public class JwtToken {
   - login: Authentication 객체를 만들어서 `jwtProvider.generateJwtToken(authentication);`
 - UserRepository
   - findOptionalByUsername: Optional 객체의 isPresent() 메서드를 이용하기 위함
+
+
+## ❗ 애로사항 및 계획
+- 애로사항
+  - 스프링 시큐리티 버전으로 인해 Config 클래스의 SecurityFilterChain 메서드 작성 시 람다식으로 작성하지 않으면 deprecated 에러 발생
+  - H2-Console 접속에 어려움을 겪음
+    - 아무 생각없이 JwtAuthorizationFilter 클래스를 Config 클래스 내에 Bean 등록을 함
+    - Config 클래스 내에 H2-Console 관련 어떤 설정을 해도 정상적으로 접속이 안됨
+    - @Bean 어노테이션을 삭제함으로써 해결
+- 계획
+  - 프론트엔드쪽 리액트를 구현할 예정
+    - 로그인 폼 작성: 완료
+    - 스프링부트와 연동: 둘 다 실행해서 리액트쪽에서 Endpoint로 요청하면 될 것으로 알고 있음. 다만 cors 관련 설정을 해야함
+  - 스트림에 대해 깊게 공부하기
