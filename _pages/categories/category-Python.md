@@ -1,10 +1,10 @@
 ---
-title: "Coding-Test"
+title: "Python"
 layout: archive
-permalink: /Coding-Test
+permalink: /Python
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.Coding-Test %}
+{% assign posts = site.categories.Python %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
