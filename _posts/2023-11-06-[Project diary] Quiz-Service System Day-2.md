@@ -1,6 +1,6 @@
 ---
-title: "[Project diary] Counseling-Service System DAY-2"
-excerpt: "etc.; [Project diary] Counseling-Service System DAY-2"
+title: "[Project diary] Quiz-Service System DAY-2"
+excerpt: "etc.; [Project diary] Quiz-Service System DAY-2"
 categories: 
 - etc
 tags:
