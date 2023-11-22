@@ -12,27 +12,27 @@ toc_sticky: true
 
 ## ✅ DAY-3 리액트 로그인 폼을 통해 스프링부트와 연동 확인
 
-### 백엔드측
+### 1️⃣ 백엔드측
 
 - CORS 설정
-  - 스프링부트는 아무것도 설정하지 않으면 모든 외부 요청에 대해 CORS Block을 하기 때문에 설정 파일을 만들어주어야 한다.
-  - 
-  ```java
-  @Configuration
-  public class CorsConfig {
-      @Bean
-      public WebMvcConfigurer corsConfigurer() {
-          return new WebMvcConfigurer() {
-              @Override
-              public void addCorsMappings(CorsRegistry registry) {
-                  registry.addMapping("/api/**")
-                          .allowedOrigins("http://localhost:3000")
-                          .allowedMethods("GET", "POST", "PUT", "DELETE");
-              }
-          };
-      }
-  }
-  ```
+스프링부트는 아무것도 설정하지 않으면 모든 외부 요청에 대해 CORS Block을 하기 때문에 설정 파일을 만들어주어야 한다.
+
+```java
+@Configuration
+public class CorsConfig {
+    @Bean
+    public WebMvcConfigurer corsConfigurer() {
+        return new WebMvcConfigurer() {
+            @Override
+            public void addCorsMappings(CorsRegistry registry) {
+                registry.addMapping("/api/**")
+                        .allowedOrigins("http://localhost:3000")
+                        .allowedMethods("GET", "POST", "PUT", "DELETE");
+            }
+        };
+    }
+}
+```
 
 - 로그인 API
 
@@ -70,13 +70,13 @@ public JwtToken login(UserReqDTO userReqDTO) {
 }
 ```
 
-- 해야할 것
+- 계획
   - 로그인할 경우 accessToken & refreshToken 갱신
   - API 요청을 할 때마다 accessToken 확인하여 만료되었을 경우에는
-    - refreshToken이 만료되지 않았다면 accessToken 갱신
-    - 만료되었다면 로그인 요구
+  - refreshToken이 만료되지 않았다면 accessToken 갱신
+  - 만료되었다면 로그인 요구
 
-### 프론트엔드측
+### 2️⃣ 프론트엔드측
 - 리액트를 따로 공부해본 적이 없어 ChatGPT를 통해서 작성함, 세부적인 부분은 수정해야할 듯 하다.
 - 프론트엔드 개발자를 희망하는 것은 아니기 때문에 앞으로도 애용할 예정
 
@@ -176,7 +176,7 @@ class Login extends Component {
 export default Login;
 ```
 
-### 이미지
+### 3️⃣ 이미지
 
 ![Image: Postman을 통한 회원가입](/assets/images/2023-11-21-[Project diary] Quiz-Service System Day-3/1.PNG)
 <figcaption style="text-align: center; bold;">Image: Postman을 통한 회원가입</figcaption>
