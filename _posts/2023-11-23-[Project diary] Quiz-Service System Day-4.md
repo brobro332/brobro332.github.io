@@ -51,14 +51,14 @@ public void createGame(GameReqDTO gameReqDTO) {
 
 <br>
 
-![Image: 예외 발생](/assets/images/2023-11-21-[Project diary] Quiz-Service System Day-4/2.PNG)
+![Image: 예외 발생](/assets/images/2023-11-23-[Project diary] Quiz-Service System Day-4/2.PNG)
 <figcaption style="text-align: center; bold;">Image: 예외 발생</figcaption>
 
 정상적으로 예외가 발생하는 모습이다.
 
 <br>
 
-![Image: 정상 토큰을 통한 퀴즈게임 생성](/assets/images/2023-11-21-[Project diary] Quiz-Service System Day-4/3.PNG)
+![Image: 정상 토큰을 통한 퀴즈게임 생성](/assets/images/2023-11-23-[Project diary] Quiz-Service System Day-4/3.PNG)
 <figcaption style="text-align: center; bold;">Image: 정상 토큰을 통한 퀴즈게임 생성</figcaption>
 
 이번에는 회원가입을 하고, 로그인을 한 후에 반환하는 토큰 값을 헤더에 넣으니 정상적으로 퀴즈게임이 생성되었다.
