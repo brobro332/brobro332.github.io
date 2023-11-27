@@ -13,6 +13,7 @@ toc_sticky: true
 ## ✅ DAY-5 AccessToken의 유효성 검증하여 처리
 
 ### 1️⃣ doFilterInternal 수정
+
 - AccessToken이 유효하다면 인증 허가
 - AccessToken이 유효하지 않다면
   - 클라이언트 요청 RefreshToken이 유효한지 검증 및 해당 사용자의 데이터베이스에 저장되어있는 RefreshToken 값을 비교
