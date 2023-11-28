@@ -1,6 +1,6 @@
 ---
-title: "Scheduler-Service System"
-excerpt: "Project; Scheduler-Service"
+title: "[Personal proj.] scheduler-service"
+excerpt: "Project; Personal; scheduler-service"
 categories: 
 - Project
 tags:
@@ -87,7 +87,7 @@ Scheduler-Project
 
 ## **📌 ERD**
 <div style="text-align: center;">
-<img src="/assets/images/2023-10-04-Scheduler-Service System/ERD.png" alt="Image: ERD">
+<img src="/assets/images/2023-10-04-[Personal proj.] scheduler-service/ERD.png" alt="Image: ERD">
 </div>
 <figcaption style="text-align: center; font-weight: bold;">💎 Image: ERD</figcaption>
 
@@ -99,20 +99,20 @@ Scheduler-Project
 ### 1️⃣ 사용자 인증
 
 #### 1. 회원가입
-<video src="/assets/images/2023-10-04-Scheduler-Service System/회원가입.mp4" width="800px" height="400px" controls></video>
+<video src="/assets/images/2023-10-04-[Personal proj.] scheduler-service/회원가입.mp4" width="800px" height="400px" controls></video>
 <figcaption style="text-align: center; font-weight: bold;">🎥 Video: 회원가입</figcaption>
 
 <br>
 
 #### 2. 회원정보 변경
-<video src="/assets/images/2023-10-04-Scheduler-Service System/회원정보변경.mp4" width="800px" height="400px" controls></video>
+<video src="/assets/images/2023-10-04-[Personal proj.] scheduler-service/회원정보변경.mp4" width="800px" height="400px" controls></video>
 <figcaption style="text-align: center; font-weight: bold;">🎥 Video: 회원정보 변경</figcaption>
 
 
 <br>
 
 #### 3. OAuth 2.0 로그인
-<video src="/assets/images/2023-10-04-Scheduler-Service System/OAuth 2.0 로그인.mp4" width="800px" height="400px" controls></video>
+<video src="/assets/images/2023-10-04-[Personal proj.] scheduler-service/OAuth 2.0 로그인.mp4" width="800px" height="400px" controls></video>
 <figcaption style="text-align: center; font-weight: bold;">🎥 Video: OAuth 2.0 로그인</figcaption>
 
 <br>
@@ -120,7 +120,7 @@ Scheduler-Project
 <br>
 
 ### 2️⃣ 커뮤니티
-<video src="/assets/images/2023-10-04-Scheduler-Service System/커뮤니티.mp4" width="800px" height="400px" controls></video>
+<video src="/assets/images/2023-10-04-[Personal proj.] scheduler-service/커뮤니티.mp4" width="800px" height="400px" controls></video>
 <figcaption style="text-align: center; font-weight: bold;">🎥 Video: 게시글 및 댓글 CRUD</figcaption>
 
 <br>
@@ -130,7 +130,7 @@ Scheduler-Project
 ### 3️⃣ 프로젝트 플래너
 
 #### 1. CRUD
-<video src="/assets/images/2023-10-04-Scheduler-Service System/프로젝트 플래너.mp4" width="800px" height="400px" controls></video>
+<video src="/assets/images/2023-10-04-[Personal proj.] scheduler-service/프로젝트 플래너.mp4" width="800px" height="400px" controls></video>
 <figcaption style="text-align: center; font-weight: bold;">🎥 Video: 프로젝트 플래너 CRUD</figcaption>
 
 <br>
@@ -138,46 +138,46 @@ Scheduler-Project
 #### 2. 스케줄러
 
 <div style="text-align: center;">
-<img src="/assets/images/2023-10-04-Scheduler-Service System/플래너 스케줄러.PNG" alt="Image: 프로젝트 플래너">
+<img src="/assets/images/2023-10-04-[Personal proj.] scheduler-service/플래너 스케줄러.PNG" alt="Image: 프로젝트 플래너">
 </div>
 <figcaption style="text-align: center; font-weight: bold;">💎 Image: 프로젝트 플래너</figcaption>
 
 <br>
 
-<video src="/assets/images/2023-10-04-Scheduler-Service System/플래너 스케줄러.mp4" width="800px" height="400px" controls></video>
+<video src="/assets/images/2023-10-04-[Personal proj.] scheduler-service/플래너 스케줄러.mp4" width="800px" height="400px" controls></video>
 <figcaption style="text-align: center; font-weight: bold;">🎥 Video: 마감일이 다가온 플래너 작성자에게 FCM 메세지 전송</figcaption>
 
 <br>
 
 ### 4️⃣ 배치 프로그램
 <div style="text-align: center;">
-<img src="/assets/images/2023-10-04-Scheduler-Service System/배치_스텝.PNG" alt="Image: 배치_스텝">
+<img src="/assets/images/2023-10-04-[Personal proj.] scheduler-service/배치_스텝.PNG" alt="Image: 배치_스텝">
 </div>
 <figcaption style="text-align: center; font-weight: bold;">💎 Image: 배치_스텝: 단위 테스트를 위해 미접속 1일차 회원을 대상으로 조회</figcaption>
 
 <br>
 
 <div style="text-align: center;">
-<img src="/assets/images/2023-10-04-Scheduler-Service System/배치_데이터베이스.PNG" alt="Image: 배치_데이터베이스">
+<img src="/assets/images/2023-10-04-[Personal proj.] scheduler-service/배치_데이터베이스.PNG" alt="Image: 배치_데이터베이스">
 </div>
 <figcaption style="text-align: center; font-weight: bold;">💎 Image: 배치_데이터베이스: 대상 회원</figcaption>
 
 <br>
 
 <div style="text-align: center;">
-<img src="/assets/images/2023-10-04-Scheduler-Service System/배치_프로세서.PNG" alt="Image: 배치_프로세서">
+<img src="/assets/images/2023-10-04-[Personal proj.] scheduler-service/배치_프로세서.PNG" alt="Image: 배치_프로세서">
 </div>
 <figcaption style="text-align: center; font-weight: bold;">💎 Image: 배치_프로세서: 조회한 회원에게 메일 전송</figcaption>
 
 <br>
 
-<video src="/assets/images/2023-10-04-Scheduler-Service System/배치 프로그램.mp4" width="800px" height="400px" controls></video>
+<video src="/assets/images/2023-10-04-[Personal proj.] scheduler-service/배치 프로그램.mp4" width="800px" height="400px" controls></video>
 <figcaption style="text-align: center; font-weight: bold;">🎥 Video: 배치 프로그램</figcaption>
 
 <br>
 
 <div style="text-align: center;">
-<img src="/assets/images/2023-10-04-Scheduler-Service System/배치_이메일.PNG" alt="Image: 배치_이메일">
+<img src="/assets/images/2023-10-04-[Personal proj.] scheduler-service/배치_이메일.PNG" alt="Image: 배치_이메일">
 </div>
 <figcaption style="text-align: center; font-weight: bold;">💎 Image: 배치_이메일: 배치_스텝에서 조회된 회원에게 메일 전송</figcaption>
 
@@ -194,4 +194,4 @@ AWS EC2를 통해 배포를 하였으나, SSL/TLS 인증은 생략하고 파일 
 <br>
 
 ## 🙋‍♂️ GitHub
-[https://github.com/brobro332/Scheduler-Project](https://github.com/brobro332/Scheduler-Project)
+[https://github.com/brobro332/scheduler-service](https://github.com/brobro332/scheduler-service)
