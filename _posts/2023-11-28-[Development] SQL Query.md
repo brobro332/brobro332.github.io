@@ -111,3 +111,68 @@ WHERE B.ANIMAL_ID IS NULL
 ORDER BY A.DATETIME
 LIMIT 3;
 ```
+
+### 7️⃣ 온라인/오프라인 판매 데이터 통합
+
+```sql
+/*
+    1. UNION ALL: 칼럼 값을 더하는게 아니라, 인스턴스를 함침
+    2. NULL: 문제 요구사항에 오프라인 판매 테이블에는 USER_ID 칼럼이 없으므로 NULL 표시하라고 함
+*/
+SELECT
+DATE_FORMAT(SALES_DATE, "%Y-%m-%d") SALES_DATE,
+PRODUCT_ID,
+USER_ID,
+SALES_AMOUNT
+FROM ONLINE_SALE
+WHERE MONTH(SALES_DATE) = 3
+
+UNION ALL
+
+SELECT
+DATE_FORMAT(SALES_DATE, "%Y-%m-%d") SALES_DATE,
+PRODUCT_ID,
+NULL USER_ID,
+SALES_AMOUNT
+FROM OFFLINE_SALE
+WHERE MONTH(SALES_DATE) = 3
+
+ORDER BY SALES_DATE, PRODUCT_ID, USER_ID;
+```
+
+### 8️⃣ IFNULL
+
+```sql
+/*
+    1. IFNULL(칼럼명, NULL 혹은 문자열): 만약 칼럼명이 NULL일 경우 해당 문자열로 대체
+*/
+SELECT PT_NAME, PT_NO, GEND_CD, AGE, IFNULL(TLNO, "NONE") AS TLNO
+FROM PATIENT 
+WHERE GEND_CD = "W" AND AGE <= 12
+ORDER BY AGE DESC, PT_NAME;
+```
+
+### 9️⃣ 
+
+```sql
+/*
+문제:
+MEMBER_PROFILE와 REST_REVIEW 테이블에서 리뷰를 가장 많이 작성한 회원의 리뷰들을 조회하는 SQL문을 작성해주세요. 
+회원 이름, 리뷰 텍스트, 리뷰 작성일이 출력되도록 작성해주시고, 
+결과는 리뷰 작성일을 기준으로 오름차순, 리뷰 작성일이 같다면 리뷰 텍스트를 기준으로 오름차순 정렬해주세요.
+
+ORDER BY COUNT(*) DESC LIMIT 1: 레코드가 가장 많은 1명을 뽑기
+*/
+SELECT A.MEMBER_NAME, B.REVIEW_TEXT, DATE_FORMAT(B.REVIEW_DATE, "%Y-%m-%d") AS REVIEW_DATE
+FROM MEMBER_PROFILE A
+LEFT JOIN REST_REVIEW B
+ON A.MEMBER_ID = B.MEMBER_ID
+WHERE A.MEMBER_ID = (
+        SELECT MEMBER_ID
+        FROM REST_REVIEW
+        GROUP BY MEMBER_ID
+        ORDER BY COUNT(*) DESC
+        LIMIT 1
+)
+ORDER BY B.REVIEW_DATE, B.REVIEW_TEXT;
+```
