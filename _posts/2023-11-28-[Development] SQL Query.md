@@ -152,7 +152,7 @@ WHERE GEND_CD = "W" AND AGE <= 12
 ORDER BY AGE DESC, PT_NAME;
 ```
 
-### 9️⃣ 
+### 9️⃣ WHERE절 단일행 서브쿼리
 
 ```sql
 /*
