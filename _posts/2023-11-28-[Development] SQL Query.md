@@ -176,3 +176,30 @@ WHERE A.MEMBER_ID = (
 )
 ORDER BY B.REVIEW_DATE, B.REVIEW_TEXT;
 ```
+
+### 1️⃣0️⃣ ROUND
+```sql
+/*
+    1. ROUND(Target, 1): 소수점 아래 1의 자리까지 반올림
+*/
+SELECT ROUND(AVG(DAILY_FEE)) AS AVERAGE_FEE
+FROM CAR_RENTAL_COMPANY_CAR
+WHERE CAR_TYPE = "SUV"
+GROUP BY CAR_TYPE
+```
+
+### 1️⃣1️⃣ 문자열
+```sql
+/*
+    1. CASE-WHEN-THEN-ELSE-END AS-: WHEN 조건에 해당하면 THEN 이하의 값을, 아니라면 ELSE 이하의 값을 END AS 이하의 칼럼값으로 하여 조회
+    2. 대여일이 30일이 넘는 경우를 조건으로 하는데, 대여의 특성상 대여 시작일은 대여 1일차이므로 1을 더해주어야한다. 
+*/
+SELECT HISTORY_ID, CAR_ID, DATE_FORMAT(START_DATE, "%Y-%m-%d") AS START_DATE, DATE_FORMAT(END_DATE, "%Y-%m-%d") AS END_DATE,
+CASE
+    WHEN DATEDIFF(END_DATE, START_DATE) + 1 >= 30 THEN "장기 대여"
+    ELSE "단기 대여"
+END AS RENT_TYPE
+FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY
+WHERE YEAR(START_DATE) = 2022 AND MONTH(START_DATE) = 9
+ORDER BY HISTORY_ID DESC;
+```
