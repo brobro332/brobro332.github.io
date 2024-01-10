@@ -4,18 +4,8 @@ main:
 sidebar-category:
   - title: "CATEGORY"
     children:
-      - title: "Project"
+      - title: "프로젝트"
         url:  "/Project"
-      - title: "Development"
-        url:  "/Development"
-      - title: "Java"
-        url:  "/Java"
-      - title: "Python"
-        url: "/Python"
-      - title: "Computer-Science"
-        url:  "/Computer-Science"
-      - title: "etc."
-        url:  "/etc"
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

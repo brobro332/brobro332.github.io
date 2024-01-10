@@ -1,5 +1,5 @@
 ---
-title: "[Team proj.] monitoring-server"
+title: "팀 프로젝트: monitoring-server"
 excerpt: "Project; Team; monitoring-server"
 categories: 
 - Project
@@ -14,6 +14,7 @@ toc_sticky: true
 
 ## **📄 Outline**
 
+- 삼육대학교 SW 캡스톤 디자인 Ⅱ 팀 프로젝트
 - 비콘을 통한 출결 자동화 및 현장 내 보안 모니터링
 - 사용자/관리자페이지 개발
 
@@ -79,21 +80,21 @@ toc_sticky: true
 <br>
 
 <div style="text-align: center;">
-<img src="/assets/images/2023-06-24-[Team proj.] monitoring-server/1.jpg" alt="Image: 단위 테스트 - FCM" style="width: 50%;">
+<img src="/assets/images/2023-06-24-[팀 프로젝트] monitoring-server/1.jpg" alt="Image: 단위 테스트 - FCM" style="width: 50%;">
 </div>
 <figcaption style="text-align: center; font-weight: bold;">Image: 단위 테스트 - FCM</figcaption>
 
 <br>
 
 <div style="text-align: center;">
-<img src="/assets/images/2023-06-24-[Team proj.] monitoring-server/2.JPG" alt="Image: 단위 테스트 - SSE">
+<img src="/assets/images/2023-06-24-[팀 프로젝트] monitoring-server/2.JPG" alt="Image: 단위 테스트 - SSE">
 </div>
 <figcaption style="text-align: center; font-weight: bold;">Image: 단위 테스트 - SSE</figcaption>
 
 <br>
 
 <div style="text-align: center;">
-<img src="/assets/images/2023-06-24-[Team proj.] monitoring-server/3.JPG" alt="Image: 단위 테스트 - 관리자페이지 알림">
+<img src="/assets/images/2023-06-24-[팀 프로젝트] monitoring-server/3.JPG" alt="Image: 단위 테스트 - 관리자페이지 알림">
 </div>
 <figcaption style="text-align: center; font-weight: bold;">Image: 단위 테스트 - 관리자페이지 알림</figcaption>
 
@@ -108,14 +109,14 @@ toc_sticky: true
 <br>
 
 <div style="text-align: center;">
-<img src="/assets/images/2023-06-24-[Team proj.] monitoring-server/4-1.JPG" alt="Image: Chart.js_1">
+<img src="/assets/images/2023-06-24-[팀 프로젝트] monitoring-server/4-1.JPG" alt="Image: Chart.js_1">
 </div>
 <figcaption style="text-align: center; font-weight: bold;">Image: Chart.js_1</figcaption>
 
 <br>
 
 <div style="text-align: center;">
-<img src="/assets/images/2023-06-24-[Team proj.] monitoring-server/4-2.png" alt="Image: Chart.js_2">
+<img src="/assets/images/2023-06-24-[팀 프로젝트] monitoring-server/4-2.png" alt="Image: Chart.js_2">
 </div>
 <figcaption style="text-align: center; font-weight: bold;">Image: Chart.js_2</figcaption>
 
@@ -137,13 +138,13 @@ toc_sticky: true
 
 ### 1️⃣ 사용자페이지
 
-<video src="/assets/images/2023-06-24-[Team proj.] monitoring-server/5.mp4" width="800px" height="400px" controls></video>
+<video src="/assets/images/2023-06-24-[팀 프로젝트] monitoring-server/5.mp4" width="800px" height="400px" controls></video>
 
 <br/><br/>
 
 ### 2️⃣ 관리자페이지
 
-<video src="/assets/images/2023-06-24-[Team proj.] monitoring-server/6.mp4" width="800px" height="400px" controls></video>
+<video src="/assets/images/2023-06-24-[팀 프로젝트] monitoring-server/6.mp4" width="800px" height="400px" controls></video>
 
 5초 ~ 55초: 스케줄러를 통해 배터리 잔량이 기준치 이하인 비콘이 존재할 경우 SSE Emitter를 통해 관리자 클라이언트로 메세지를 보내는 과정을 기다리는 것 
 
