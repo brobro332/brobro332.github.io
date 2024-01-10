@@ -46,12 +46,12 @@ toc_sticky: true
 
 <br>
 
-![Image: 기능 명세서](/assets/images/2023-06-24-[Team proj.] monitoring-server/7.PNG)
+![Image: 기능 명세서](/assets/images/2023-06-24-[팀 프로젝트] monitoring-server/7.PNG)
 <figcaption style="text-align: center; bold;">Image: 산출물 - 기능 명세서</figcaption>
 
 <br>
 
-![Image: API 명세서](/assets/images/2023-06-24-[Team proj.] monitoring-server/8.jpg)
+![Image: API 명세서](/assets/images/2023-06-24-[팀 프로젝트] monitoring-server/8.jpg)
 <figcaption style="text-align: center; bold;">Image: 산출물 - API 명세서</figcaption>
 
 <br>
