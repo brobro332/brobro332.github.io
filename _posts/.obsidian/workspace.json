@@ -11,10 +11,14 @@
             "id": "3025cfed37a95a40",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "markdown",
+              "state": {
+                "file": "2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "🐳 Docker 컨테이너 환경에서 프로젝트 빌드 의 백링크"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "🐳 Docker 컨테이너 환경에서 프로젝트 빌드 의 나가는 링크"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "🐳 Docker 컨테이너 환경에서 프로젝트 빌드 의 개요"
             }
           },
           {
@@ -172,9 +179,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d08c4602ba0709b1",
+  "active": "3025cfed37a95a40",
   "lastOpenFiles": [
-    "🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
+    "2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
     "Pasted image 20250521005345.png",
     "Docker"
   ]
