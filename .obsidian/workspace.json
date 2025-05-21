@@ -11,14 +11,14 @@
             "id": "401e8604e9fc8cf4",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "_posts/Document/2024-11-04-🎨 UML 작성.md",
-                "bFile": "_posts/Document/2024-11-04-🎨 UML 작성.md",
-                "aRef": ""
+                "file": "_posts/document/2024-11-04-🎨 UML 작성.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 2024-11-04-🎨 UML 작성"
+              "icon": "lucide-file",
+              "title": "2024-11-04-🎨 UML 작성"
             }
           }
         ]
