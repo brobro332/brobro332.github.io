@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "45a3fb258f6ca6a1",
+    "id": "5add25eea5339977",
     "type": "split",
     "children": [
       {
-        "id": "af4598bb8a2875c5",
+        "id": "2c4c729b54c3e839",
         "type": "tabs",
         "children": [
           {
-            "id": "70eeeb59671a7a47",
+            "id": "401e8604e9fc8cf4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "markdown",
+              "state": {
+                "file": "_posts/document/2024-11-04-🎨 UML 작성.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-11-04-🎨 UML 작성"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7953ad3ad62fc4fd",
+    "id": "8ee260702e59bea1",
     "type": "split",
     "children": [
       {
-        "id": "379caec584b049d5",
+        "id": "f7f3f46666685739",
         "type": "tabs",
         "children": [
           {
-            "id": "d1278c283db8582d",
+            "id": "adbe46e33711b240",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +48,7 @@
             }
           },
           {
-            "id": "a9d1612a9153df62",
+            "id": "3642546449e43b89",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "d9edde406093c701",
+            "id": "4bcccb28daae2ea5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,19 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "6151de4a03b19652",
+    "id": "9ab84f5180294dfa",
     "type": "split",
     "children": [
       {
-        "id": "1333932a561860ae",
+        "id": "888dfe89eac17485",
         "type": "tabs",
         "children": [
           {
-            "id": "bf137a3f892858be",
+            "id": "cd187090bad336c6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/docker/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드 의 백링크"
             }
           },
           {
-            "id": "6f952e1c505f096d",
+            "id": "ff87a65eb6ed6873",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/docker/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드 의 나가는 링크"
             }
           },
           {
-            "id": "7908ef253aa349c0",
+            "id": "24f15c9b600a7bbb",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,25 +137,36 @@
             }
           },
           {
-            "id": "7387edb13b1d0a9f",
+            "id": "7eb5f2a6a51e9508",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "_posts/docker/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드 의 개요"
+            }
+          },
+          {
+            "id": "f96f157fd90bf782",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,23 +175,32 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "d1278c283db8582d",
+  "active": "401e8604e9fc8cf4",
   "lastOpenFiles": [
-    "_posts/image/Pasted_image_20250521205417.png",
+    "README.md",
+    "_posts/document/2024-11-04-🎨 UML 작성.md",
+    "_posts/docker/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
     "_posts/image/Pasted_image_20250521205232.png",
+    "_posts/image/Pasted_image_20250521205417.png",
     "_posts/image/Pasted_image_20250521204740.png",
     "_posts/image/Pasted_image_20250521203827.png",
     "_posts/image/Pasted_image_20250521202546.png",
     "_posts/image/Pasted_image_20250521005345.png",
     "_posts/image",
-    "_posts/images/Pasted_image_20250521205232.png",
-    "_posts/images/Pasted_image_20250521205417.png",
-    "_posts/images/Pasted_image_20250521204740.png",
-    "_posts/images/Pasted_image_20250521203827.png",
-    "_posts/images/Pasted_image_20250521202546.png",
-    "_posts/images"
+    "_tabs/about.md",
+    "_tabs/tags.md",
+    "_tabs/categories.md",
+    "_tabs/archives.md",
+    "_tabs",
+    "assets/image/Pasted_image_20250521202546.png",
+    "assets/image/Pasted_image_20250521005345.png",
+    "assets/image/2024-11-04-🎨 UML 작성",
+    "assets/image/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드"
   ]
 }
