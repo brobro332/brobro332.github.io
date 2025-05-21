@@ -11,14 +11,14 @@
             "id": "401e8604e9fc8cf4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "_posts/document/2024-11-04-🎨 UML 작성.md",
-                "mode": "source",
-                "source": false
+                "aFile": "_posts/Document/2024-11-04-🎨 UML 작성.md",
+                "bFile": "_posts/Document/2024-11-04-🎨 UML 작성.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "2024-11-04-🎨 UML 작성"
+              "icon": "diff",
+              "title": "Diff: 2024-11-04-🎨 UML 작성"
             }
           }
         ]
@@ -183,6 +183,9 @@
   },
   "active": "401e8604e9fc8cf4",
   "lastOpenFiles": [
+    "_posts/document/2024-11-04-🎨 UML 작성.md",
+    "_posts/docker/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
+    "assets/image/Pasted_image_20250521005345.png",
     "_site/vscode/tasks.json",
     "_site/vscode/settings.json",
     "_site/vscode/extensions.json",
@@ -193,7 +196,6 @@
     "_site/categories/index.html",
     "_site/posts/UML-작성/index.html",
     "_site/posts/Docker-컨테이너-환경에서-프로젝트-빌드/index.html",
-    "_site/posts/UML-작성",
     "_site/assets/image/Pasted_image_20250521205417.png",
     "_site/assets/image/Pasted_image_20250521205232.png",
     "_site/assets/image/Pasted_image_20250521204740.png",
@@ -201,10 +203,7 @@
     "_site/assets/image/Pasted_image_20250521202546.png",
     "_site/assets/image/Pasted_image_20250521005345.png",
     "assets/image/Pasted_image_20250521202546.png",
-    "assets/image/Pasted_image_20250521005345.png",
-    "_posts/document/2024-11-04-🎨 UML 작성.md",
     "README.md",
-    "_posts/docker/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
     "_posts/image/Pasted_image_20250521205232.png",
     "_posts/image/Pasted_image_20250521205417.png",
     "_tabs/about.md",
