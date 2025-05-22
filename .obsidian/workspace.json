@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/document/2024-11-04-🎨 UML 작성.md",
+                "file": "_posts/react/2024-11-05-🌌 React 입문 Ⅰ - 개요.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2024-11-04-🎨 UML 작성"
+              "title": "2024-11-05-🌌 React 입문 Ⅰ - 개요"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 285.5
   },
   "right": {
     "id": "9ab84f5180294dfa",
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 305.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,8 +183,11 @@
   },
   "active": "401e8604e9fc8cf4",
   "lastOpenFiles": [
+    "assets/image/Pasted_image_20250522211144.png",
     "_posts/document/2024-11-04-🎨 UML 작성.md",
     "_posts/docker/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
+    "_posts/react/2024-11-05-🌌 React 입문 Ⅰ - 개요.md",
+    "_posts/react",
     "assets/image/Pasted_image_20250521005345.png",
     "_site/vscode/tasks.json",
     "_site/vscode/settings.json",
@@ -195,7 +198,6 @@
     "_site/tags/index.html",
     "_site/categories/index.html",
     "_site/posts/UML-작성/index.html",
-    "_site/posts/Docker-컨테이너-환경에서-프로젝트-빌드/index.html",
     "_site/assets/image/Pasted_image_20250521205417.png",
     "_site/assets/image/Pasted_image_20250521205232.png",
     "_site/assets/image/Pasted_image_20250521204740.png",
