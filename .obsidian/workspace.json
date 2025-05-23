@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2c4c729b54c3e839",
+        "id": "2d004078bb118653",
         "type": "tabs",
         "children": [
           {
-            "id": "401e8604e9fc8cf4",
+            "id": "dc6c59f606623cd6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "_posts/react/2024-11-05-🌌 React 입문 Ⅰ - 개요.md",
-                "mode": "preview",
-                "source": true
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "2024-11-05-🌌 React 입문 Ⅰ - 개요"
+              "icon": "diff",
+              "title": "Diff: .gitignore"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 272.5
   },
   "right": {
     "id": "9ab84f5180294dfa",
@@ -178,36 +178,40 @@
       "command-palette:명령어 팔레트 열기": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "401e8604e9fc8cf4",
+  "active": "dc6c59f606623cd6",
   "lastOpenFiles": [
-    "assets/image/Pasted_image_20250522211144.png",
-    "_posts/document/2024-11-04-🎨 UML 작성.md",
-    "_posts/docker/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
+    "_posts/react/2024-11-06-🌌 React 입문 Ⅱ - 사전 준비, 프로젝트 생성 및 실행.md",
     "_posts/react/2024-11-05-🌌 React 입문 Ⅰ - 개요.md",
+    "_private/profile/자바 백엔드 개발자 · Java · Spring · RDB · JPA · MyBatis · Linux · Docker · OCI.md",
+    "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
+    "_private/profile/포트폴리오 · SW-Capstone-Design.md",
+    "_private/image/Pasted_image_20250523024721.png",
+    "_private/image/Pasted_image_20250523023942.png",
+    "_private/image/Pasted_image_20250523024500.png",
+    "_private/image/Pasted_image_20250523021953.png",
+    "_private/image/Pasted_image_20250523014001.jpg",
+    "_private/image/profile.jpg",
+    "_private/image/Pasted_image_20250523021804.png",
+    "_private/image/Pasted_image_20250523021844.png",
+    "_private/image/Pasted_image_20250523013712.jpg",
+    "_private/image/Pasted_image_20250523012023.png",
+    "프로젝트 현황 보고 샘플.pdf",
+    "_private/image",
+    "_posts/document/2024-11-04-🎨 UML 작성.md",
+    "_private/profile",
+    "_private",
+    "_posts/무제",
+    "_posts/docker/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
     "_posts/react",
-    "assets/image/Pasted_image_20250521005345.png",
     "_site/vscode/tasks.json",
     "_site/vscode/settings.json",
     "_site/vscode/extensions.json",
     "_site/vscode",
-    "_site/about/index.html",
-    "_site/archives/index.html",
-    "_site/tags/index.html",
-    "_site/categories/index.html",
-    "_site/posts/UML-작성/index.html",
-    "_site/assets/image/Pasted_image_20250521205417.png",
-    "_site/assets/image/Pasted_image_20250521205232.png",
-    "_site/assets/image/Pasted_image_20250521204740.png",
-    "_site/assets/image/Pasted_image_20250521203827.png",
-    "_site/assets/image/Pasted_image_20250521202546.png",
-    "_site/assets/image/Pasted_image_20250521005345.png",
-    "assets/image/Pasted_image_20250521202546.png",
     "README.md",
-    "_posts/image/Pasted_image_20250521205232.png",
-    "_posts/image/Pasted_image_20250521205417.png",
     "_tabs/about.md",
     "_tabs/tags.md",
     "_tabs/categories.md",
