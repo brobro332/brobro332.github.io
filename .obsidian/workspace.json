@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2d004078bb118653",
+        "id": "b4232900f2a58e6c",
         "type": "tabs",
         "children": [
           {
-            "id": "dc6c59f606623cd6",
+            "id": "d79774115e0cbd97",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "_posts/react/2025-03-11-🌌 React 입문 XIII -  Component 간 State 공유.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "2025-03-11-🌌 React 입문 XIII -  Component 간 State 공유"
             }
           }
         ]
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 307.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,11 +182,37 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dc6c59f606623cd6",
+  "active": "d79774115e0cbd97",
   "lastOpenFiles": [
-    "assets/image/avatar.jpg",
-    "_private/image/profile.jpg",
-    "_site/assets/image/avatar.jpg",
+    "_posts/react/2025-03-09-🌌 React 입문 Ⅻ -  Form.md",
+    "_posts/react/2025-03-11-🌌 React 입문 XIII -  Component 간 State 공유.md",
+    "_posts/react/2024-11-07-🌌 React 입문 Ⅲ - JSX 문법.md",
+    "_posts/react/2024-11-11-🌌 React 입문 Ⅵ - State.md",
+    "().md",
+    "Pasted image 20250526003618.png",
+    "_posts/react/2025-03-08-🌌 React 입문 Ⅺ -  List와 Key.md",
+    "_posts/react/2025-03-07-🌌 React 입문 Ⅹ - 조건부 렌더링.md",
+    "_posts/react/2024-11-17-🌌 React 입문 Ⅶ - React Component의 생명주기.md",
+    "assets/image/Pasted_image_20250525235901.png",
+    "assets/image/Pasted_image_20250525235633.png",
+    "assets/image/Pasted_image_20250525235703.png",
+    "_posts/react/2024-11-24-🌌 React 입문 Ⅸ - Event.md",
+    "_posts/react/2024-11-23-🌌 React 입문 Ⅷ - Hook.md",
+    "assets/image/Pasted_image_20250525232604.png",
+    "assets/image/Pasted_image_20250525232715.png",
+    "assets/image/Pasted_image_20250525230438.png",
+    "assets/image/Pasted_image_20250525230218.png",
+    "README.md",
+    "_posts/react/2024-11-10-🌌 React 입문 Ⅴ - Component.md",
+    "assets/image/Pasted_image_20250525214253.png",
+    "assets/image/Pasted.md",
+    "assets/image/Pasted_image_20250525173138.png",
+    "_posts/react/2024-11-09-🌌 React 입문 Ⅳ - Element.md",
+    "_site/assets/image/Pasted.md",
+    "_site/posts/React-입문-Element/index.html",
+    "_site/posts/React-입문-Element",
+    "_site/posts/React-입문-JSX-문법-1/index.html",
+    "_site/posts/React-입문-JSX-문법-1",
     "_posts/docker/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
     "_site/posts/UML-작성/index.html",
     "_site/posts/React-입문-사전-준비,-프로젝트-생성-및-실행/index.html",
@@ -194,26 +220,12 @@
     "_site/posts/React-입문-JSX-문법/index.html",
     "_site/posts/Docker-컨테이너-환경에서-프로젝트-빌드/index.html",
     "_site/posts/UML-작성",
-    "_site/posts/React-입문-사전-준비,-프로젝트-생성-및-실행",
-    "_site/posts/React-입문-개요",
-    "_site/posts/React-입문-JSX-문법",
-    "_site/posts/Docker-컨테이너-환경에서-프로젝트-빌드",
-    "_site/assets/image/profile.jpg",
-    "_site/assets/image/Pasted_image_20250525113928.png",
-    "_site/assets/image/Pasted_image_20250522211144.png",
     "_private/profile/자바 백엔드 개발자 · Java · Spring · RDB · JPA · MyBatis · Linux · Docker · OCI.md",
     "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
-    "_private/image/Pasted_image_20250523024721.png",
-    "_private/image/Pasted_image_20250523024500.png",
-    "assets/image/Pasted_image_20250525113928.png",
-    "assets/image/Pasted_image_20250522211144.png",
-    "assets/image/Pasted_image_20250521205417.png",
-    "_posts/react/2024-11-07-🌌 React 입문 Ⅲ - JSX 문법.md",
     "_posts/document/2024-11-04-🎨 UML 작성.md",
     "_posts/react/2024-11-05-🌌 React 입문 Ⅰ - 개요.md",
     "_posts/react/2024-11-06-🌌 React 입문 Ⅱ - 사전 준비, 프로젝트 생성 및 실행.md",
     "_private/profile/포트폴리오 · SW-Capstone-Design.md",
-    "README.md",
     "_tabs/about.md",
     "_tabs/tags.md",
     "_tabs/categories.md",
