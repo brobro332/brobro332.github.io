@@ -11,14 +11,14 @@
             "id": "dc6c59f606623cd6",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".gitignore",
-                "bFile": ".gitignore",
-                "aRef": ""
+                "file": "_posts/react/2024-11-07-🌌 React 입문 Ⅲ - JSX 문법.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: .gitignore"
+              "icon": "lucide-file",
+              "title": "2024-11-07-🌌 React 입문 Ⅲ - JSX 문법"
             }
           }
         ]
@@ -184,7 +184,9 @@
   },
   "active": "dc6c59f606623cd6",
   "lastOpenFiles": [
+    "Pasted image 20250525113928.png",
     "_posts/react/2024-11-06-🌌 React 입문 Ⅱ - 사전 준비, 프로젝트 생성 및 실행.md",
+    "_posts/react/2024-11-07-🌌 React 입문 Ⅲ - JSX 문법.md",
     "_posts/react/2024-11-05-🌌 React 입문 Ⅰ - 개요.md",
     "_private/profile/자바 백엔드 개발자 · Java · Spring · RDB · JPA · MyBatis · Linux · Docker · OCI.md",
     "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
