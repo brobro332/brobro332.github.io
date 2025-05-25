@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/2024-11-07-🌌 React 입문 Ⅲ - JSX 문법.md",
+                "file": "_posts/docker/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-07-🌌 React 입문 Ⅲ - JSX 문법"
+              "title": "2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.5
+    "width": 380.5
   },
   "right": {
     "id": "9ab84f5180294dfa",
@@ -184,10 +184,13 @@
   },
   "active": "dc6c59f606623cd6",
   "lastOpenFiles": [
-    "Pasted image 20250525113928.png",
+    "_posts/document/2024-11-04-🎨 UML 작성.md",
+    "_posts/react/2024-11-05-🌌 React 입문 Ⅰ - 개요.md",
     "_posts/react/2024-11-06-🌌 React 입문 Ⅱ - 사전 준비, 프로젝트 생성 및 실행.md",
     "_posts/react/2024-11-07-🌌 React 입문 Ⅲ - JSX 문법.md",
-    "_posts/react/2024-11-05-🌌 React 입문 Ⅰ - 개요.md",
+    "_posts/image/Pasted_image_20250521205417.png",
+    "assets/image/Pasted_image_20250525113928.png",
+    "_posts/image/Pasted_image_20250521005345.png",
     "_private/profile/자바 백엔드 개발자 · Java · Spring · RDB · JPA · MyBatis · Linux · Docker · OCI.md",
     "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
     "_private/profile/포트폴리오 · SW-Capstone-Design.md",
@@ -198,12 +201,8 @@
     "_private/image/Pasted_image_20250523014001.jpg",
     "_private/image/profile.jpg",
     "_private/image/Pasted_image_20250523021804.png",
-    "_private/image/Pasted_image_20250523021844.png",
-    "_private/image/Pasted_image_20250523013712.jpg",
-    "_private/image/Pasted_image_20250523012023.png",
     "프로젝트 현황 보고 샘플.pdf",
     "_private/image",
-    "_posts/document/2024-11-04-🎨 UML 작성.md",
     "_private/profile",
     "_private",
     "_posts/무제",
