@@ -1,5 +1,5 @@
 ---
-title: 🌌 React 입문 Ⅸ - Even
+title: 🌌 React 입문 Ⅸ - Event
 date: 2024-11-24 20:13:44 +0900
 categories:
   - React
@@ -54,16 +54,17 @@ class Toggle extends React.Component {
 
 ```jsx
 class MyButton extends React.Component {
-    handleClick () {
-    	console.log('this is:', this);
-    }
-    
-    rendor() {
-    	return (
-            <button onClick={() => this.handleClick()}>
-            	클릭
-            </button>
-    }
+	handleClick () {
+		console.log('this is:', this);
+	}
+	
+	rendor() {
+		return (
+			<button onClick={() => this.handleClick()}>
+				클릭
+			</button>
+		);
+	}
 }
 ```
 - 화살표 함수는 자신이 종속된 `Instance`를 가리킨다. 
@@ -115,30 +116,28 @@ function myButton(props) {
 import { useState } from "react";
 
 function ConfirmButton(props) {
-    const [isConfirmed, setIsConfirmed] = useState(false);
-    const handleConfirm = () => {
-        setIsConfirmed((prevIsConfirmed) => !prevIsConfirmed);
-    };
-    const buttonStyle = {
-        padding: "10px 20px",
-        backgroundColor: isConfirmed ? "#aaa" : "#007BFF",
-        color: "white",
-        border: "none",
-        borderRadius: "4px",
-        fontSize: "14px",
-        cursor: isConfirmed ? "not-allowed" : "pointer",
-        transition: "background-color 0.3s ease",
-        marginTop: "20px",  
-        marginLeft: "20px",
-    };
-
-  
-
-    return (
-        <button onClick={handleConfirm} disabled={isConfirmed} style={buttonStyle}>
-            {isConfirmed ? '인증완료' : '인증'}
-        </button>
-    );
+	const [isConfirmed, setIsConfirmed] = useState(false);
+	const handleConfirm = () => {
+		setIsConfirmed((prevIsConfirmed) => !prevIsConfirmed);
+	};
+	const buttonStyle = {
+		padding: "10px 20px",
+		backgroundColor: isConfirmed ? "#aaa" : "#007BFF",
+		color: "white",
+		border: "none",
+		borderRadius: "4px",
+		fontSize: "14px",
+		cursor: isConfirmed ? "not-allowed" : "pointer",
+		transition: "background-color 0.3s ease",
+		marginTop: "20px",
+		marginLeft: "20px",
+	};
+	
+	return (
+		<button onClick={handleConfirm} disabled={isConfirmed} style={buttonStyle}>
+			{isConfirmed ? '인증완료' : '인증'}
+		</button>
+	);
 }
 
 export default ConfirmButton;

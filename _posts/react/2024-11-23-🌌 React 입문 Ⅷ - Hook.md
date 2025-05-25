@@ -267,59 +267,53 @@ import React, { useEffect, useState } from "react";
 
 const MAX_CAPACITY = 10;
 const buttonStyle = {
-    padding: "8px 16px",
-    marginRight: "8px",
-    backgroundColor: "#4CAF50",
-    color: "white",
-    border: "none",
-    borderRadius: "4px",
-    cursor: "pointer",
-    fontSize: "14px",
+	padding: "8px 16px",
+	marginRight: "8px",
+	backgroundColor: "#4CAF50",
+	color: "white",
+	border: "none",
+	borderRadius: "4px",
+	cursor: "pointer",
+	fontSize: "14px",
 };
-
-  
 
 const disabledButtonStyle = {
-    ...buttonStyle,
-    backgroundColor: "#ccc",
-    cursor: "not-allowed",
+	...buttonStyle,
+	backgroundColor: "#ccc",
+	cursor: "not-allowed",
 };
 
-  
-
 function UseCounter(initialValue) {
-    const [count, setCount] = useState(initialValue);
-    const increaseCount = () => setCount((count) => count + 1);
-    const decreaseCount = () => setCount((count) => Math.max(count - 1, 0));
-    
-    return [count, increaseCount, decreaseCount];
+	const [count, setCount] = useState(initialValue);
+	const increaseCount = () => setCount((count) => count + 1);
+	const decreaseCount = () => setCount((count) => Math.max(count - 1, 0));
+	
+	return [count, increaseCount, decreaseCount];
 }
 
-  
-
 function ManageTeamMembers(props) {
-    const [isFull, setIsFull] = useState(false);
-    const [count , increaseCount, decreaseCount] = UseCounter(0);
-
-    useEffect(() => {
-        console.log("useEffect() 메소드가 호출되었습니다.");
-        console.log(`정원 도달여부 ${isFull}`);
-    });
-
-    useEffect(() => {
-        setIsFull(count >= MAX_CAPACITY);
-        console.log(`최근 개수: ${count}`);
-    }, [count]);
-
-    return (
-        <div style={{ padding : 16 }}>
-            <p>{`팀에 가입한 멤버는 총 ${count}명 입니다.`}</p>
-            <button onClick={increaseCount} style={isFull ? disabledButtonStyle : buttonStyle} disabled={isFull}>가입</button>
-            <button onClick={decreaseCount} style={buttonStyle}>탈퇴</button>
-
-            {isFull && <p style={{ color : "red" }}>정원이 가득찼습니다.</p>}
-        </div>
-    );
+	const [isFull, setIsFull] = useState(false);
+	const [count , increaseCount, decreaseCount] = UseCounter(0)
+	
+	useEffect(() => {
+		console.log("useEffect() 메소드가 호출되었습니다.");
+		console.log(`정원 도달여부 ${isFull}`);
+	});
+	
+	useEffect(() => {
+		setIsFull(count >= MAX_CAPACITY);
+		console.log(`최근 개수: ${count}`);
+	}, [count]);
+	
+	return (
+		<div style={{ padding : 16 }}>
+			<p>{`팀에 가입한 멤버는 총 ${count}명 입니다.`}</p>
+			<button onClick={increaseCount} style={isFull ? disabledButtonStyle : buttonStyle} disabled={isFull}>가입</button>
+			<button onClick={decreaseCount} style={buttonStyle}>탈퇴</button>
+			
+			{isFull && <p style={{ color : "red" }}>정원이 가득찼습니다.</p>}
+		</div>
+	);
 }
 
 export default ManageTeamMembers;

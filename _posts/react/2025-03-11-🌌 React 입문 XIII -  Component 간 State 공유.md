@@ -54,12 +54,12 @@ function Calculator(props) {
 	
 	const handleCelsiusChange = (temperature) => {
 	setTemperature(temperature);
-		setScale('c');  
+		setScale('c');
 	};
 	
 	const handleFahrenheitChange = (temperature) => {
 		setTemperature(temperature);
-		setScale('f');  
+		setScale('f');
 	};
 	
 	const celsius = scale === 'f' ? tryConvert(temperature, toCelsius) : temperature;

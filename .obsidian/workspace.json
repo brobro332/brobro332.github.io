@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/2024-11-07-🌌 React 입문 Ⅲ - JSX 문법.md",
+                "file": "_posts/react/2024-11-17-🌌 React 입문 Ⅶ - React Component의 생명주기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-07-🌌 React 입문 Ⅲ - JSX 문법"
+              "title": "2024-11-17-🌌 React 입문 Ⅶ - React Component의 생명주기"
             }
           }
         ]
@@ -184,17 +184,18 @@
   },
   "active": "d79774115e0cbd97",
   "lastOpenFiles": [
+    "_posts/react/2024-11-23-🌌 React 입문 Ⅷ - Hook.md",
+    "_posts/react/2024-11-24-🌌 React 입문 Ⅸ - Event.md",
+    "_posts/react/2025-03-08-🌌 React 입문 Ⅺ -  List와 Key.md",
+    "_posts/react/2025-03-09-🌌 React 입문 Ⅻ -  Form.md",
+    "_posts/react/2025-03-11-🌌 React 입문 XIII -  Component 간 State 공유.md",
+    "_posts/react/2024-11-05-🌌 React 입문 Ⅰ - 개요.md",
+    "_posts/react/2025-03-07-🌌 React 입문 Ⅹ - 조건부 렌더링.md",
+    "_posts/react/2024-11-07-🌌 React 입문 Ⅲ - JSX 문법.md",
     "_posts/react/2024-11-09-🌌 React 입문 Ⅳ - Element.md",
     "_posts/react/2024-11-10-🌌 React 입문 Ⅴ - Component.md",
     "_posts/react/2024-11-11-🌌 React 입문 Ⅵ - State.md",
     "_posts/react/2024-11-17-🌌 React 입문 Ⅶ - React Component의 생명주기.md",
-    "_posts/react/2024-11-23-🌌 React 입문 Ⅷ - Hook.md",
-    "_posts/react/2024-11-24-🌌 React 입문 Ⅸ - Event.md",
-    "_posts/react/2025-03-07-🌌 React 입문 Ⅹ - 조건부 렌더링.md",
-    "_posts/react/2025-03-08-🌌 React 입문 Ⅺ -  List와 Key.md",
-    "_posts/react/2025-03-09-🌌 React 입문 Ⅻ -  Form.md",
-    "_posts/react/2025-03-11-🌌 React 입문 XIII -  Component 간 State 공유.md",
-    "_posts/react/2024-11-07-🌌 React 입문 Ⅲ - JSX 문법.md",
     "().md",
     "Pasted image 20250526003618.png",
     "assets/image/Pasted_image_20250525235901.png",
@@ -223,7 +224,6 @@
     "_private/profile/자바 백엔드 개발자 · Java · Spring · RDB · JPA · MyBatis · Linux · Docker · OCI.md",
     "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
     "_posts/document/2024-11-04-🎨 UML 작성.md",
-    "_posts/react/2024-11-05-🌌 React 입문 Ⅰ - 개요.md",
     "_posts/react/2024-11-06-🌌 React 입문 Ⅱ - 사전 준비, 프로젝트 생성 및 실행.md",
     "_private/profile/포트폴리오 · SW-Capstone-Design.md",
     "_tabs/about.md",
