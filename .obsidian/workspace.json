@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/2025-03-11-🌌 React 입문 XIII -  Component 간 State 공유.md",
+                "file": "_posts/react/2024-11-07-🌌 React 입문 Ⅲ - JSX 문법.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-11-🌌 React 입문 XIII -  Component 간 State 공유"
+              "title": "2024-11-07-🌌 React 입문 Ⅲ - JSX 문법"
             }
           }
         ]
@@ -184,30 +184,30 @@
   },
   "active": "d79774115e0cbd97",
   "lastOpenFiles": [
+    "_posts/react/2024-11-09-🌌 React 입문 Ⅳ - Element.md",
+    "_posts/react/2024-11-10-🌌 React 입문 Ⅴ - Component.md",
+    "_posts/react/2024-11-11-🌌 React 입문 Ⅵ - State.md",
+    "_posts/react/2024-11-17-🌌 React 입문 Ⅶ - React Component의 생명주기.md",
+    "_posts/react/2024-11-23-🌌 React 입문 Ⅷ - Hook.md",
+    "_posts/react/2024-11-24-🌌 React 입문 Ⅸ - Event.md",
+    "_posts/react/2025-03-07-🌌 React 입문 Ⅹ - 조건부 렌더링.md",
+    "_posts/react/2025-03-08-🌌 React 입문 Ⅺ -  List와 Key.md",
     "_posts/react/2025-03-09-🌌 React 입문 Ⅻ -  Form.md",
     "_posts/react/2025-03-11-🌌 React 입문 XIII -  Component 간 State 공유.md",
     "_posts/react/2024-11-07-🌌 React 입문 Ⅲ - JSX 문법.md",
-    "_posts/react/2024-11-11-🌌 React 입문 Ⅵ - State.md",
     "().md",
     "Pasted image 20250526003618.png",
-    "_posts/react/2025-03-08-🌌 React 입문 Ⅺ -  List와 Key.md",
-    "_posts/react/2025-03-07-🌌 React 입문 Ⅹ - 조건부 렌더링.md",
-    "_posts/react/2024-11-17-🌌 React 입문 Ⅶ - React Component의 생명주기.md",
     "assets/image/Pasted_image_20250525235901.png",
     "assets/image/Pasted_image_20250525235633.png",
     "assets/image/Pasted_image_20250525235703.png",
-    "_posts/react/2024-11-24-🌌 React 입문 Ⅸ - Event.md",
-    "_posts/react/2024-11-23-🌌 React 입문 Ⅷ - Hook.md",
     "assets/image/Pasted_image_20250525232604.png",
     "assets/image/Pasted_image_20250525232715.png",
     "assets/image/Pasted_image_20250525230438.png",
     "assets/image/Pasted_image_20250525230218.png",
     "README.md",
-    "_posts/react/2024-11-10-🌌 React 입문 Ⅴ - Component.md",
     "assets/image/Pasted_image_20250525214253.png",
     "assets/image/Pasted.md",
     "assets/image/Pasted_image_20250525173138.png",
-    "_posts/react/2024-11-09-🌌 React 입문 Ⅳ - Element.md",
     "_site/assets/image/Pasted.md",
     "_site/posts/React-입문-Element/index.html",
     "_site/posts/React-입문-Element",

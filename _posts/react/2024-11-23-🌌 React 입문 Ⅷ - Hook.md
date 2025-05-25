@@ -330,8 +330,8 @@ export default ManageTeamMembers;
 - 탈퇴 버튼을 클릭하면 멤버의 `count` 수가 감소한다.
 - 또한 정원이 꽉 찰 경우 빨간 글씨로 "정원이 가득 찼습니다." 문구가 노출된다.
 
-![Pasted_image_20250525230218.png](Pasted_image_20250525230218.png)
-![Pasted_image_20250525230438.png](Pasted_image_20250525230438.png)
+![Pasted_image_20250525230218.png](/assets/image/Pasted_image_20250525230218.png)
+![Pasted_image_20250525230438.png](/assets/image/Pasted_image_20250525230438.png)
 
 
 ### 회고

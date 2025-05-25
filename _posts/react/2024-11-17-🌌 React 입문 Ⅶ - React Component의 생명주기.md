@@ -176,7 +176,7 @@ export default AlertList;
 ![Pasted_image_20250525173138.png](/assets/image/Pasted_image_20250525173138.png)
 - 순차적으로 알림이 추가되고, 마지막에 화면을 비운다.
 
-![Pasted_image_20250525214253.png](Pasted_image_20250525214253.png)
+![Pasted_image_20250525214253.png](/assets/image/Pasted_image_20250525214253.png)
 1. 첫 번째 요소 `Mount`
 2. 첫 번째 요소 `Update`, 두 번째 요소 `Mount`
 3. 첫 번째, 두 번째 요소 `Update`, 세 번째 요소 `Mount`

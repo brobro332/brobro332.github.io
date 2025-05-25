@@ -143,8 +143,8 @@ function ConfirmButton(props) {
 
 export default ConfirmButton;
 ```
-![Pasted_image_20250525232604.png](Pasted_image_20250525232604.png)
-![Pasted_image_20250525232715.png](Pasted_image_20250525232715.png)
+![Pasted_image_20250525232604.png](/assets/image/Pasted_image_20250525232604.png)
+![Pasted_image_20250525232715.png](/assets/image/Pasted_image_20250525232715.png)
 
 
 ### 회고

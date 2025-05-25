@@ -155,7 +155,7 @@ export default ProjectList;
 ```
 - `ProjectList` `Component` 는 `Project` `Component` 를 자식 `Component` 로 포함하고 있다.
 
-![Pasted_image_20250525164111.png](Pasted_image_20250525164111.png)
+![Pasted_image_20250525164111.png](/assets/image/Pasted_image_20250525164111.png)
 
 
 ### 회고

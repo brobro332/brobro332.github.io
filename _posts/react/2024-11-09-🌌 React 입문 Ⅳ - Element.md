@@ -118,7 +118,7 @@ reportWebVitals();
 - `Clock` `Component`의 속성 값이 계속 바뀌게 되는데, 이때 `React`가 변경을 감지하고 1초마다 렌더링을 하는 것이다. 
 
 
-![Pasted_image_20250525145849.png](Pasted_image_20250525145849.png)
+![Pasted_image_20250525145849.png](/assets/image/Pasted_image_20250525145849.png)
 
 
 ### 회고
