@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/2025-04-06-🌌 React 입문 XVI -  Styled-Component.md",
+                "file": "_posts/react/2025-04-06-🌌 React 입문 XV -  Context.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-06-🌌 React 입문 XVI -  Styled-Component"
+              "title": "2025-04-06-🌌 React 입문 XV -  Context"
             }
           }
         ]
@@ -184,8 +184,8 @@
   },
   "active": "7423032d881ca36f",
   "lastOpenFiles": [
-    "_posts/react/2025-04-06-🌌 React 입문 XIV -  Composition · Specialization.md",
     "_posts/react/2025-04-06-🌌 React 입문 XVI -  Styled-Component.md",
+    "_posts/react/2025-04-06-🌌 React 입문 XIV -  Composition · Specialization.md",
     "_posts/react/2025-04-06-🌌 React 입문 XV -  Context.md",
     "_posts/react/2024-11-06-🌌 React 입문 Ⅱ - 사전 준비 · 프로젝트 생성 · 실행.md",
     "_private/profile/자바 백엔드 개발자 · Java · Spring · RDB · JPA · MyBatis · Linux · Docker · OCI.md",

@@ -14,6 +14,7 @@ tags:
 ### `Context`
 - `Context`는 기존의 `props`를 통해 `React Component`들 사이에서 데이터를 전달하는 방식 대신 `Component` 트리를 통해 곧바로 `Component`에 전달하는 새로운 방식을 제공한다.
 - 기존 방식의 경우 하위 `Component`로 데이터를 전달하려면 트리를 타고 몇 번을 내려가며 전달을 해야하지만, `Context`를 사용한다면 데이터를 필요로 하는 `Component`에 곧바로 데이터를 전달할 수 있다.
+
 ```jsx
 function App(props) {
 	return <Toolbar theme="dark"/>;
@@ -287,7 +288,7 @@ function DarkOrLight(props){
 	},[theme]);
 			
 	return (
-		<ThemeContext.Provider value={{theme, toggleTheme}}>
+		<ThemeContext.Provider value={/*{theme, toggleTheme}*/}>
 			<MainContent />
 		</ThemeContext.Provider>
 	);
