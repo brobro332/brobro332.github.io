@@ -1,5 +1,5 @@
 ---
-title: 🌌 React 입문 XIII -  Component 간 State 공유
+title: 🌌 React 입문 XⅢ -  Component 간 State 공유
 date: 2025-03-11 21:26:34 +0900
 categories:
   - React
