@@ -8,7 +8,7 @@ tags:
   - 입문
   - Javascript
 ---
-![Pasted_image_20250522211144.png](/assets/image/Pasted_image_20250522211144.png)
+![](/assets/image/Pasted%20image%2020250522211144.png)
 > 📘 `『소플의 처음 만난 리액트』`를 읽고 정리한 글입니다.
 
 ### `Context`

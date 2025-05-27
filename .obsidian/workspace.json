@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/2025-04-06-🌌 React 입문 XV -  Context.md",
+                "file": "_posts/ps/baekjoon/2025-03-17-🧩 Beakjoon □□□□ - N과 M(1 ~ 12).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-06-🌌 React 입문 XV -  Context"
+              "title": "2025-03-17-🧩 Beakjoon □□□□ - N과 M(1 ~ 12)"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:Baekjoon",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 274.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,56 +179,58 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "media-extended:Open media": false,
+      "markdown-importer:마크다운 형식 불러오기 열기": false
     }
   },
   "active": "7423032d881ca36f",
   "lastOpenFiles": [
-    "_posts/react/2025-04-06-🌌 React 입문 XVI -  Styled-Component.md",
-    "_posts/react/2025-04-06-🌌 React 입문 XIV -  Composition · Specialization.md",
-    "_posts/react/2025-04-06-🌌 React 입문 XV -  Context.md",
-    "_posts/react/2024-11-06-🌌 React 입문 Ⅱ - 사전 준비 · 프로젝트 생성 · 실행.md",
-    "_private/profile/자바 백엔드 개발자 · Java · Spring · RDB · JPA · MyBatis · Linux · Docker · OCI.md",
-    "_posts/react/2025-03-11-🌌 React 입문 XⅢ -  Component 간 State 공유.md",
-    "_private/profile/경력기술서 · 네이버시스템(주).md",
-    "_posts/react/2024-11-17-🌌 React 입문 Ⅶ - React Component의 생명주기.md",
-    "_posts/react/2024-11-23-🌌 React 입문 Ⅷ - Hook.md",
-    "_posts/react/2024-11-24-🌌 React 입문 Ⅸ - Event.md",
-    "_posts/react/2025-03-08-🌌 React 입문 Ⅺ -  List와 Key.md",
-    "_posts/react/2025-03-09-🌌 React 입문 Ⅻ -  Form.md",
-    "_posts/react/2024-11-05-🌌 React 입문 Ⅰ - 개요.md",
-    "_posts/react/2025-03-07-🌌 React 입문 Ⅹ - 조건부 렌더링.md",
-    "_posts/react/2024-11-07-🌌 React 입문 Ⅲ - JSX 문법.md",
-    "_posts/react/2024-11-09-🌌 React 입문 Ⅳ - Element.md",
-    "_posts/react/2024-11-10-🌌 React 입문 Ⅴ - Component.md",
-    "_posts/react/2024-11-11-🌌 React 입문 Ⅵ - State.md",
-    "().md",
-    "Pasted image 20250526003618.png",
-    "assets/image/Pasted_image_20250525235901.png",
-    "assets/image/Pasted_image_20250525235633.png",
-    "assets/image/Pasted_image_20250525235703.png",
-    "assets/image/Pasted_image_20250525232604.png",
-    "assets/image/Pasted_image_20250525232715.png",
-    "assets/image/Pasted_image_20250525230438.png",
-    "assets/image/Pasted_image_20250525230218.png",
-    "README.md",
-    "assets/image/Pasted_image_20250525214253.png",
-    "assets/image/Pasted.md",
-    "assets/image/Pasted_image_20250525173138.png",
-    "_site/assets/image/Pasted.md",
+    "_posts/ps/baekjoon/2025-03-16-🧩 Beakjoon 1052 - 물병.md",
+    "_posts/ps/baekjoon/2025-03-17-🧩 Beakjoon □□□□ - N과 M(1 ~ 12).md",
+    "_posts/ps/baekjoon/2024-11-18-🧩 Beakjoon 30802 - 웰컴 키트.md",
+    "_posts/ps/baekjoon/2024-11-26-🧩 Beakjoon 10989 - 수 정렬하기 3.md",
+    "_posts/ps/leetcode/2025-03-11-💡 LeetCode 101 - Symmetric Tree.md",
+    "assets/image/Pasted image 20250528023211.png",
+    "assets/image/Pasted image 20250528023115.png",
+    "assets/image/Pasted image 20250528023058.png",
+    "_posts/ps/leetcode/2025-03-08-💡 LeetCode 100 - Same Tree.md",
+    "assets/image/Pasted image 20250528022819.png",
+    "assets/image/Pasted image 20250528022552.png",
+    "_posts/ps/leetcode/2025-03-08-💡 LeetCode 94 - Binary Tree Inorder Traversal.md",
+    "assets/image/Pasted image 20250528022152.png",
+    "assets/image/Pasted image 20250528022139.png",
+    "_posts/ps/leetcode/2025-03-07-💡 LeetCode 88 - Merge Sorted Array.md",
+    "assets/image/Pasted image 20250528021846.png",
+    "_posts/ps/leetcode/2025-03-04-💡 LeetCode 83 - Remove Duplicates from Sorted List.md",
+    "assets/image/Pasted image 20250528021517.png",
+    "_posts/ps/leetcode/2025-03-03-💡 LeetCode 70 - Climbing Stairs.md",
+    "assets/image/Pasted image 20250528020809.png",
+    "_posts/ps/leetcode/2025-03-02-💡 LeetCode 69 - Sqrt(x).md",
+    "_posts/ps/leetcode/2025-03-01-💡 LeetCode 67 - Add Binary.md",
+    "_posts/ps/leetcode/2025-02-26-💡 LeetCode 66 - Plus One.md",
+    "_posts/ps/leetcode/2025-02-25-💡 LeetCode 58 - Length of Last Word.md",
+    "_posts/ps/leetcode/2025-02-24-💡 LeetCode 35 - Search Insert Position.md",
+    "_posts/ps/leetcode/2025-02-23-💡 LeetCode 28 - Find the Index of the First Occurrence in a String.md",
+    "_posts/ps/leetcode/2025-02-23-💡 LeetCode 27 - Remove Element.md",
+    "_posts/ps/leetcode/2025-02-22-💡 LeetCode 26 - Remove Duplicates from Sorted Array.md",
+    "_posts/ps/leetcode/2025-02-22-💡 LeetCode 21 - Merge Two Sorted Lists.md",
+    "_posts/ps/leetcode/2025-02-21-💡 LeetCode 20 - Valid Parentheses.md",
+    "_posts/ps/leetcode/2025-02-19-💡 LeetCode 14 - Longest Common Prefix.md",
+    "_posts/ps/leetcode/2025-02-18-💡 LeetCode 13 - Roman to Integer.md",
+    "_posts/ps/leetcode/2025-02-17-💡 LeetCode 1 - Two Sum.md",
+    "_posts/ps/leetcode/2025-02-18-💡 LeetCode 9 - Palindrome Number.md",
+    "_posts/docker/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
+    "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
+    "_templates",
+    "_posts/ps/leetcode",
+    "_posts/ps/baekjoon",
+    "_posts/ps",
     "_site/posts/React-입문-Element/index.html",
     "_site/posts/React-입문-Element",
     "_site/posts/React-입문-JSX-문법-1/index.html",
     "_site/posts/React-입문-JSX-문법-1",
-    "_posts/docker/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
     "_site/posts/UML-작성/index.html",
-    "_site/posts/React-입문-사전-준비,-프로젝트-생성-및-실행/index.html",
-    "_site/posts/React-입문-개요/index.html",
-    "_site/posts/React-입문-JSX-문법/index.html",
-    "_site/posts/Docker-컨테이너-환경에서-프로젝트-빌드/index.html",
-    "_site/posts/UML-작성",
-    "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
-    "_posts/document/2024-11-04-🎨 UML 작성.md",
-    "_private/profile/포트폴리오 · SW-Capstone-Design.md"
+    "_site/posts/React-입문-사전-준비,-프로젝트-생성-및-실행/index.html"
   ]
 }

@@ -8,7 +8,7 @@ tags:
   - 입문
   - Javascript
 ---
-![Pasted_image_20250522211144.png](/assets/image/Pasted_image_20250522211144.png)
+![](/assets/image/Pasted%20image%2020250522211144.png)
 > 📘 `『소플의 처음 만난 리액트』`를 읽고 정리한 글입니다.
 
 ### `Event` 처리
@@ -142,8 +142,8 @@ function ConfirmButton(props) {
 
 export default ConfirmButton;
 ```
-![Pasted_image_20250525232604.png](/assets/image/Pasted_image_20250525232604.png)
-![Pasted_image_20250525232715.png](/assets/image/Pasted_image_20250525232715.png)
+![](/assets/image/Pasted%20image%2020250525232604.png)
+![](/assets/image/Pasted%20image%2020250525232715.png)
 
 
 ### 회고

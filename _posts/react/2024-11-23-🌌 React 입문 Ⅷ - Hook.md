@@ -8,7 +8,7 @@ tags:
   - 입문
   - Javascript
 ---
-![Pasted_image_20250522211144.png](/assets/image/Pasted_image_20250522211144.png)
+![](/assets/image/Pasted%20image%2020250522211144.png)
 > 📘 `『소플의 처음 만난 리액트』`를 읽고 정리한 글입니다.
 
 ### `Hook`이란?
@@ -324,8 +324,8 @@ export default ManageTeamMembers;
 - 탈퇴 버튼을 클릭하면 멤버의 `count` 수가 감소한다.
 - 또한 정원이 꽉 찰 경우 빨간 글씨로 "정원이 가득 찼습니다." 문구가 노출된다.
 
-![Pasted_image_20250525230218.png](/assets/image/Pasted_image_20250525230218.png)
-![Pasted_image_20250525230438.png](/assets/image/Pasted_image_20250525230438.png)
+![](/assets/image/Pasted%20image%2020250525230218.png)
+![](/assets/image/Pasted%20image%2020250525230438.png)
 
 
 ### 회고
