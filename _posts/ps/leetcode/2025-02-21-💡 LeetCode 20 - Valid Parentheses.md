@@ -103,7 +103,7 @@ class Solution {
 				} else {
 					// 문제 조건에 부합하지 않는다면 적재
 					cDeque.push(c);
-				}    
+				}
 			} else {
 				// 덱이 비었거나 닫는 괄호라면 적재
 				cDeque.push(c);

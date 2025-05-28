@@ -42,7 +42,7 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
 ### 작성 코드
 ```java
-class Solution {
+	class Solution {
 	public boolean isPalindrome(int x) {
 		// 1. 변수 선언 및 초기화
 		int remainder;
@@ -51,14 +51,14 @@ class Solution {
 		
 		// 2. 팰린드롬 수 판별
 		while (x > 0) {
-			reversedX *= 10;   
+			reversedX *= 10;
 			remainder = x % 10;
 			reversedX += remainder;
-			x /= 10;  
+			x /= 10;
 		}
 		
 		// 3. 반환
-		return originX == reversedX ? true : false; 
+		return originX == reversedX ? true : false;
 	}
 }
 ```
