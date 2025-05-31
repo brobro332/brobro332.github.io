@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/devops/docker/practice/2025-01-19-🐳 Docker · Jenkins 도입을 통한 CI · CD Pipeline 구축.md",
-                "mode": "preview",
+                "file": "_posts/security/2024-12-15-🪙 JWT 개념.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-19-🐳 Docker · Jenkins 도입을 통한 CI · CD Pipeline 구축"
+              "title": "2024-12-15-🪙 JWT 개념"
             }
           }
         ],
@@ -199,6 +199,10 @@
   },
   "active": "44a413776ab300d5",
   "lastOpenFiles": [
+    "_posts/infra/2024-12-22-🚀 OCI Instance 구축.md",
+    "_posts/infra/2025-01-04-🚀 Ubuntu 서버에 프로젝트 배포.md",
+    "_posts/document/2024-12-14-🏷️ Jira 프로젝트 일정 관리.md",
+    "_posts/devops/docker/practice/2025-01-19-🐳 Docker · Jenkins 도입을 통한 CI · CD Pipeline 구축.md",
     "assets/image/Pasted image 20250531215311.png",
     "assets/image/Pasted image 20250531215121.png",
     "assets/image/Pasted image 20250531200820.png",
@@ -211,12 +215,7 @@
     "assets/image/Pasted Image 20250531195306_088.png",
     "assets/image/Pasted Image 20250531195434_833.png",
     "assets/image/Pasted Image 20250531195702_403.png",
-    "assets/image/Pasted Image 20250531195824_053.png",
-    "_posts/devops/docker/practice/2025-01-19-🐳 Docker · Jenkins 도입을 통한 CI · CD Pipeline 구축.md",
-    "_posts/infra/2024-12-22-🚀 OCI Instance 구축.md",
-    "_posts/infra/2025-01-04-🚀 Ubuntu 서버에 프로젝트 배포.md",
     "_posts/devops/docker/practice/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
-    "_posts/document/2024-12-14-🏷️ Jira 프로젝트 일정 관리.md",
     "_posts/document/2024-11-04-🎨 UML 작성.md",
     "_posts/devops/docker/tutorial/2025-05-09-🐋 Docker 입문 Ⅳ - Image와 DockerHub.md",
     "_posts/devops/docker/tutorial/2025-05-09-🐋 Docker 입문 Ⅲ - File과 Volume.md",
