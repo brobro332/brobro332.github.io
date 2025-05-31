@@ -122,38 +122,38 @@ public class Main {
 */
 
 public class Main {
-    public static void main(String[] args) throws IOException {
-        // 1. 변수 선언 및 초기화
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int t = Integer.parseInt(br.readLine());
-
-        // 2. 테스트 케이스 순회
-        for (int i = 0; i < t; i++) {
-            // 지역 변수 선언 및 초기화
-            StringTokenizer st = new StringTokenizer(br.readLine());
-            int x = Integer.parseInt(st.nextToken());
-            int y = Integer.parseInt(st.nextToken());
-            int distance = y - x;
-            int move = 1, count = 0, current = 0;
-
-            // 이동 처리
-            while (current < distance) {
-                if (distance - current <= move) {
-                    count++;
-                    break;
-                } else if (distance - current < move * 2) {
-                    count += 2;
-                    break;
-                } else {
-                    count += 2;
-                    current += move++ * 2;
-                }
-            }
-
-            // 출력
-            System.out.println(count);
-        }
-    }
+	public static void main(String[] args) throws IOException {
+		// 1. 변수 선언 및 초기화
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int t = Integer.parseInt(br.readLine());
+		
+		// 2. 테스트 케이스 순회
+		for (int i = 0; i < t; i++) {
+			// 지역 변수 선언 및 초기화
+			StringTokenizer st = new StringTokenizer(br.readLine());
+			int x = Integer.parseInt(st.nextToken());
+			int y = Integer.parseInt(st.nextToken());
+			int distance = y - x;
+			int move = 1, count = 0, current = 0;
+			
+			// 이동 처리
+			while (current < distance) {
+				if (distance - current <= move) {
+					count++;
+					break;
+				} else if (distance - current < move * 2) {
+					count += 2;
+					break;
+				} else {
+					count += 2;
+					current += move++ * 2;
+				}
+			}
+			
+			// 출력
+			System.out.println(count);
+		}
+	}
 }
 ```
 - 규칙을 찾아서 `Brute-force` 방식으로 풀었다.

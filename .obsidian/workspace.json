@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/docker/tutorial/2025-05-09-🐋 Docker 입문 Ⅳ - Image와 DockerHub.md",
+                "file": "_posts/devops/docker/practice/2025-01-19-🐳 Docker · Jenkins 도입을 통한 CI · CD 파이프라인 구축.md",
                 "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2025-01-19-🐳 Docker · Jenkins 도입을 통한 CI · CD 파이프라인 구축"
+            }
+          },
+          {
+            "id": "44a413776ab300d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/devops/docker/practice/2025-01-19-🐳 Docker · Jenkins 도입을 통한 CI · CD Pipeline 구축.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-09-🐋 Docker 입문 Ⅳ - Image와 DockerHub"
+              "title": "2025-01-19-🐳 Docker · Jenkins 도입을 통한 CI · CD Pipeline 구축"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.5
+    "width": 358.5
   },
   "right": {
     "id": "9ab84f5180294dfa",
@@ -182,53 +197,53 @@
       "markdown-importer:마크다운 형식 불러오기 열기": false
     }
   },
-  "active": "7423032d881ca36f",
+  "active": "44a413776ab300d5",
   "lastOpenFiles": [
-    "_posts/docker/tutorial/2025-05-09-🐋 Docker 입문 Ⅲ - File과 Volume.md",
-    "_posts/docker/tutorial/2025-05-09-🐋 Docker 입문 Ⅳ - Image와 DockerHub.md",
-    "_posts/docker/tutorial/2025-05-07-🐋 Docker 입문 Ⅱ - 명령어 및 실습.md",
-    "_posts/docker/tutorial/2025-05-06-🐋 Docker 입문 Ⅰ - 개요.md",
-    "_posts/docker/practice/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
+    "assets/image/Pasted image 20250531215311.png",
+    "assets/image/Pasted image 20250531215121.png",
+    "assets/image/Pasted image 20250531200820.png",
+    "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
+    "_private/image/Pasted image 20250523024721.png",
+    "Excalidraw/Drawing 2025-05-31 19.46.48.excalidraw.md",
+    "assets/image/Pasted image 20250531200539.png",
+    "assets/image/Pasted Image 20250531200216_506.png",
+    "assets/image/Pasted Image 20250531195124_932.png",
+    "assets/image/Pasted Image 20250531195306_088.png",
+    "assets/image/Pasted Image 20250531195434_833.png",
+    "assets/image/Pasted Image 20250531195702_403.png",
+    "assets/image/Pasted Image 20250531195824_053.png",
+    "_posts/devops/docker/practice/2025-01-19-🐳 Docker · Jenkins 도입을 통한 CI · CD Pipeline 구축.md",
+    "_posts/infra/2024-12-22-🚀 OCI Instance 구축.md",
+    "_posts/infra/2025-01-04-🚀 Ubuntu 서버에 프로젝트 배포.md",
+    "_posts/devops/docker/practice/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
+    "_posts/document/2024-12-14-🏷️ Jira 프로젝트 일정 관리.md",
+    "_posts/document/2024-11-04-🎨 UML 작성.md",
+    "_posts/devops/docker/tutorial/2025-05-09-🐋 Docker 입문 Ⅳ - Image와 DockerHub.md",
+    "_posts/devops/docker/tutorial/2025-05-09-🐋 Docker 입문 Ⅲ - File과 Volume.md",
+    "_posts/devops/docker/tutorial/2025-05-07-🐋 Docker 입문 Ⅱ - 명령어 및 실습.md",
+    "_posts/devops/docker/tutorial/2025-05-06-🐋 Docker 입문 Ⅰ - 개요.md",
+    "_posts/security/2024-12-15-🪙 JWT 개념.md",
+    "_posts/infra",
+    "_posts/devops",
+    "_posts/security",
+    "_posts/ps/baekjoon/2025-04-21-🧩 Baekjoon 1011 - Fly me to the Alpha Centauri.md",
     "_posts/java/design-pattern/2024-11-12-⛓️ Java Design-Pattern Ⅰ - 개요.md",
-    "assets/image/Pasted image 20250529002434.png",
-    "_posts/docker/practice",
+    "_posts/devops/docker/practice",
     "_posts/docker/tutorial/무제.md",
     "_posts/react/tutorial/2024-11-05-🌌 React 입문 Ⅰ - 개요.md",
-    "_posts/docker/tutorial",
+    "_posts/devops/docker/tutorial",
     "_posts/react/tutorial",
     "_posts/java/design-pattern/2024-11-27-⛓️ Java Design-Pattern Ⅳ - Template Method.md",
     "_posts/java/design-pattern",
-    "assets/image/Pasted image 20250529000902.png",
     "_posts/java/design-pattern/2024-11-14-⛓️ Java Design-Pattern Ⅲ - Adapter.md",
     "_posts/java/design-pattern/2024-11-13-⛓️ Java Design-Pattern Ⅱ - Iterator.md",
-    "assets/image/Pasted image 20250528235504.png",
-    "assets/image/Pasted image 20250528234749.png",
-    "assets/image/Pasted image 20250528231816.png",
     "_posts/react/tutorial/2024-11-07-🌌 React 입문 Ⅲ - JSX 문법.md",
     "_posts/react/tutorial/2024-11-06-🌌 React 입문 Ⅱ - 사전 준비 · 프로젝트 생성 · 실행.md",
-    "assets/image/Pasted image 20250528230454.png",
-    "_posts/document/2024-11-04-🎨 UML 작성.md",
-    "_posts/ps/baekjoon/2025-04-21-🧩 Baekjoon 1011 - Fly me to the Alpha Centauri.md",
     "_posts/java",
     "_posts/ps/baekjoon/2025-04-17-🧩 Baekjoon 1068 - 트리.md",
-    "assets/image/Pasted image 20250528222117.png",
     "_posts/ps/baekjoon/2024-11-18-🧩 Baekjoon 30802 - 웰컴 키트.md",
     "_posts/ps/baekjoon/2024-11-19-🧩 Baekjoon 1012 - 유기농 배추.md",
-    "_posts/ps/baekjoon/2024-11-21-🧩 Baekjoon 1038 - 감소하는 수.md",
-    "_posts/ps/baekjoon/2024-11-25-🧩 Baekjoon 1439 - 뒤집기.md",
-    "_posts/ps/baekjoon/2024-11-26-🧩 Baekjoon 10989 - 수 정렬하기 3.md",
-    "_posts/ps/baekjoon/2025-03-16-🧩 Baekjoon 1052 - 물병.md",
-    "_posts/ps/baekjoon/2025-03-17-🧩 Baekjoon □□□□ - N과 M(1 ~ 12).md",
-    "_posts/ps/baekjoon/2025-03-30-🧩 Baekjoon 2231 - 분해합.md",
-    "_posts/ps/baekjoon/2025-03-30-🧩 Baekjoon 2798 - 블랙잭.md",
-    "assets/image/Pasted image 20250528221800.png",
-    "assets/image/Pasted image 20250528221401.png",
-    "assets/image/Pasted image 20250528221336.png",
-    "_posts/ps/baekjoon/2025-03-30-🧩 Beakjoon 2292 - 벌집.md",
     "_templates",
-    "_posts/ps/leetcode",
-    "_posts/ps/baekjoon",
-    "_posts/ps",
-    "_site/posts/React-입문-Element/index.html"
+    "_posts/ps/leetcode"
   ]
 }

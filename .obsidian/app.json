@@ -8,5 +8,6 @@
   },
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "assets/image"
+  "attachmentFolderPath": "assets/image",
+  "promptDelete": false
 }
