@@ -123,51 +123,51 @@ CMD ["nginx", "-g", "daemon off;"]
 #### ✅ `Docker-compose.yml` 작성
 ```yml
 services:
-	oracle-db:
-		container_name: oracle-db
-		image: gvenzl/oracle-xe:11-slim
-		ports:
-			- "1521:1521"
-		environment:
-		  ORACLE_PASSWORD: 패스워드
-		volumes:
-			- oracle-data:/opt/oracle/oradata
-		networks:
-			- app-network
+  oracle-db:
+    container_name: oracle-db
+    image: gvenzl/oracle-xe:11-slim
+    ports:
+      - "1521:1521"
+    environment:
+        ORACLE_PASSWORD: 패스워드
+    volumes:
+      - oracle-data:/opt/oracle/oradata
+    networks:
+      - app-network
 
-	spring-app:
-		container_name: spring-app
-		image: spring-app
-		build: ./spring-app
-		ports:
-			- "18080:18080"
-		volumes:
-			- ./logs:/usr/local/app/logs
-		depends_on:
-			- oracle-db
-		restart: on-failure
-		networks:
-			- app-network
+  spring-app:
+    container_name: spring-app
+    image: spring-app
+    build: ./spring-app
+    ports:
+      - "18080:18080"
+    volumes:
+      - ./logs:/usr/local/app/logs
+    depends_on:
+      - oracle-db
+    restart: on-failure
+    networks:
+      - app-network
 
-	react-app:
-		container_name: react-app
-		build: ./react-app
-		image: react-app
-		ports:
-			- "3000:80"
-		volumes:
-			- ./react-app:/app
-		networks:
-			- app-network
+  react-app:
+    container_name: react-app
+    build: ./react-app
+    image: react-app
+    ports:
+      - "3000:80"
+    volumes:
+      - ./react-app:/app
+    networks:
+      - app-network
 
-	networks:
-		app-network:
-			name: app-network
-			driver: bridge
+  networks:
+    app-network:
+      name: app-network
+      driver: bridge
   
 volumes:
-	oracle-data:
-		driver: local
+  oracle-data:
+    driver: local
 ```
 
 #### `Jenkins` `Pipeline` `Script`
@@ -212,29 +212,29 @@ pipeline {
 #### ✅ `application.yml` 파일 작성
 ```yml
 spring:
-	datasource:
-		url: jdbc:oracle:thin:@oracle-db:1521:xe?oracle.jdbc.timezoneAsRegion=false
-		username: 사용자명
-		password: 비밀번호
-		driver-class-name: oracle.jdbc.OracleDriver
-	jpa:
-		database-platform: org.hibernate.dialect.OracleDialect
-		hibernate:
-			ddl-auto: update
+  datasource:
+    url: jdbc:oracle:thin:@oracle-db:1521:xe?oracle.jdbc.timezoneAsRegion=false
+    username: 사용자명
+    password: 비밀번호
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    database-platform: org.hibernate.dialect.OracleDialect
+    hibernate:
+      ddl-auto: update
 
 logging:
-	level:
-		org.hibernate.SQL: debug
-		org.hibernate.orm.jdbc.bind: trace
-		최상위_도메인.2차_도메인.프로젝트명: debug
-	file:
-		name: /usr/local/app/logs/app.log
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.orm.jdbc.bind: trace
+    최상위_도메인.2차_도메인.프로젝트명: debug
+  file:
+    name: /usr/local/app/logs/app.log
 
 jwt:
-	secret-key: 문자열
+  secret-key: 문자열
 
 server:
-	port: 18080
+  port: 18080
 ```
 
 
