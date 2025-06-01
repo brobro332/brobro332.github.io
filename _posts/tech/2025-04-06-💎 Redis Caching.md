@@ -151,18 +151,18 @@ public class UserService {
 private final HashOperations<K, ?, ?> hashOps = new DefaultHashOperations(this);
 
 public <HK, HV> HashOperations<K, HK, HV> opsForHash() {
-    return this.hashOps;
+	return this.hashOps;
 }
 
 /* DefaultHashOperations.class */
 public void put(K key, HK hashKey, HV value) {
-    byte[] rawKey = this.rawKey(key);
-    byte[] rawHashKey = this.rawHashKey(hashKey);
-    byte[] rawHashValue = this.rawHashValue(value);
-    this.execute((connection) -> {
-        connection.hSet(rawKey, rawHashKey, rawHashValue);
-        return null;
-    });
+	byte[] rawKey = this.rawKey(key);
+	byte[] rawHashKey = this.rawHashKey(hashKey);
+	byte[] rawHashValue = this.rawHashValue(value);
+	this.execute((connection) -> {
+		connection.hSet(rawKey, rawHashKey, rawHashValue);
+		return null;
+	});
 }
 ```
 - `RedisTemplate`이 `Key`, `HashKey`, `HashValue`를 내부적으로 직렬화 한다.

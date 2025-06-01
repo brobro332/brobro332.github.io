@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tech/2025-04-17-💎 ELK · API Gateway · Logback 중앙 관리자 서버 구축.md",
-                "mode": "preview",
+                "file": "_posts/tech/2025-04-05-💎 Websocket - STOMP 채팅 서버 구축.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-04-17-💎 ELK · API Gateway · Logback 중앙 관리자 서버 구축"
+              "title": "2025-04-05-💎 Websocket - STOMP 채팅 서버 구축"
             }
           }
         ]
@@ -184,13 +184,13 @@
   },
   "active": "7423032d881ca36f",
   "lastOpenFiles": [
+    "_posts/tech/2025-04-06-💎 Redis Caching.md",
+    "_posts/tech/2025-04-17-💎 ELK · API Gateway · Logback 중앙 관리자 서버 구축.md",
     "assets/image/Pasted image 20250601161244.png",
     "assets/image/Pasted image 20250601161225.png",
     "assets/image/Pasted image 20250601161156.png",
     "_posts/infra/2025-04-06-🚀 Raspberry Pi 서버에 프로젝트 배포.md",
-    "_posts/tech/2025-04-17-💎 ELK · API Gateway · Logback 중앙 관리자 서버 구축.md",
     "assets/image/Pasted image 20250601153900.png",
-    "_posts/tech/2025-04-06-💎 Redis Caching.md",
     "_posts/tech/2025-04-05-💎 Websocket - STOMP 채팅 서버 구축.md",
     "assets/image/Pasted image 20250601150412.png",
     "assets/image/Pasted image 20250601150402.png",
@@ -209,7 +209,6 @@
     "assets/image/Pasted image 20250601141618.png",
     "assets/image/Pasted image 20250601141107.png",
     "assets/image/Pasted image 20250601141053.png",
-    "assets/image/Pasted image 20250601135952.png",
     "_posts/problem-solving/baekjoon/2024-11-25-🧩 Baekjoon 1439 - 뒤집기.md",
     "_posts/problem-solving/leetcode/2025-03-11-💡 LeetCode 101 - Symmetric Tree.md",
     "_posts/problem-solving/leetcode/2025-03-08-💡 LeetCode 100 - Same Tree.md",

@@ -33,7 +33,7 @@ public void registerStompEndpoints(StompEndpointRegistry registry) {
 ```java
 @MessageMapping("/chat.sendSystemMessage")
 public void enterUser(Message message) {
-    service.sendSystemMessage(message);
+	service.sendSystemMessage(message);
 }
 ```
 
