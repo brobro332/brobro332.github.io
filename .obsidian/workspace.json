@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tech/2025-04-17-💎 ELK · API Gateway · Logback 중앙 관리자 서버 구축.md",
-                "mode": "source",
+                "file": "_private/profile/경력기술서 · 네이버시스템(주) · 자바 웹 개발자.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-04-17-💎 ELK · API Gateway · Logback 중앙 관리자 서버 구축"
+              "title": "경력기술서 · 네이버시스템(주) · 자바 웹 개발자"
             }
           }
         ]
@@ -184,9 +184,15 @@
   },
   "active": "7423032d881ca36f",
   "lastOpenFiles": [
+    "_private/profile/자바 백엔드 개발자 · Java · Spring · RDB · JPA · MyBatis · Linux · Docker · OCI.md",
+    "_private/profile/경력기술서 · 네이버시스템(주) · 자바 웹 개발자.md",
+    "_private/profile/포트폴리오 · SW-Capstone-Design.md",
+    "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
+    "_posts/problem-solving/baekjoon/2025-06-01-🧩 Baekjoon 5671 - 호텔 방 번호.md",
+    "_posts/trouble-shooting/2025-03-18-💥 MyBatis camelCase 처리.md",
+    "_posts/tech/2025-04-17-💎 ELK · API Gateway · Logback 중앙 관리자 서버 구축.md",
     "_posts/tech/2025-04-05-💎 Websocket - STOMP 채팅 서버 구축.md",
     "_posts/tech/2025-04-06-💎 Redis Caching.md",
-    "_posts/tech/2025-04-17-💎 ELK · API Gateway · Logback 중앙 관리자 서버 구축.md",
     "assets/image/Pasted image 20250601161244.png",
     "assets/image/Pasted image 20250601161225.png",
     "assets/image/Pasted image 20250601161156.png",
@@ -204,7 +210,6 @@
     "assets/image/Pasted image 20250601143625.png",
     "_posts/trouble-shooting/2025-03-28-💥 Javascript URL Encoding.md",
     "_posts/security/2024-12-15-🪙 JWT 개념.md",
-    "_posts/trouble-shooting/2025-03-18-💥 MyBatis camelCase 처리.md",
     "_posts/trouble-shooting/2025-03-21-💥 Swagger 클래스명 중복.md",
     "assets/image/Pasted image 20250601141618.png",
     "assets/image/Pasted image 20250601141107.png",
@@ -219,10 +224,6 @@
     "_posts/problem-solving/leetcode/2025-03-02-💡 LeetCode 69 - Sqrt(x).md",
     "_posts/problem-solving/leetcode/2025-03-01-💡 LeetCode 67 - Add Binary.md",
     "_posts/problem-solving/leetcode/2025-02-26-💡 LeetCode 66 - Plus One.md",
-    "_posts/problem-solving/leetcode/2025-02-25-💡 LeetCode 58 - Length of Last Word.md",
-    "_posts/problem-solving/leetcode/2025-02-24-💡 LeetCode 35 - Search Insert Position.md",
-    "_posts/problem-solving/leetcode/2025-02-23-💡 LeetCode 28 - Find the Index of the First Occurrence in a String.md",
-    "_posts/problem-solving/leetcode/2025-02-23-💡 LeetCode 27 - Remove Element.md",
     "_posts/trouble-shooting",
     "_posts/lib",
     "_posts/infra",

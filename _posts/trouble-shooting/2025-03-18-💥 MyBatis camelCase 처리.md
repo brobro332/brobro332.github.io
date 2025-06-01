@@ -1,5 +1,5 @@
 ---
-title: 💥 MyBatis CamelCase 처리
+title: 💥 MyBatis camelCase 처리
 date: 2025-03-18 23:52:00 +0900
 categories:
   - Trouble-Shooting
@@ -73,7 +73,7 @@ class NoticeResponseDto (
 ```bash
 mybatis.configuration.map-underscore-to-camel-case=true
 ```
-- `MyBatis`는 위와 같이 `CamelCase` 설정을 해주어야 한다고 한다.
+- `MyBatis`는 위와 같이 `camelCase` 설정을 해주어야 한다고 한다.
 - 이 방법은 모든 필드에 `@Setter`가 설정되어 있어야 한다.
 
 
