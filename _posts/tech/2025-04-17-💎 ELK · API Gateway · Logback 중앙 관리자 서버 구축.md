@@ -1,5 +1,5 @@
 ---
-title: 💎 API Gateway · ELK 중앙 관리자 서버 구축
+title: 💎 ELK · API Gateway · Logback 중앙 관리자 서버 구축
 date: 2025-04-17 21:52:00 +0900
 categories:
   - Tech
@@ -43,8 +43,8 @@ services:
       - "9200:9200"
     networks:
       - efk
-
-  kibana:
+ 
+  kibana:
     image: docker.elastic.co/kibana/kibana:7.17.18
     container_name: kibana
     ports:
