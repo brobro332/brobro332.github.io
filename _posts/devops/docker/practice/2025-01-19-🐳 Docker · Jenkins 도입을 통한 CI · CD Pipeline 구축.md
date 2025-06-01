@@ -170,7 +170,7 @@ volumes:
     driver: local
 ```
 
-#### `Jenkins` `Pipeline` `Script`
+#### ✅ `Jenkins` `Pipeline` `Script`
 ```bash
 pipeline {
 	agent any
