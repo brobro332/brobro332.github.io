@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6a75b2d1b5c9c4c9",
+        "id": "42aa06476ca8d3e5",
         "type": "tabs",
         "children": [
           {
-            "id": "7423032d881ca36f",
+            "id": "8dc39a1068eb3c80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_private/profile/경력기술서 · 네이버시스템(주) · 자바 웹 개발자.md",
+                "file": "_posts/project/2025-06-06-🏰 332-blokey-land-service.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "경력기술서 · 네이버시스템(주) · 자바 웹 개발자"
+              "title": "2025-06-06-🏰 332-blokey-land-service"
             }
           }
         ]
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,24 +182,37 @@
       "markdown-importer:마크다운 형식 불러오기 열기": false
     }
   },
-  "active": "7423032d881ca36f",
+  "active": "8dc39a1068eb3c80",
   "lastOpenFiles": [
-    "_private/profile/자바 백엔드 개발자 · Java · Spring · RDB · JPA · MyBatis · Linux · Docker · OCI.md",
+    "assets/image/Pasted image 20250606223507.png",
+    "assets/image/ChatGPT Image 2025년 6월 6일 오후 08_19_46 1.png",
+    "assets/image/ChatGPT Image 2025년 6월 6일 오후 08_19_46.png",
+    "_posts/document/2024-11-04-🎨 UML 작성.md",
+    "_posts/project/2025-06-06-🏰 332-blokey-land-service.md",
+    "_posts/project",
+    "_private/image/Pasted image 20250603224750.png",
+    "_private/image/Pasted image 20250603074737.png",
+    "_private/image/Pasted image 20250603225519.png",
+    "_private/image/Pasted image 20250602230629.png",
+    "_private/image/Pasted image 20250602222314.png",
+    "_private/image/Pasted image 20250603074600.png",
+    "_private/image/Pasted image 20250603074504.png",
+    "_private/image/Pasted image 20250602222205.png",
+    "_private/profile/상추 인프라 구축 매뉴얼 Ⅱ - DB 서버.md",
+    "_private/profile/상추 인프라 구축 매뉴얼 Ⅰ - OCI.md",
+    "_private/profile/상추 인프라 구축 매뉴얼 Ⅲ - AP 서버.md",
     "_private/profile/경력기술서 · 네이버시스템(주) · 자바 웹 개발자.md",
     "_private/profile/포트폴리오 · SW-Capstone-Design.md",
+    "_private/profile/자바 백엔드 개발자 · Java · Spring · RDB · JPA · MyBatis · Linux · Docker · OCI.md",
+    "_posts/infra/2024-12-22-🚀 OCI Instance 구축.md",
     "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
+    "_posts/problem-solving/baekjoon/2024-11-26-🧩 Baekjoon 10989 - 수 정렬하기 3.md",
     "_posts/problem-solving/baekjoon/2025-06-01-🧩 Baekjoon 5671 - 호텔 방 번호.md",
     "_posts/trouble-shooting/2025-03-18-💥 MyBatis camelCase 처리.md",
     "_posts/tech/2025-04-17-💎 ELK · API Gateway · Logback 중앙 관리자 서버 구축.md",
     "_posts/tech/2025-04-05-💎 Websocket - STOMP 채팅 서버 구축.md",
     "_posts/tech/2025-04-06-💎 Redis Caching.md",
-    "assets/image/Pasted image 20250601161244.png",
-    "assets/image/Pasted image 20250601161225.png",
-    "assets/image/Pasted image 20250601161156.png",
     "_posts/infra/2025-04-06-🚀 Raspberry Pi 서버에 프로젝트 배포.md",
-    "assets/image/Pasted image 20250601153900.png",
-    "assets/image/Pasted image 20250601150412.png",
-    "assets/image/Pasted image 20250601150402.png",
     "_posts/feat/websocket/무제.md",
     "_posts/무제.md",
     "_posts/tech/elk",
@@ -207,28 +220,15 @@
     "_posts/tech/websocket",
     "_posts/tech",
     "_posts/trouble-shooting/2025-05-01-💥 LetsEncrypt SSL 인증서 발급 횟수 제한.md",
-    "assets/image/Pasted image 20250601143625.png",
     "_posts/trouble-shooting/2025-03-28-💥 Javascript URL Encoding.md",
     "_posts/security/2024-12-15-🪙 JWT 개념.md",
     "_posts/trouble-shooting/2025-03-21-💥 Swagger 클래스명 중복.md",
-    "assets/image/Pasted image 20250601141618.png",
-    "assets/image/Pasted image 20250601141107.png",
-    "assets/image/Pasted image 20250601141053.png",
     "_posts/problem-solving/baekjoon/2024-11-25-🧩 Baekjoon 1439 - 뒤집기.md",
     "_posts/problem-solving/leetcode/2025-03-11-💡 LeetCode 101 - Symmetric Tree.md",
-    "_posts/problem-solving/leetcode/2025-03-08-💡 LeetCode 100 - Same Tree.md",
-    "_posts/problem-solving/leetcode/2025-03-08-💡 LeetCode 94 - Binary Tree Inorder Traversal.md",
-    "_posts/problem-solving/leetcode/2025-03-07-💡 LeetCode 88 - Merge Sorted Array.md",
-    "_posts/problem-solving/leetcode/2025-03-04-💡 LeetCode 83 - Remove Duplicates from Sorted List.md",
-    "_posts/problem-solving/leetcode/2025-03-03-💡 LeetCode 70 - Climbing Stairs.md",
-    "_posts/problem-solving/leetcode/2025-03-02-💡 LeetCode 69 - Sqrt(x).md",
-    "_posts/problem-solving/leetcode/2025-03-01-💡 LeetCode 67 - Add Binary.md",
-    "_posts/problem-solving/leetcode/2025-02-26-💡 LeetCode 66 - Plus One.md",
     "_posts/trouble-shooting",
     "_posts/lib",
     "_posts/infra",
     "_posts/devops",
-    "_posts/security",
-    "_posts/devops/docker/practice"
+    "_posts/security"
   ]
 }
