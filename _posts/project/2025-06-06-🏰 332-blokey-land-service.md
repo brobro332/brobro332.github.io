@@ -8,7 +8,7 @@ tags:
 ---
 
 ### 기획 및 설계
-![](/assets/image/Pasted%20image%2020250606223507.png)
+![](/assets/image/Pasted%20image%2020250607224217.png)
 - 프로젝트를 체계적으로 관리하고, 프로젝트와 팀원을 연결해주는 서비스
 
 ### 🛠 **프로젝트 환경**  
@@ -27,6 +27,8 @@ tags:
 │   │   ├── Project.java
 │   │   ├── Member.java
 │   │   └── Milestone.java
+│   ├── controller
+│   │   └── ProjectController.java
 │   ├── repository
 │   │   └── ProjectRepository.java
 │   ├── service
@@ -38,6 +40,8 @@ tags:
 │   ├── domain
 │   │   ├── Task.java
 │   │   └── Comment.java
+│   ├── controller
+│   │   └── TaskController.java
 │   ├── repository
 │   │   └── TaskRepository.java
 │   ├── service
@@ -49,6 +53,8 @@ tags:
 │   ├── domain
 │   │   ├── KanbanColumn.java
 │   │   └── KanbanTask.java
+│   ├── controller
+│   │   └── KanbanController.java
 │   ├── repository
 │   │   └── kanbanRepository.java
 │   ├── service
@@ -59,6 +65,8 @@ tags:
 ├── user
 │   ├── domain
 │   │   └── User.java
+│   ├── controller
+│   │   └── UserController.java
 │   ├── repository
 │   │   └── UserRepository.java
 │   └── service
