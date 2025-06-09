@@ -25,10 +25,10 @@ tags:
 ├── project
 │   ├── domain
 │   │   ├── Project.java
-│   │   ├── Member.java
-│   │   └── Milestone.java
 │   ├── controller
 │   │   └── ProjectController.java
+│   ├── mapper
+│   │   └── ProjectMapper.java
 │   ├── repository
 │   │   └── ProjectRepository.java
 │   ├── service
@@ -38,10 +38,11 @@ tags:
 │
 ├── task
 │   ├── domain
-│   │   ├── Task.java
-│   │   └── Comment.java
+│   │   └── Task.java
 │   ├── controller
 │   │   └── TaskController.java
+│   ├── mapper
+│   │   └── TaskMapper.java
 │   ├── repository
 │   │   └── TaskRepository.java
 │   ├── service
@@ -67,42 +68,52 @@ tags:
 │   │   └── User.java
 │   ├── controller
 │   │   └── UserController.java
+│   ├── dto
+│   │   ├── UserReqCreateDto.java
+│   │   ├── UserReqUpdateDto.java
+│   │   └── UserRespDto.java
+│   ├── mapper
+│   │   └── UserMapper.java
 │   ├── repository
 │   │   └── UserRepository.java
 │   └── service
 │       └── UserService.java
 │
 └── common
+	├── domain
+	├── dto
     ├── exception
+    ├── type
     ├── util
     └── config
 ```
 
 #### ✅ 기능 명세서
 
-| 기능명             | 설명                                     | HTTP Method | 엔드포인트 예시                                      |
-| ------------------ | ---------------------------------------- | ----------- | ---------------------------------------------------- |
-| 프로젝트 생성      | 새 프로젝트를 생성                       | POST        | `/api/projects`                                      |
-| 프로젝트 목록 조회 | 내가 속한 프로젝트 리스트 조회           | GET         | `/api/projects`                                      |
-| 프로젝트 상세 조회 | 특정 프로젝트의 상세 정보 조회           | GET         | `/api/projects/{projectId}`                          |
-| 프로젝트 수정      | 프로젝트 제목, 설명 등 수정              | PUT         | `/api/projects/{projectId}`                          |
-| 프로젝트 삭제      | 프로젝트 삭제                            | DELETE      | `/api/projects/{projectId}`                          |
-| 프로젝트 멤버 초대 | 유저를 프로젝트에 초대                   | POST        | `/api/projects/{projectId}/members`                  |
-| 멤버 목록 조회     | 해당 프로젝트의 멤버 리스트 조회         | GET         | `/api/projects/{projectId}/members`                  |
-| 마일스톤 생성      | 마일스톤(일정 단위) 생성                 | POST        | `/api/projects/{projectId}/milestones`               |
-| 마일스톤 수정      | 마일스톤 정보 수정                       | PUT         | `/api/projects/{projectId}/milestones/{milestoneId}` |
-| 마일스톤 삭제      | 마일스톤 삭제                            | DELETE      | `/api/projects/{projectId}/milestones/{milestoneId}` |
-| 칸반 컬럼 생성     | 칸반 보드에 컬럼 추가                    | POST        | `/api/projects/{projectId}/kanban-columns`           |
-| 칸반 컬럼 수정     | 컬럼 이름 수정                           | PUT         | `/api/kanban-columns/{columnId}`                     |
-| 칸반 컬럼 삭제     | 컬럼 삭제                                | DELETE      | `/api/kanban-columns/{columnId}`                     |
-| 칸반 태스크 생성   | 칸반 컬럼에 태스크 추가                  | POST        | `/api/kanban-columns/{columnId}/tasks`               |
-| 칸반 태스크 이동   | 드래그앤드롭으로 컬럼/순서 이동          | PATCH       | `/api/kanban-tasks/{taskId}/order`                   |
-| 칸반 태스크 수정   | 태스크 제목, 설명 등 수정                | PUT         | `/api/kanban-tasks/{taskId}`                         |
-| 칸반 태스크 삭제   | 태스크 삭제                              | DELETE      | `/api/kanban-tasks/{taskId}`                         |
-| 태스크 상세 조회   | 태스크의 담당자, 댓글, 상태 등 상세 조회 | GET         | `/api/tasks/{taskId}`                                |
-| 태스크 댓글 추가   | 태스크에 댓글 작성                       | POST        | `/api/tasks/{taskId}/comments`                       |
-| 사용자 회원가입    | 사용자 등록 요청                         | POST        | `/api/users`                                         |
-| 사용자 목록 조회   | 조건에 따른 사용자 리스트 조회           | GET         | `/api/users`                                         |
-| 사용자 정보 조회   | 특정 사용자 정보 조회                    | GET         | `/api/users/{userId}`                                |
-| 사용자 정보 수정   | 사용자 정보 수정                         | PUT         | `/api/users/{userId}`                                |
-| 사용자 탈퇴        | 사용자 삭제 요청                         | DELETE      | `/api/users/{userId}`                                |
+| 기능명             | 설명                             | HTTP Method | Endpoint                                             |
+| ------------------ | -------------------------------- | ----------- | ---------------------------------------------------- |
+| 사용자 회원가입    | 사용자 등록 요청                 | POST        | `/api/users`                                         |
+| 사용자 목록 조회   | 조건에 따른 사용자 리스트 조회   | GET         | `/api/users`                                         |
+| 사용자 정보 조회   | 특정 사용자 정보 조회            | GET         | `/api/users/{userId}`                                |
+| 사용자 정보 수정   | 사용자 정보 수정                 | PATCH       | `/api/users/{userId}`                                |
+| 사용자 탈퇴        | 사용자 삭제 요청                 | DELETE      | `/api/users/{userId}`                                |
+| 프로젝트 생성      | 새 프로젝트를 생성               | POST        | `/api/projects`                                      |
+| 프로젝트 목록 조회 | 프로젝트 목록 조회               | GET         | `/api/projects`                                      |
+| 프로젝트 정보 조회 | 특정 프로젝트 정보 조회          | GET         | `/api/projects/{projectId}`                          |
+| 프로젝트 정보 수정 | 프로젝트 정보 수정               | PATCH       | `/api/projects/{projectId}`                          |
+| 프로젝트 삭제      | 프로젝트 삭제                    | DELETE      | `/api/projects/{projectId}`                          |
+| 태스크 등록        | 태스크 등록                      | POST        | `/api/tasks`                                         |
+| 태스크 정보 조회   | 태스크 정보 조회                 | GET         | `/api/tasks/{taskId}`                                |
+| 태스크 정보 수정   | 태스크 정보 수정                 | PATCH       | `/api/tasks/{taskId}`                                |
+| 태스크 삭제        | 태스크 삭제                      | DELETE      | `/api/tasks/{taskId}`                                | 
+| 멤버 목록 조회     | 해당 프로젝트의 멤버 리스트 조회 | GET         | `/api/projects/{projectId}/members`                  |
+| 마일스톤 생성      | 마일스톤(일정 단위) 생성         | POST        | `/api/projects/{projectId}/milestones`               |
+| 마일스톤 수정      | 마일스톤 정보 수정               | PUT         | `/api/projects/{projectId}/milestones/{milestoneId}` |
+| 마일스톤 삭제      | 마일스톤 삭제                    | DELETE      | `/api/projects/{projectId}/milestones/{milestoneId}` |
+| 칸반 컬럼 생성     | 칸반 보드에 컬럼 추가            | POST        | `/api/projects/{projectId}/kanban-columns`           |
+| 칸반 컬럼 수정     | 컬럼 이름 수정                   | PUT         | `/api/kanban-columns/{columnId}`                     |
+| 칸반 컬럼 삭제     | 컬럼 삭제                        | DELETE      | `/api/kanban-columns/{columnId}`                     |
+| 칸반 태스크 생성   | 칸반 컬럼에 태스크 추가          | POST        | `/api/kanban-columns/{columnId}/tasks`               |
+| 칸반 태스크 이동   | 드래그앤드롭으로 컬럼/순서 이동  | PATCH       | `/api/kanban-tasks/{taskId}/order`                   |
+| 칸반 태스크 수정   | 태스크 제목, 설명 등 수정        | PUT         | `/api/kanban-tasks/{taskId}`                         |
+| 칸반 태스크 삭제   | 태스크 삭제                      | DELETE      | `/api/kanban-tasks/{taskId}`                         |
