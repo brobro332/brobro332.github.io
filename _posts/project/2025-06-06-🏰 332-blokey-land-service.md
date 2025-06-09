@@ -27,28 +27,32 @@ tags:
 │   │   ├── Project.java
 │   ├── controller
 │   │   └── ProjectController.java
+│   ├── dto
+│   │   ├── ProjectReqCreateDto.java
+│   │   ├── ProjectReqUpdateDto.java
+│   │   └── ProjectRespDto.java
 │   ├── mapper
 │   │   └── ProjectMapper.java
 │   ├── repository
 │   │   └── ProjectRepository.java
-│   ├── service
-│   │   └── ProjectService.java
-│   └── dto
-│       └── ProjectDto.java
+│   └── service
+│       └── ProjectService.java
 │
 ├── task
 │   ├── domain
 │   │   └── Task.java
 │   ├── controller
 │   │   └── TaskController.java
+│   ├── dto
+│   │   ├── TaskReqCreateDto.java
+│   │   ├── TaskReqUpdateDto.java
+│   │   └── TaskRespDto.java
 │   ├── mapper
 │   │   └── TaskMapper.java
 │   ├── repository
 │   │   └── TaskRepository.java
-│   ├── service
-│   │   └── TaskService.java
-│   └── dto
-│       └── TaskDto.java
+│   └── service
+│       └── TaskService.java
 │
 ├── kanban
 │   ├── domain
@@ -77,7 +81,8 @@ tags:
 │   ├── repository
 │   │   └── UserRepository.java
 │   └── service
-│       └── UserService.java
+│       ├── UserService.java
+│       └── UserHelperService.java
 │
 └── common
 	├── domain
