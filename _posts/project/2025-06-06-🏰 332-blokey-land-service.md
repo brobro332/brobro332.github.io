@@ -65,8 +65,8 @@ tags:
 │   ├── repository
 │   └── service
 └── common
-	├── domain
-	├── dto
+    ├── domain
+    ├── dto
     ├── exception
     ├── type
     ├── util
