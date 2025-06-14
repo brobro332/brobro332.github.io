@@ -17,7 +17,7 @@ tags:
 - `React`, `Mui`
 - `Docker`, `Docker-compose`
 - `OCI`, `GitHub Actions`
-- `IntelliJ`
+- `IntelliJ IDEA`
 
 #### ✅ 패키지 구조(`v1.0.0`)
 ```bash

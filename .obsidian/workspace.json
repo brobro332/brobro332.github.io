@@ -11,14 +11,14 @@
             "id": "8dc39a1068eb3c80",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "_posts/project/2025-06-06-🏰 332-blokey-land-service.md",
-                "bFile": "_posts/project/2025-06-06-🏰 332-blokey-land-service.md",
-                "aRef": ""
+                "file": "_posts/project/2025-06-06-🏰 332-blokey-land-service.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 2025-06-06-🏰 332-blokey-land-service"
+              "icon": "lucide-file",
+              "title": "2025-06-06-🏰 332-blokey-land-service"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5
+    "width": 356.5
   },
   "right": {
     "id": "9ab84f5180294dfa",
@@ -184,11 +184,15 @@
   },
   "active": "8dc39a1068eb3c80",
   "lastOpenFiles": [
+    "_private/profile/김진형 · 이력서.md",
+    "_private/profile/생성형 AI 기반 이력서 및 포트폴리오 작성.md",
+    "_private/profile/상추 인프라 구축 매뉴얼 Ⅰ - OCI.md",
+    "_private/profile/경력기술서 · 네이버시스템(주) · 자바 웹 개발자.md",
+    "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
     "_posts/project/2025-06-06-🏰 332-blokey-land-service.md",
     "_private/profile/상추 인프라 구축 매뉴얼 Ⅱ - DB 서버.md",
     "_posts/document/2024-12-14-🏷️ Jira 프로젝트 일정 관리.md",
     "_private/profile/상추 인프라 구축 매뉴얼 Ⅲ - AP 서버.md",
-    "_private/profile/상추 인프라 구축 매뉴얼 Ⅰ - OCI.md",
     "assets/image/Pasted image 20250607224217.png",
     "assets/image/Pasted image 20250606223507.png",
     "assets/image/ChatGPT Image 2025년 6월 6일 오후 08_19_46 1.png",
@@ -201,11 +205,8 @@
     "_private/image/Pasted image 20250602230629.png",
     "_private/image/Pasted image 20250602222314.png",
     "_private/image/Pasted image 20250603074600.png",
-    "_private/profile/경력기술서 · 네이버시스템(주) · 자바 웹 개발자.md",
     "_private/profile/포트폴리오 · SW-Capstone-Design.md",
-    "_private/profile/자바 백엔드 개발자 · Java · Spring · RDB · JPA · MyBatis · Linux · Docker · OCI.md",
     "_posts/infra/2024-12-22-🚀 OCI Instance 구축.md",
-    "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
     "_posts/problem-solving/baekjoon/2024-11-26-🧩 Baekjoon 10989 - 수 정렬하기 3.md",
     "_posts/problem-solving/baekjoon/2025-06-01-🧩 Baekjoon 5671 - 호텔 방 번호.md",
     "_posts/trouble-shooting/2025-03-18-💥 MyBatis camelCase 처리.md",
@@ -224,7 +225,6 @@
     "_posts/security/2024-12-15-🪙 JWT 개념.md",
     "_posts/trouble-shooting/2025-03-21-💥 Swagger 클래스명 중복.md",
     "_posts/problem-solving/baekjoon/2024-11-25-🧩 Baekjoon 1439 - 뒤집기.md",
-    "_posts/problem-solving/leetcode/2025-03-11-💡 LeetCode 101 - Symmetric Tree.md",
     "_posts/trouble-shooting",
     "_posts/lib",
     "_posts/infra",
