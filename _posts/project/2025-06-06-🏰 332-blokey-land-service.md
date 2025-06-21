@@ -106,3 +106,9 @@ tags:
 | 마일스톤 정보 수정        | PATCH       | `/api/milestones/{milestoneId}`        |
 | 마일스톤 삭제             | DELETE      | `/api/milestones/{milestoneId}`        |
 | 작업에 마일스톤 설정      | PATCH       | `/tasks/{taskId}/milestone`            | 
+
+#### ✅ `v1.1.0` 추가될 기능 목록
+- `GitHub Topic`으로부터 기술 스택을 추출해 `Elasticsearch`에 저장 및 관리
+- `GitHub Repository URL`을 통해 해당 프로젝트의 `Project` 데이터를 `blokey-land`로 자동 이관 및 등록
+- 기술 스택, 포지션 등 프로젝트 관련 키워드를 기반으로 프로젝트와 사용자를 매칭
+- 프론트엔드 개발
