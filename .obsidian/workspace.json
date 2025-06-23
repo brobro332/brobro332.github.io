@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "42aa06476ca8d3e5",
+        "id": "e585df8f13a97e40",
         "type": "tabs",
         "children": [
           {
-            "id": "8dc39a1068eb3c80",
+            "id": "d780be68864bb63c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tech/2025-04-06-💎 Redis Caching.md",
+                "file": "_posts/project/2025-06-23-🧩 quiz-stream-service.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-06-💎 Redis Caching"
+              "title": "2025-06-23-🧩 quiz-stream-service"
             }
           }
         ]
@@ -182,22 +182,24 @@
       "markdown-importer:마크다운 형식 불러오기 열기": false
     }
   },
-  "active": "8dc39a1068eb3c80",
+  "active": "d780be68864bb63c",
   "lastOpenFiles": [
+    "assets/image/Pasted image 20250623222616.png",
+    "assets/image/Pasted image 20250623222209.png",
+    "assets/image/Pasted image 20250623222245.png",
+    "_posts/project/2025-06-23-🧩 quiz-stream-service.md",
+    "assets/image/Pasted image 20250623222206.png",
+    "assets/image/Pasted image 20250623222119.png",
+    "assets/image/Pasted image 20250623222100.png",
+    "assets/image/Pasted image 20250623221951.png",
+    "assets/image/Pasted image 20250623221733.png",
+    "assets/image/Pasted image 20250623221613.png",
+    "assets/image/Pasted image 20250623221546.png",
+    "assets/image/Pasted image 20250623221048.png",
+    "_posts/project/2025-06-06-🏰 332-blokey-land-service.md",
+    "_posts/tech/2025-04-06-💎 Redis Caching.md",
     "_posts/trouble-shooting/2025-03-18-💥 MyBatis camelCase 처리.md",
     "_posts/tech/2025-04-17-💎 ELK · API Gateway · Logback 중앙 관리자 서버 구축.md",
-    "_posts/tech/2025-04-06-💎 Redis Caching.md",
-    "_posts/project/2025-06-06-🏰 332-blokey-land-service.md",
-    "assets/image/Pasted image 20250528023211.png",
-    "assets/image/Pasted image 20250531134519.png",
-    "assets/image/Pasted image 20250531134814.png",
-    "assets/image/Pasted image 20250531135456.png",
-    "assets/image/Pasted image 20250531140532.png",
-    "assets/image/Pasted image 20250531152906.png",
-    "assets/image/Pasted image 20250531153626.png",
-    "assets/image/Pasted image 20250531153640.png",
-    "assets/image/Pasted image 20250531153749.png",
-    "assets/image/Pasted image 20250531153825.png",
     "_private/profile/포트폴리오 · CineFinder - 영화 상영 정보 통합 검색 서비스.md",
     "_private/profile/포트폴리오 · SW-Capstone-Design.md",
     "_private/profile/김진형 · 이력서.md",
@@ -218,8 +220,6 @@
     "_posts/problem-solving/baekjoon/2025-04-21-🧩 Baekjoon 1011 - Fly me to the Alpha Centauri.md",
     "_posts/problem-solving/baekjoon/2025-06-16-🧩 Baekjoon 5086 - 배수와 약수.md",
     "_private/profile/상추 인프라 구축 매뉴얼 Ⅲ - AP 서버.md",
-    "_private/profile/생성형 AI 기반 이력서 및 포트폴리오 작성.md",
-    "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
     "_posts/project",
     "_posts/tech/elk",
     "_posts/tech/redis",
