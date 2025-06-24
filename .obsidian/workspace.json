@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/project/2025-06-23-🎈 quiz-stream-service.md",
+                "file": "_private/profile/포트폴리오 · QSTR.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-06-23-🎈 quiz-stream-service"
+              "title": "포트폴리오 · QSTR"
             }
           }
         ]
@@ -184,9 +184,16 @@
   },
   "active": "d780be68864bb63c",
   "lastOpenFiles": [
+    "_private/profile/경력기술서 · 네이버시스템(주) · 자바 웹 개발자.md",
     "_private/profile/김진형 · 이력서.md",
-    "_posts/project/2025-06-23-🎈 quiz-stream-service.md",
+    "_private/profile/포트폴리오 · QSTR.md",
+    "_private/profile/생성형 AI 기반 이력서 및 포트폴리오 작성.md",
+    "_private/profile/포트폴리오 · CineFinder - 영화 상영 정보 통합 검색 서비스.md",
+    "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
+    "_private/profile/상추 인프라 구축 매뉴얼 Ⅱ - DB 서버.md",
+    "_private/profile/포트폴리오 · SW-Capstone-Design.md",
     "_private/profile/상추 인프라 구축 매뉴얼 Ⅰ - OCI.md",
+    "_posts/project/2025-06-23-🎈 quiz-stream-service.md",
     "_private/profile/김진형 · 이력서 1.md",
     "assets/image/Pasted image 20250623222616.png",
     "assets/image/Pasted image 20250623222209.png",
@@ -202,24 +209,17 @@
     "_posts/tech/2025-04-06-💎 Redis Caching.md",
     "_posts/trouble-shooting/2025-03-18-💥 MyBatis camelCase 처리.md",
     "_posts/tech/2025-04-17-💎 ELK · API Gateway · Logback 중앙 관리자 서버 구축.md",
-    "_private/profile/포트폴리오 · CineFinder - 영화 상영 정보 통합 검색 서비스.md",
-    "_private/profile/포트폴리오 · SW-Capstone-Design.md",
     "_posts/problem-solving/baekjoon/2024-11-19-🧩 Baekjoon 1012 - 유기농 배추.md",
     "_posts/infra/2025-04-06-🚀 Raspberry Pi 서버에 프로젝트 배포.md",
     "_posts/security/2024-12-15-🪙 JWT 개념.md",
     "_posts/document/2024-11-04-🎨 UML 작성.md",
     "_posts/document/2024-12-14-🏷️ Jira 프로젝트 일정 관리.md",
-    "_private/profile/경력기술서 · 네이버시스템(주) · 자바 웹 개발자.md",
     "_posts/problem-solving/baekjoon/2025-06-16-🧩 Baekjoon 9506 - 약수들의 합.md",
     "_posts/problem-solving/baekjoon/2025-03-16-🧩 Baekjoon 1052 - 물병.md",
     "_posts/problem-solving/baekjoon/2025-03-17-🧩 Baekjoon □□□□ - N과 M(1 ~ 12).md",
     "_posts/problem-solving/baekjoon/2025-03-30-🧩 Baekjoon 2231 - 분해합.md",
     "_posts/problem-solving/baekjoon/2025-03-30-🧩 Baekjoon 2798 - 블랙잭.md",
     "_posts/problem-solving/baekjoon/2025-03-30-🧩 Beakjoon 2292 - 벌집.md",
-    "_posts/problem-solving/baekjoon/2025-04-17-🧩 Baekjoon 1068 - 트리.md",
-    "_posts/problem-solving/baekjoon/2025-06-15-🧩 Baekjoon 2720 - 세탁소 사장 동혁.md",
-    "_posts/problem-solving/baekjoon/2025-04-21-🧩 Baekjoon 1011 - Fly me to the Alpha Centauri.md",
-    "_posts/problem-solving/baekjoon/2025-06-16-🧩 Baekjoon 5086 - 배수와 약수.md",
     "_posts/project",
     "_posts/tech/elk",
     "_posts/tech/redis",
