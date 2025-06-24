@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/project/2025-06-23-🧩 quiz-stream-service.md",
+                "file": "_posts/project/2025-06-23-🎈 quiz-stream-service.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-06-23-🧩 quiz-stream-service"
+              "title": "2025-06-23-🎈 quiz-stream-service"
             }
           }
         ]
@@ -184,9 +184,10 @@
   },
   "active": "d780be68864bb63c",
   "lastOpenFiles": [
+    "_private/profile/김진형 · 이력서.md",
+    "_posts/project/2025-06-23-🎈 quiz-stream-service.md",
     "_private/profile/상추 인프라 구축 매뉴얼 Ⅰ - OCI.md",
     "_private/profile/김진형 · 이력서 1.md",
-    "_posts/project/2025-06-23-🧩 quiz-stream-service.md",
     "assets/image/Pasted image 20250623222616.png",
     "assets/image/Pasted image 20250623222209.png",
     "assets/image/Pasted image 20250623222245.png",
@@ -203,7 +204,6 @@
     "_posts/tech/2025-04-17-💎 ELK · API Gateway · Logback 중앙 관리자 서버 구축.md",
     "_private/profile/포트폴리오 · CineFinder - 영화 상영 정보 통합 검색 서비스.md",
     "_private/profile/포트폴리오 · SW-Capstone-Design.md",
-    "_private/profile/김진형 · 이력서.md",
     "_posts/problem-solving/baekjoon/2024-11-19-🧩 Baekjoon 1012 - 유기농 배추.md",
     "_posts/infra/2025-04-06-🚀 Raspberry Pi 서버에 프로젝트 배포.md",
     "_posts/security/2024-12-15-🪙 JWT 개념.md",
