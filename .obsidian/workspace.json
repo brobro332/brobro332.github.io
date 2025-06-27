@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/trouble-shooting/2025-06-25-💥MSA 환경에서 잘못된 회원가입 API 흐름으로 인한 문제.md",
+                "file": "_posts/project/2025-06-23-🎈 quiz-stream-service.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-06-25-💥MSA 환경에서 잘못된 회원가입 API 흐름으로 인한 문제"
+              "title": "2025-06-23-🎈 quiz-stream-service"
             }
           }
         ]
@@ -184,9 +184,9 @@
   },
   "active": "d780be68864bb63c",
   "lastOpenFiles": [
+    "_posts/trouble-shooting/2025-06-25-💥MSA 환경에서 잘못된 회원가입 API 흐름으로 인한 문제.md",
     "_posts/trouble-shooting/2025-03-21-💥 Swagger 클래스명 중복.md",
     "_posts/security/2024-12-15-🪙 JWT 개념.md",
-    "_posts/trouble-shooting/2025-06-25-💥MSA 환경에서 잘못된 회원가입 API 흐름으로 인한 문제.md",
     "_posts/trouble-shooting/2025-03-28-💥 Javascript URL Encoding.md",
     "_posts/trouble-shooting/2025-05-01-💥 LetsEncrypt SSL 인증서 발급 횟수 제한.md",
     "_private/profile/포트폴리오 · CineFinder - 영화 상영 정보 통합 검색 서비스.md",
