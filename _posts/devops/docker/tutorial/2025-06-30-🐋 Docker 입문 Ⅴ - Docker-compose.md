@@ -143,5 +143,5 @@ docker-compose -f C:\Users\유저명\com_folder\docker-compose.yml up --scale pe
 
 
 ### 회고
-- 책의 저자는 `Container`이름은 가급적 손대지 않는 것이 좋다고 하지만, 실제로 프로젝트를 진행하고 `Docker-compose` 파일을 통해 개발을 진행하다 보면, `Container` 이름을 변경하는 것이 훨씬 편했던 기억이 있다.
-- `Docker-compose`는 `Container` 이름을 임의대로 바꾸어 버리는데, 단순히 `Docker-compose`의 규칙을 따르는 것보다는 개발자가 직접 `Container` 이름을 설정하여 직접 제어하는 것이 올바르다고 생각한다.
+- 책의 저자는 `Container`이름은 가급적 손대지 않는 것이 좋다고 하지만, 실제로 프로젝트를 진행하고 `Docker-compose` 파일을 통해 개발을 진행하다 보면, `Container` 이름을 변경하는 것이 훨씬 유지 보수가 편했던 경험이 있다. 
+- `Docker-compose`는 `Container` 이름을 임의로 바꾸어 버리는데, 단순히 `Docker-compose`의 규칙을 따르는 것보다는 개발자가 `Container` 이름을 설정하여 직접 제어하는 것이 올바르다고 생각한다.
