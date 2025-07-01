@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/devops/docker/tutorial/2025-06-30-🐋 Docker 입문 Ⅴ - Docker-compose.md",
+                "file": "_posts/trouble-shooting/2025-06-29-💥 Spring Security와 CORS 문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-30-🐋 Docker 입문 Ⅴ - Docker-compose"
+              "title": "2025-06-29-💥 Spring Security와 CORS 문제"
             }
           }
         ],
@@ -199,10 +199,14 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
-    "_posts/devops/docker/tutorial/2025-05-07-🐋 Docker 입문 Ⅱ - 명령어 및 실습.md",
-    "_posts/devops/docker/tutorial/2025-06-30-🐋 Docker 입문 Ⅴ - Docker-compose.md",
-    "_posts/devops/docker/tutorial/2025-05-09-🐋 Docker 입문 Ⅲ - File과 Volume.md",
+    "_posts/tech/2025-04-17-💎 ELK · API Gateway · Logback 중앙 관리자 서버 구축.md",
+    "_posts/security/2024-12-15-🪙 JWT 개념.md",
     "_posts/devops/docker/tutorial/2025-05-09-🐋 Docker 입문 Ⅳ - Image와 DockerHub.md",
+    "_posts/devops/docker/tutorial/2025-06-30-🐋 Docker 입문 Ⅴ - Docker-compose.md",
+    "_posts/infra/2025-04-06-🚀 Raspberry Pi 서버에 프로젝트 배포.md",
+    "_posts/infra/2025-01-04-🚀 Ubuntu 서버에 프로젝트 배포.md",
+    "_posts/devops/docker/tutorial/2025-05-07-🐋 Docker 입문 Ⅱ - 명령어 및 실습.md",
+    "_posts/devops/docker/tutorial/2025-05-09-🐋 Docker 입문 Ⅲ - File과 Volume.md",
     "Excalidraw/Drawing 2025-06-29 22.38.05.excalidraw.md",
     "Excalidraw/Drawing 2025-06-29 21.45.18.excalidraw.md",
     "_posts/trouble-shooting/2025-06-29-💥 Spring Security와 CORS 문제.md",
@@ -211,7 +215,6 @@
     "assets/image/Pasted Image 20250629214644_200.png",
     "_posts/project/2025-06-23-🎈 quiz-stream-service.md",
     "_posts/trouble-shooting/2025-03-21-💥 Swagger 클래스명 중복.md",
-    "_posts/security/2024-12-15-🪙 JWT 개념.md",
     "_posts/trouble-shooting/2025-03-28-💥 Javascript URL Encoding.md",
     "_private/profile/포트폴리오 · CineFinder - 영화 상영 정보 통합 검색 서비스.md",
     "_private/profile/포트폴리오 · SW-Capstone-Design.md",
@@ -232,9 +235,6 @@
     "assets/image/Pasted image 20250623221951.png",
     "assets/image/Pasted image 20250623221733.png",
     "assets/image/Pasted image 20250623221613.png",
-    "_posts/project/2025-06-06-🏰 332-blokey-land-service.md",
-    "_posts/tech/2025-04-06-💎 Redis Caching.md",
-    "_posts/trouble-shooting/2025-03-18-💥 MyBatis camelCase 처리.md",
     "_posts/project",
     "_posts/tech/elk",
     "_posts/tech/redis",

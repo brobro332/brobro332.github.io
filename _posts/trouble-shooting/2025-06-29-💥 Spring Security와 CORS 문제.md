@@ -30,6 +30,6 @@ private boolean isOptionsRequest(ServerHttpRequest request) {
 - 커스텀 필터에서 위 메서드를 로직에 추가하였다.
 
 ### 회고
-- 브라우저가 `API` 요청에 대해 우선적으로 `OPTIONS` 메서드를 통해 `PRE-FLIGHT` 요청을 한다는 사실을 알게 되었다.
+- 브라우저가 `API` 요청에 대해 우선적으로 `OPTIONS` 메서드를 통해 `PREFLIGHT` 요청을 한다는 사실을 알게 되었다.
 - 그 외에도 `Gateway` 서버에서 `corsWebFilter`를 구현하면 각 서비스의 백엔드 서버에서는 `CORS`를 처리하지 않아도 된다는 사실을 알게 되었다.
-- 참고로 서버는 `PRE-FLIGHT` 요청과 실제 요청에 모두 `CORS` 헤더를 붙여서 응답해야 한다.
+- 참고로 서버는 `PREFLIGHT` 요청과 실제 요청에 모두 `CORS` 헤더를 붙여서 응답해야 한다.
