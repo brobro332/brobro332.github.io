@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/trouble-shooting/2025-06-29-💥 Spring Security와 CORS 문제.md",
-                "mode": "source",
+                "file": "_posts/devops/docker/tutorial/2025-07-03-🐋 Docker 입문 Ⅵ - Kubernetes.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-29-💥 Spring Security와 CORS 문제"
+              "title": "2025-07-03-🐋 Docker 입문 Ⅵ - Kubernetes"
             }
           }
         ],
@@ -199,17 +199,22 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
+    "_posts/devops/docker/tutorial/2025-06-30-🐋 Docker 입문 Ⅴ - Docker-compose.md",
+    "_posts/devops/docker/tutorial/2025-05-09-🐋 Docker 입문 Ⅳ - Image와 DockerHub.md",
+    "_posts/devops/docker/tutorial/2025-07-03-🐋 Docker 입문 Ⅵ - Kubernetes.md",
+    "_posts/java/design-pattern/2024-11-27-⛓️ Java Design-Pattern Ⅳ - Template Method.md",
+    "_posts/devops/docker/tutorial/2025-05-07-🐋 Docker 입문 Ⅱ - 명령어 및 실습.md",
+    "_posts/devops/docker/tutorial/2025-05-06-🐋 Docker 입문 Ⅰ - 개요.md",
+    "_posts/devops/docker/tutorial/2025-05-09-🐋 Docker 입문 Ⅲ - File과 Volume.md",
+    "_posts/devops/docker/practice/2025-01-19-🐳 Docker · Jenkins 도입을 통한 CI · CD Pipeline 구축.md",
+    "_posts/devops/docker/practice/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
+    "_posts/infra/2025-01-04-🚀 Ubuntu 서버에 프로젝트 배포.md",
+    "_posts/trouble-shooting/2025-06-29-💥 Spring Security와 CORS 문제.md",
     "_posts/tech/2025-04-17-💎 ELK · API Gateway · Logback 중앙 관리자 서버 구축.md",
     "_posts/security/2024-12-15-🪙 JWT 개념.md",
-    "_posts/devops/docker/tutorial/2025-05-09-🐋 Docker 입문 Ⅳ - Image와 DockerHub.md",
-    "_posts/devops/docker/tutorial/2025-06-30-🐋 Docker 입문 Ⅴ - Docker-compose.md",
     "_posts/infra/2025-04-06-🚀 Raspberry Pi 서버에 프로젝트 배포.md",
-    "_posts/infra/2025-01-04-🚀 Ubuntu 서버에 프로젝트 배포.md",
-    "_posts/devops/docker/tutorial/2025-05-07-🐋 Docker 입문 Ⅱ - 명령어 및 실습.md",
-    "_posts/devops/docker/tutorial/2025-05-09-🐋 Docker 입문 Ⅲ - File과 Volume.md",
     "Excalidraw/Drawing 2025-06-29 22.38.05.excalidraw.md",
     "Excalidraw/Drawing 2025-06-29 21.45.18.excalidraw.md",
-    "_posts/trouble-shooting/2025-06-29-💥 Spring Security와 CORS 문제.md",
     "_posts/trouble-shooting/2025-06-25-💥 MSA 환경에서 잘못된 회원가입 API 흐름으로 인한 문제.md",
     "_posts/trouble-shooting/2025-05-01-💥 LetsEncrypt SSL 인증서 발급 횟수 제한.md",
     "assets/image/Pasted Image 20250629214644_200.png",
@@ -221,11 +226,6 @@
     "_private/profile/포트폴리오 · QSTR.md",
     "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
     "_private/profile/경력기술서 · 네이버시스템(주) · 자바 웹 개발자.md",
-    "_private/profile/김진형 · 이력서.md",
-    "_private/profile/생성형 AI 기반 이력서 및 포트폴리오 작성.md",
-    "_private/profile/상추 인프라 구축 매뉴얼 Ⅱ - DB 서버.md",
-    "_private/profile/상추 인프라 구축 매뉴얼 Ⅰ - OCI.md",
-    "_private/profile/김진형 · 이력서 1.md",
     "assets/image/Pasted image 20250623222616.png",
     "assets/image/Pasted image 20250623222209.png",
     "assets/image/Pasted image 20250623222245.png",
