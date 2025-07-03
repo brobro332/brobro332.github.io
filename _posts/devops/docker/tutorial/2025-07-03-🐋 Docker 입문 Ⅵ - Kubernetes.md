@@ -141,7 +141,7 @@ tags:
 ### `POD`의 `Manifest File` 작성
 - 실제로는 `POD`의 `Manifest File`을 작성하는 경우는 드물다.
 
-```bash
+```yml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -158,6 +158,7 @@ spec:
 
 
 ### `Deployment`의 `Manifest File` 작성
+
 ```yml
 apiVersion: apps/v1
 kind: Deployment
@@ -182,7 +183,8 @@ spec:
 
 
 ### `Service`의 `Manifest File` 작성
-```bash
+
+```yml
 apiVersion: v1
 kind: Service
 metadata:
