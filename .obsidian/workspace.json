@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/trouble-shooting/2025-07-12-💥Testcontainers 컨테이너 반복 생성 문제.md",
+                "file": "_posts/trouble-shooting/2025-07-12-💥 Testcontainers 컨테이너 반복 생성 문제.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-07-12-💥Testcontainers 컨테이너 반복 생성 문제"
+              "title": "2025-07-12-💥 Testcontainers 컨테이너 반복 생성 문제"
             }
           }
         ],
@@ -200,7 +200,7 @@
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
     "_private/profile/332-blokey-land-service 계획.md",
-    "_posts/trouble-shooting/2025-07-12-💥Testcontainers 컨테이너 반복 생성 문제.md",
+    "_posts/trouble-shooting/2025-07-12-💥 Testcontainers 컨테이너 반복 생성 문제.md",
     "_private/profile/면접 준비 - 경력기술서.md",
     "_private/profile/면접 준비 - 공고.md",
     "_private/profile/면접 준비 - 퀴즈 스트리밍 서비스.md",

@@ -1,6 +1,6 @@
 ---
 title: 💥 Testcontainers 컨테이너 반복 생성 문제
-date: 2025-07-12 22:36:00 +0900
+date: 2025-07-12 22:11:00 +0900
 categories:
   - Trouble-Shooting
 tags:
