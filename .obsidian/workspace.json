@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d780be68864bb63c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/trouble-shooting/2025-06-29-💥Spring Security와 CORS 문제.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2025-06-29-💥Spring Security와 CORS 문제"
-            }
-          },
-          {
             "id": "711da87d9c319ab4",
             "type": "leaf",
             "state": {
@@ -29,14 +15,27 @@
               "state": {
                 "file": "_posts/project/2025-07-15-🏰 332-blokey-land-service.md",
                 "mode": "source",
-                "source": false
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2025-07-15-🏰 332-blokey-land-service"
+            }
+          },
+          {
+            "id": "0a27ec9f7d61fd9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/project/2025-07-15-🏰 332-blokey-land-service.md",
+                "mode": "source",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "2025-07-15-🏰 332-blokey-land-service"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 311.5
   },
   "right": {
     "id": "9ab84f5180294dfa",
@@ -200,8 +199,8 @@
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
     "_private/profile/포트폴리오 · Blokey-Land.md",
-    "_private/profile/2025-07-15-🏰 332-blokey-land-service 1.md",
     "_posts/project/2025-07-15-🏰 332-blokey-land-service.md",
+    "_private/profile/2025-07-15-🏰 332-blokey-land-service 1.md",
     "_posts/project/2025-06-23-🎈 quiz-stream-service.md",
     "assets/image/Pasted image 20250715220707.png",
     "assets/image/Pasted image 20250715215110.png",
