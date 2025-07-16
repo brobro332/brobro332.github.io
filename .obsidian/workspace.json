@@ -25,14 +25,14 @@
             "id": "711da87d9c319ab4",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "_posts/project/2025-07-15-🏰 332-blokey-land-service.md",
-                "bFile": "_posts/project/2025-07-15-🏰 332-blokey-land-service.md",
-                "aRef": ""
+                "file": "_posts/project/2025-07-15-🏰 332-blokey-land-service.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 2025-07-15-🏰 332-blokey-land-service"
+              "icon": "lucide-file",
+              "title": "2025-07-15-🏰 332-blokey-land-service"
             }
           }
         ],
@@ -199,12 +199,14 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
+    "_private/profile/포트폴리오 · Blokey-Land.md",
+    "_private/profile/2025-07-15-🏰 332-blokey-land-service 1.md",
     "_posts/project/2025-07-15-🏰 332-blokey-land-service.md",
+    "_posts/project/2025-06-23-🎈 quiz-stream-service.md",
     "assets/image/Pasted image 20250715220707.png",
     "assets/image/Pasted image 20250715215110.png",
     "assets/image/Pasted image 20250715214507.png",
     "assets/image/Pasted image 20250715212713.png",
-    "_posts/project/2025-06-23-🎈 quiz-stream-service.md",
     "assets/image/Pasted image 20250715210836.png",
     "_private/profile/332-blokey-land-service 계획 2.md",
     "_private/profile/332-blokey-land-service 계획 1.md",
@@ -218,7 +220,6 @@
     "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
     "_private/profile/상추 인프라 구축 매뉴얼 Ⅲ - AP 서버.md",
     "_private/profile/김진형 · 이력서.md",
-    "_private/profile/포트폴리오 · Blokey-Land.md",
     "_posts/trouble-shooting/2025-07-12-💥 Testcontainers 컨테이너 반복 생성 문제.md",
     "_private/profile/면접 준비 - 경력기술서.md",
     "_private/profile/면접 준비 - 공고.md",

@@ -9,8 +9,8 @@ tags:
 ![](/assets/image/Pasted%20image%2020250715201843.png)
 
 ### 개요
-- 프로젝트, 태스크, 마일스톤을 통합적으로 관리할 수 있는 서비스입니다.
-- 데이터를 시각화하여 프로젝트 현황을 쉽게 파악할 수 있습니다.
+- 프로젝트, 태스크, 마일스톤을 통합적으로 관리할 수 있는 서비스
+- 데이터를 시각화하여 프로젝트 현황을 쉽게 파악할 수 있다.
 
 
 ###  **개발 기간**
@@ -197,6 +197,28 @@ void givenBlokeyId_whenFindProjectsWithTasksByBlokeyId_thenReturnsProjectsWithTa
 - 상태를 `props`로만 전달하는 구조는 깊어지면 관리가 어려워 진다는 점을 알게 되었다.
 - 추후 `Context`, `Redux` 같은 패턴을 적극적으로 도입할 예정이다.
 
+#### ✅ `Testcontainers` 컨테이너를 공유하지 못하고 재생성하는 문제 
+
+```java
+@Testcontainers 
+public abstract class ContainerBaseTest { 
+	@Container 
+	static PostgreSQLContainer<?> postgresContainer = new PostgreSQLContainer<>("postgres:15-alpine"); 
+	
+	@DynamicPropertySource 
+	static void overrideProps(DynamicPropertyRegistry registry) { 
+		registry.add("spring.datasource.url", postgresContainer::getJdbcUrl);
+		registry.add("spring.datasource.username", postgresContainer::getUsername);
+		registry.add("spring.datasource.password", postgresContainer::getPassword);
+		registry.add("file.upload-dir", () -> "/test-uploads"); 
+	} 
+}
+```
+- 처음에는 `@Container` `Annotation`을 사용하여 위와 같은 클래스를 상속받아 해당 컨테이너의 라이프 사이클을 관리했다.
+- 그런데 `@Testcontainers` 컨테이너를 공유하지 못하고 해당 클래스를 상속 받는 자식 클래스 개수 만큼 컨테이너 재생성을 시도하는 문제가 발생했다.
+- 컨테이너를 자식 클래스 개수 만큼 재생성하면, 리소스도 크고 실제로 컨테이너 생성 시간 때문에 `DB` 연결 문제로 테스트도 실패했다.
+- `@Container` `Annotation`을 없애고, 싱글톤 방식으로 컨테이너를 관리하며 수동으로 컨테이너를 생성하여 문제를 해결하였다.
+
 
 ### 향후 계획
 #### ✅ 프로젝트와 멤버 매칭 기능 추가
@@ -206,6 +228,10 @@ void givenBlokeyId_whenFindProjectsWithTasksByBlokeyId_thenReturnsProjectsWithTa
 #### ✅ 기존 기능 최적화
 - 아직 양방향으로 연관 관계를 전환해야 할 도메인 관계가 남아있다.
 - 아울러 도메인 연관 관계 전환에 따른 프론트엔드의 화면 구성과 벡엔드의 쿼리를 최적화할 예정이다.
+
+#### ✅ 디자인
+- 초기에는 사용자에게 친근한 인상을 주기 위해 `Blokey-Land`라는 네이밍과 감성적인 디자인을 적용했으나, 사이트에 처음 방문하는 사용자가 서비스 목적을 직관적으로 이해하기 어려울 것 같다는 생각이 들었다.
+- 보다 전문적이고 모던한 느낌의 디자인으로 리디자인을 진행하여 서비스의 목적과 기능을 명확히 전달하고자 한다.
 
 
 ### `GitHub Link`
