@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "_posts/project/2025-07-15-🏰 332-blokey-land-service.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -35,7 +35,8 @@
               "title": "2025-07-15-🏰 332-blokey-land-service"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,9 +197,27 @@
       "markdown-importer:마크다운 형식 불러오기 열기": false
     }
   },
-  "active": "711da87d9c319ab4",
+  "active": "0a27ec9f7d61fd9b",
   "lastOpenFiles": [
+    "_posts/devops/docker/practice/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
+    "_private/profile/포트폴리오 · QSTR.md",
+    "_private/profile/포트폴리오 · CineFinder - 영화 상영 정보 통합 검색 서비스.md",
     "_private/profile/포트폴리오 · Blokey-Land.md",
+    "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
+    "_private/profile/332-blokey-land-service 계획 2.md",
+    "_private/profile/환인제약.md",
+    "_posts/trouble-shooting/2025-07-12-💥 Testcontainers 컨테이너 반복 생성 문제.md",
+    "_private/profile/B2B.md",
+    "_private/profile/태웅로직스.md",
+    "_private/profile/지원서.md",
+    "_private/profile/김진형 · 이력서.md",
+    "_private/profile/생성형 AI 기반 이력서 및 포트폴리오 작성.md",
+    "_private/profile/경력기술서 · 네이버시스템(주) · 자바 웹 개발자.md",
+    "_private/profile/면접 준비 - 공고.md",
+    "_private/profile/면접 준비 - 영화 상영 정보 서비스.md",
+    "_private/profile/면접 준비 - 경력기술서.md",
+    "_private/profile/상추 인프라 구축 매뉴얼 Ⅱ - DB 서버.md",
+    "_private/profile/면접 준비 - 퀴즈 스트리밍 서비스.md",
     "_posts/project/2025-07-15-🏰 332-blokey-land-service.md",
     "_private/profile/2025-07-15-🏰 332-blokey-land-service 1.md",
     "_posts/project/2025-06-23-🎈 quiz-stream-service.md",
@@ -207,33 +226,15 @@
     "assets/image/Pasted image 20250715214507.png",
     "assets/image/Pasted image 20250715212713.png",
     "assets/image/Pasted image 20250715210836.png",
-    "_private/profile/332-blokey-land-service 계획 2.md",
     "_private/profile/332-blokey-land-service 계획 1.md",
     "assets/image/Pasted image 20250715201843.png",
     "assets/image/logo_1.png",
     "assets/image/Pasted Image 20250629214644_200.png",
     "assets/image/Pasted image 20250623222616.png",
     "assets/image/Pasted image 20250601135952.png",
-    "_private/profile/지원서.md",
-    "_private/profile/경력기술서 · 네이버시스템(주) · 자바 웹 개발자.md",
-    "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
     "_private/profile/상추 인프라 구축 매뉴얼 Ⅲ - AP 서버.md",
-    "_private/profile/김진형 · 이력서.md",
-    "_posts/trouble-shooting/2025-07-12-💥 Testcontainers 컨테이너 반복 생성 문제.md",
-    "_private/profile/면접 준비 - 경력기술서.md",
-    "_private/profile/면접 준비 - 공고.md",
-    "_private/profile/면접 준비 - 퀴즈 스트리밍 서비스.md",
-    "_private/profile/면접 준비 - 영화 상영 정보 서비스.md",
-    "_private/profile/포트폴리오 · CineFinder - 영화 상영 정보 통합 검색 서비스.md",
     "_private/profile/포트폴리오 · SW-Capstone-Design.md",
-    "_private/profile/생성형 AI 기반 이력서 및 포트폴리오 작성.md",
     "_posts/trouble-shooting/2025-06-29-💥 Spring Security와 CORS 문제.md",
-    "_posts/trouble-shooting/2025-06-25-💥 MSA 환경에서 잘못된 회원가입 API 흐름으로 인한 문제.md",
-    "_posts/devops/docker/tutorial/2025-07-03-🐋 Docker 입문 Ⅵ - Kubernetes.md",
-    "_posts/devops/docker/tutorial/2025-06-30-🐋 Docker 입문 Ⅴ - Docker-compose.md",
-    "_posts/devops/docker/tutorial/2025-05-09-🐋 Docker 입문 Ⅳ - Image와 DockerHub.md",
-    "_posts/java/design-pattern/2024-11-27-⛓️ Java Design-Pattern Ⅳ - Template Method.md",
-    "_posts/devops/docker/tutorial/2025-05-07-🐋 Docker 입문 Ⅱ - 명령어 및 실습.md",
     "_posts/project",
     "_posts/tech/elk",
     "_posts/tech/redis",
