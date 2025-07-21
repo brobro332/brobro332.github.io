@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/project/2025-06-23-🎈 quiz-stream-service.md",
+                "file": "_posts/problem-solving/baekjoon/2025-07-21-🧩 Baekjoon 2581 - 소수.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-06-23-🎈 quiz-stream-service"
+              "title": "2025-07-21-🧩 Baekjoon 2581 - 소수"
             }
           }
         ],
@@ -199,8 +199,14 @@
   },
   "active": "0a27ec9f7d61fd9b",
   "lastOpenFiles": [
-    "_posts/devops/docker/practice/2025-01-19-🐳 Docker · Jenkins 도입을 통한 CI · CD Pipeline 구축.md",
+    "_posts/problem-solving/baekjoon/2025-04-17-🧩 Baekjoon 1068 - 트리.md",
+    "_posts/problem-solving/baekjoon/2025-06-15-🧩 Baekjoon 2903 - 중앙 이동 알고리즘.md",
+    "_posts/problem-solving/baekjoon/2025-06-16-🧩 Baekjoon 9506 - 약수들의 합.md",
+    "_posts/problem-solving/baekjoon/2025-07-21-🧩 Baekjoon 2581 - 소수.md",
     "_private/profile/332-blokey-land-service 계획 2.md",
+    "_private/profile/김진형 · 이력서.md",
+    "_posts/project/2025-06-23-🎈 quiz-stream-service.md",
+    "_posts/devops/docker/practice/2025-01-19-🐳 Docker · Jenkins 도입을 통한 CI · CD Pipeline 구축.md",
     "_posts/project/2025-07-15-🏰 332-blokey-land-service.md",
     "_posts/devops/docker/practice/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
     "_private/profile/포트폴리오 · QSTR.md",
@@ -212,7 +218,6 @@
     "_private/profile/B2B.md",
     "_private/profile/태웅로직스.md",
     "_private/profile/지원서.md",
-    "_private/profile/김진형 · 이력서.md",
     "_private/profile/생성형 AI 기반 이력서 및 포트폴리오 작성.md",
     "_private/profile/경력기술서 · 네이버시스템(주) · 자바 웹 개발자.md",
     "_private/profile/면접 준비 - 공고.md",
@@ -220,21 +225,16 @@
     "_private/profile/면접 준비 - 경력기술서.md",
     "_private/profile/상추 인프라 구축 매뉴얼 Ⅱ - DB 서버.md",
     "_private/profile/면접 준비 - 퀴즈 스트리밍 서비스.md",
-    "_private/profile/2025-07-15-🏰 332-blokey-land-service 1.md",
-    "_posts/project/2025-06-23-🎈 quiz-stream-service.md",
     "assets/image/Pasted image 20250715220707.png",
     "assets/image/Pasted image 20250715215110.png",
     "assets/image/Pasted image 20250715214507.png",
     "assets/image/Pasted image 20250715212713.png",
     "assets/image/Pasted image 20250715210836.png",
-    "_private/profile/332-blokey-land-service 계획 1.md",
     "assets/image/Pasted image 20250715201843.png",
     "assets/image/logo_1.png",
     "assets/image/Pasted Image 20250629214644_200.png",
     "assets/image/Pasted image 20250623222616.png",
     "assets/image/Pasted image 20250601135952.png",
-    "_private/profile/상추 인프라 구축 매뉴얼 Ⅲ - AP 서버.md",
-    "_private/profile/포트폴리오 · SW-Capstone-Design.md",
     "_posts/project",
     "_posts/tech/elk",
     "_posts/tech/redis",
