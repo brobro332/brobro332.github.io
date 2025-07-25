@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/problem-solving/baekjoon/2025-07-21-🧩 Baekjoon 2581 - 소수.md",
+                "file": "_private/profile/태웅로직스.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-07-21-🧩 Baekjoon 2581 - 소수"
+              "title": "태웅로직스"
+            }
+          },
+          {
+            "id": "8f171f9603f76572",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/project/2025-06-23-🎈 quiz-stream-service.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-06-23-🎈 quiz-stream-service"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -197,34 +211,34 @@
       "markdown-importer:마크다운 형식 불러오기 열기": false
     }
   },
-  "active": "0a27ec9f7d61fd9b",
+  "active": "8f171f9603f76572",
   "lastOpenFiles": [
-    "_posts/problem-solving/baekjoon/2025-04-17-🧩 Baekjoon 1068 - 트리.md",
-    "_posts/problem-solving/baekjoon/2025-06-15-🧩 Baekjoon 2903 - 중앙 이동 알고리즘.md",
-    "_posts/problem-solving/baekjoon/2025-06-16-🧩 Baekjoon 9506 - 약수들의 합.md",
     "_posts/problem-solving/baekjoon/2025-07-21-🧩 Baekjoon 2581 - 소수.md",
-    "_private/profile/332-blokey-land-service 계획 2.md",
-    "_private/profile/김진형 · 이력서.md",
-    "_posts/project/2025-06-23-🎈 quiz-stream-service.md",
-    "_posts/devops/docker/practice/2025-01-19-🐳 Docker · Jenkins 도입을 통한 CI · CD Pipeline 구축.md",
-    "_posts/project/2025-07-15-🏰 332-blokey-land-service.md",
-    "_posts/devops/docker/practice/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
-    "_private/profile/포트폴리오 · QSTR.md",
-    "_private/profile/포트폴리오 · CineFinder - 영화 상영 정보 통합 검색 서비스.md",
-    "_private/profile/포트폴리오 · Blokey-Land.md",
-    "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
-    "_private/profile/환인제약.md",
+    "_posts/trouble-shooting/2025-03-18-💥 MyBatis camelCase 처리.md",
+    "_posts/trouble-shooting/2025-03-21-💥 Swagger 클래스명 중복.md",
+    "_posts/trouble-shooting/2025-03-28-💥 Javascript URL Encoding.md",
+    "_posts/trouble-shooting/2025-05-01-💥 LetsEncrypt SSL 인증서 발급 횟수 제한.md",
+    "_posts/security/2024-12-15-🪙 JWT 개념.md",
+    "_posts/trouble-shooting/2025-06-25-💥 MSA 환경에서 잘못된 회원가입 API 흐름으로 인한 문제.md",
+    "_posts/trouble-shooting/2025-06-29-💥 Spring Security와 CORS 문제.md",
     "_posts/trouble-shooting/2025-07-12-💥 Testcontainers 컨테이너 반복 생성 문제.md",
-    "_private/profile/B2B.md",
+    "_private/profile/현대이지웰 1.md",
     "_private/profile/태웅로직스.md",
-    "_private/profile/지원서.md",
-    "_private/profile/생성형 AI 기반 이력서 및 포트폴리오 작성.md",
-    "_private/profile/경력기술서 · 네이버시스템(주) · 자바 웹 개발자.md",
-    "_private/profile/면접 준비 - 공고.md",
+    "_private/profile/환인제약.md",
+    "_private/profile/현대이지웰.md",
+    "_private/profile/태웅로직스 프로토타입.md",
+    "_private/profile/B2B.md",
+    "_private/profile/상추 인프라 구축 매뉴얼 Ⅰ - OCI.md",
     "_private/profile/면접 준비 - 영화 상영 정보 서비스.md",
+    "_private/profile/332-blokey-land-service 계획 2.md",
+    "_private/profile/경력기술서 · 네이버시스템(주) · 자바 웹 개발자.md",
     "_private/profile/면접 준비 - 경력기술서.md",
+    "_private/profile/김진형 · 이력서.md",
+    "_private/profile/면접 준비 - 공고.md",
+    "_private/profile/생성형 AI 기반 이력서 및 포트폴리오 작성.md",
+    "_private/profile/지원서.md",
+    "_private/profile/상추 인프라 구축 매뉴얼 Ⅲ - AP 서버.md",
     "_private/profile/상추 인프라 구축 매뉴얼 Ⅱ - DB 서버.md",
-    "_private/profile/면접 준비 - 퀴즈 스트리밍 서비스.md",
     "assets/image/Pasted image 20250715220707.png",
     "assets/image/Pasted image 20250715215110.png",
     "assets/image/Pasted image 20250715214507.png",
