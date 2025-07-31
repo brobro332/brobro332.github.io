@@ -18,7 +18,7 @@ tags:
 - 자바 바이트 코드(`.class` 파일)를 `JVM`에서 실행
 - `JVM`(`Java Virtual Machine`)이 중간에서 바이트 코드를 실행해 주기 때문에 `OS`에 상관없이 실행 가능
 
-#### 자동 메모리 관리 (`Garbage Collection`)
+#### 자동 메모리 관리(`Garbage Collection`)
 - 메모리 관리를 `JVM`이 자동으로 처리해 개발자는 메모리 해제에 신경 쓰지 않아도 된다.
 - 덕분에 메모리 누수 같은 오류 가능성이 줄어든다.
 

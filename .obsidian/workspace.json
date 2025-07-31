@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/computer-science/2025-07-31-⚡Cookie와 Session의 차이.md",
+                "file": "_posts/computer-science/2025-07-31-⚡ Document Object Model.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-07-31-⚡Cookie와 Session의 차이"
+              "title": "2025-07-31-⚡ Document Object Model"
             }
           },
           {
@@ -212,11 +212,14 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
-    "_posts/computer-science/2025-07-31-⚡ Java의 특징과 SOLID 원칙.md",
     "_posts/computer-science/2025-07-31-⚡ HTML과 XML의 차이점.md",
+    "_posts/computer-science/2025-07-31-⚡정렬 알고리즘 - 퀵정렬, 병합정렬, 힙정렬.md",
+    "_posts/computer-science/2025-07-31-⚡ Java의 특징과 SOLID 원칙.md",
     "_posts/computer-science/2025-07-31-⚡ Document Object Model.md",
+    "_posts/infra/2025-01-04-🚀 Ubuntu 서버에 프로젝트 배포.md",
+    "_posts/computer-science/algorithm/2025-07-31-⚡Cookie와 Session의 차이 1.md",
+    "_posts/computer-science/algorithm",
     "_posts/computer-science/무제.md",
-    "_posts/computer-science/2025-07-31-⚡Cookie와 Session의 차이.md",
     "_posts/problem-solving/baekjoon/2024-11-18-🧩 Baekjoon 30802 - 웰컴 키트.md",
     "_posts/tech/2025-04-05-💎 Websocket - STOMP 채팅 서버 구축.md",
     "_posts/project/2025-07-15-🏰 332-blokey-land-service.md",
@@ -237,8 +240,6 @@
     "_posts/problem-solving/baekjoon/2025-06-15-🧩 Baekjoon 2903 - 중앙 이동 알고리즘.md",
     "_posts/problem-solving/baekjoon/2025-06-16-🧩 Baekjoon 5086 - 배수와 약수.md",
     "_posts/problem-solving/baekjoon/2025-06-16-🧩 Baekjoon 9506 - 약수들의 합.md",
-    "_posts/problem-solving/baekjoon/2025-07-21-🧩 Baekjoon 2581 - 소수.md",
-    "_posts/problem-solving/baekjoon/2025-07-30-🧩 Baekjoon 11653 - 소인수분해.md",
     "assets/image/Pasted image 20250715220707.png",
     "assets/image/Pasted image 20250715215110.png",
     "assets/image/Pasted image 20250715214507.png",
@@ -256,7 +257,6 @@
     "_posts/tech",
     "_posts/trouble-shooting",
     "_posts/lib",
-    "_posts/infra",
-    "_posts/devops"
+    "_posts/infra"
   ]
 }
