@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/computer-science/2025-07-31-⚡정렬 알고리즘 - 퀵정렬, 병합정렬, 힙정렬.md",
+                "file": "_posts/problem-solving/baekjoon/2025-07-31-🧩 Baekjoon 15829 - Hashing.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-07-31-⚡정렬 알고리즘 - 퀵정렬, 병합정렬, 힙정렬"
+              "title": "2025-07-31-🧩 Baekjoon 15829 - Hashing"
             }
           },
           {
@@ -212,8 +212,13 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
-    "_posts/computer-science/2025-07-31-⚡ HTML과 XML의 차이점.md",
+    "assets/image/Pasted image 20250731194824.png",
+    "assets/image/Pasted image 20250731194737.png",
+    "_posts/problem-solving/baekjoon/2025-07-30-🧩 Baekjoon 11653 - 소인수분해.md",
+    "_posts/problem-solving/baekjoon/2025-07-21-🧩 Baekjoon 2581 - 소수.md",
+    "_posts/problem-solving/baekjoon/2025-07-31-🧩 Baekjoon 15829 - Hashing.md",
     "_posts/computer-science/2025-07-31-⚡정렬 알고리즘 - 퀵정렬, 병합정렬, 힙정렬.md",
+    "_posts/computer-science/2025-07-31-⚡ HTML과 XML의 차이점.md",
     "_posts/computer-science/2025-07-31-⚡ Document Object Model.md",
     "_posts/computer-science/2025-07-31-⚡ Java의 특징과 SOLID 원칙.md",
     "_posts/infra/2025-01-04-🚀 Ubuntu 서버에 프로젝트 배포.md",
@@ -236,10 +241,6 @@
     "_private/profile/김진형 · 이력서.md",
     "_posts/problem-solving/baekjoon/2025-06-01-🧩 Baekjoon 5671 - 호텔 방 번호.md",
     "_posts/problem-solving/baekjoon/2025-06-15-🧩 Baekjoon 2720 - 세탁소 사장 동혁.md",
-    "_posts/problem-solving/baekjoon/2025-06-15-🧩 Baekjoon 2869 - 달팽이는 올라가고 싶다.md",
-    "_posts/problem-solving/baekjoon/2025-06-15-🧩 Baekjoon 2903 - 중앙 이동 알고리즘.md",
-    "_posts/problem-solving/baekjoon/2025-06-16-🧩 Baekjoon 5086 - 배수와 약수.md",
-    "_posts/problem-solving/baekjoon/2025-06-16-🧩 Baekjoon 9506 - 약수들의 합.md",
     "assets/image/Pasted image 20250715220707.png",
     "assets/image/Pasted image 20250715215110.png",
     "assets/image/Pasted image 20250715214507.png",
@@ -249,7 +250,6 @@
     "assets/image/logo_1.png",
     "assets/image/Pasted Image 20250629214644_200.png",
     "assets/image/Pasted image 20250623222616.png",
-    "assets/image/Pasted image 20250601135952.png",
     "_posts/project",
     "_posts/tech/elk",
     "_posts/tech/redis",
