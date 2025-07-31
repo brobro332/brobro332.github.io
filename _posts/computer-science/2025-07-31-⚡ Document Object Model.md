@@ -5,8 +5,7 @@ categories:
   - computer-science
 tags:
   - computer-science
-  - Cookie
-  - Session
+  - Dom
 ---
 
 #### 개요
