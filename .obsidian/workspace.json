@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/computer-science/2025-07-31-⚡ HTML과 XML의 차이점.md",
+                "file": "_posts/computer-science/2025-07-31-⚡ Java의 특징과 SOLID 원칙.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-07-31-⚡ HTML과 XML의 차이점"
+              "title": "2025-07-31-⚡ Java의 특징과 SOLID 원칙"
             }
           },
           {
@@ -212,8 +212,8 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
-    "_posts/computer-science/2025-07-31-⚡ Java의 특징과 SOLID 원칙.md",
     "_posts/computer-science/2025-07-31-⚡ HTML과 XML의 차이점.md",
+    "_posts/computer-science/2025-07-31-⚡ Java의 특징과 SOLID 원칙.md",
     "_posts/problem-solving/baekjoon/2024-11-18-🧩 Baekjoon 30802 - 웰컴 키트.md",
     "_posts/tech/2025-04-05-💎 Websocket - STOMP 채팅 서버 구축.md",
     "_posts/project/2025-07-15-🏰 332-blokey-land-service.md",
