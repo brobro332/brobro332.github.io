@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/computer-science/2025-07-31-⚡ Document Object Model.md",
+                "file": "_posts/computer-science/2025-07-31-⚡정렬 알고리즘 - 퀵정렬, 병합정렬, 힙정렬.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-07-31-⚡ Document Object Model"
+              "title": "2025-07-31-⚡정렬 알고리즘 - 퀵정렬, 병합정렬, 힙정렬"
             }
           },
           {
@@ -214,8 +214,8 @@
   "lastOpenFiles": [
     "_posts/computer-science/2025-07-31-⚡ HTML과 XML의 차이점.md",
     "_posts/computer-science/2025-07-31-⚡정렬 알고리즘 - 퀵정렬, 병합정렬, 힙정렬.md",
-    "_posts/computer-science/2025-07-31-⚡ Java의 특징과 SOLID 원칙.md",
     "_posts/computer-science/2025-07-31-⚡ Document Object Model.md",
+    "_posts/computer-science/2025-07-31-⚡ Java의 특징과 SOLID 원칙.md",
     "_posts/infra/2025-01-04-🚀 Ubuntu 서버에 프로젝트 배포.md",
     "_posts/computer-science/algorithm/2025-07-31-⚡Cookie와 Session의 차이 1.md",
     "_posts/computer-science/algorithm",
