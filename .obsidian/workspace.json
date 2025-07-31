@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/project/2025-07-15-🏰 332-blokey-land-service.md",
-                "mode": "preview",
+                "file": "_posts/computer-science/2025-07-31-⚡ HTML과 XML의 차이점.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-07-15-🏰 332-blokey-land-service"
+              "title": "2025-07-31-⚡ HTML과 XML의 차이점"
             }
           },
           {
@@ -41,16 +41,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/problem-solving/baekjoon/2025-06-01-🧩 Baekjoon 5671 - 호텔 방 번호.md",
+                "file": "_private/profile/면접 질문 통합.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-01-🧩 Baekjoon 5671 - 호텔 방 번호"
+              "title": "면접 질문 통합"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,8 +210,25 @@
       "markdown-importer:마크다운 형식 불러오기 열기": false
     }
   },
-  "active": "8f171f9603f76572",
+  "active": "711da87d9c319ab4",
   "lastOpenFiles": [
+    "_posts/computer-science/2025-07-31-⚡ Java의 특징과 SOLID 원칙.md",
+    "_posts/computer-science/2025-07-31-⚡ HTML과 XML의 차이점.md",
+    "_posts/problem-solving/baekjoon/2024-11-18-🧩 Baekjoon 30802 - 웰컴 키트.md",
+    "_posts/tech/2025-04-05-💎 Websocket - STOMP 채팅 서버 구축.md",
+    "_posts/project/2025-07-15-🏰 332-blokey-land-service.md",
+    "_posts/computer-science",
+    "_private/profile/면접 질문 통합.md",
+    "_private/profile/태웅로직스 프로토타입.md",
+    "_private/profile/태웅로직스.md",
+    "_private/profile/생성형 AI 기반 이력서 및 포트폴리오 작성.md",
+    "_private/profile/포트폴리오 · SW-Capstone-Design.md",
+    "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
+    "_private/profile/포트폴리오 · CineFinder - 영화 상영 정보 통합 검색 서비스.md",
+    "_private/profile/면접 준비 - 영화 상영 정보 서비스.md",
+    "_private/profile/면접 준비 - 공고.md",
+    "_private/profile/김진형 · 이력서.md",
+    "_posts/problem-solving/baekjoon/2025-06-01-🧩 Baekjoon 5671 - 호텔 방 번호.md",
     "_posts/problem-solving/baekjoon/2025-06-15-🧩 Baekjoon 2720 - 세탁소 사장 동혁.md",
     "_posts/problem-solving/baekjoon/2025-06-15-🧩 Baekjoon 2869 - 달팽이는 올라가고 싶다.md",
     "_posts/problem-solving/baekjoon/2025-06-15-🧩 Baekjoon 2903 - 중앙 이동 알고리즘.md",
@@ -220,25 +236,9 @@
     "_posts/problem-solving/baekjoon/2025-06-16-🧩 Baekjoon 9506 - 약수들의 합.md",
     "_posts/problem-solving/baekjoon/2025-07-21-🧩 Baekjoon 2581 - 소수.md",
     "_posts/problem-solving/baekjoon/2025-07-30-🧩 Baekjoon 11653 - 소인수분해.md",
-    "_private/profile/면접 질문 통합.md",
-    "_private/profile/태웅로직스.md",
     "_private/profile/지원서.md",
-    "_private/profile/김진형 · 이력서.md",
     "_private/profile/면접 준비 - 퀴즈 스트리밍 서비스.md",
-    "_private/profile/면접 준비 - 공고.md",
-    "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
     "_private/profile/환인제약.md",
-    "_private/profile/현대이지웰.md",
-    "_private/profile/포트폴리오 · SW-Capstone-Design.md",
-    "_private/profile/332-blokey-land-service 계획 2.md",
-    "_private/profile/태웅로직스 프로토타입.md",
-    "_posts/project/2025-06-23-🎈 quiz-stream-service.md",
-    "_private/profile/경력기술서 · 네이버시스템(주) · 자바 웹 개발자.md",
-    "_private/profile/면접 준비 - 경력기술서.md",
-    "_private/profile/포트폴리오 · CineFinder - 영화 상영 정보 통합 검색 서비스.md",
-    "_private/profile/포트폴리오 · Blokey-Land.md",
-    "_posts/trouble-shooting/2025-03-18-💥 MyBatis camelCase 처리.md",
-    "_private/profile/현대이지웰 1.md",
     "assets/image/Pasted image 20250715220707.png",
     "assets/image/Pasted image 20250715215110.png",
     "assets/image/Pasted image 20250715214507.png",
@@ -257,7 +257,6 @@
     "_posts/trouble-shooting",
     "_posts/lib",
     "_posts/infra",
-    "_posts/devops",
-    "_posts/security"
+    "_posts/devops"
   ]
 }
