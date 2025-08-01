@@ -2,9 +2,9 @@
 title: ⚡ Document Object Model
 date: 2025-07-31 17:00:00 +0900
 categories:
-  - computer-science
+  - Computer-Science
 tags:
-  - computer-science
+  - Computer-Science
   - Dom
 ---
 

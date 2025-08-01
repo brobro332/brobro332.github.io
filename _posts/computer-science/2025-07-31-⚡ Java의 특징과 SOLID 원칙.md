@@ -2,9 +2,9 @@
 title: ⚡ Java의 특징과 SOLID 원칙
 date: 2025-07-31 15:57:00 +0900
 categories:
-  - computer-science
+  - Computer-Science
 tags:
-  - computer-science
+  - Computer-Science
   - Java
   - SOLID
 ---
