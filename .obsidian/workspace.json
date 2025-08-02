@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/computer-science/algorithm/2025-08-01-⚡ 탐색 알고리즘 - 이진 탐색, 해시 탐색, BST.md",
+                "file": "_posts/computer-science/2025-08-02-⚡ 운영체제 기초 - 프로세스, 스레드, 컨텍스트 스위칭.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-01-⚡ 탐색 알고리즘 - 이진 탐색, 해시 탐색, BST"
+              "title": "2025-08-02-⚡ 운영체제 기초 - 프로세스, 스레드, 컨텍스트 스위칭"
             }
           },
           {
@@ -210,10 +210,12 @@
       "markdown-importer:마크다운 형식 불러오기 열기": false
     }
   },
-  "active": "711da87d9c319ab4",
+  "active": "f96f157fd90bf782",
   "lastOpenFiles": [
-    "_posts/computer-science/algorithm/2025-07-31-⚡ 정렬 알고리즘 - 퀵정렬, 병합정렬, 힙정렬.md",
+    "_posts/computer-science/2025-08-02-⚡ 멀티프로세스 vs 멀티스레드.md",
+    "_posts/computer-science/2025-08-02-⚡ 운영체제 기초 - 프로세스, 스레드, 컨텍스트 스위칭.md",
     "_posts/computer-science/algorithm/2025-08-01-⚡ 탐색 알고리즘 - 이진 탐색, 해시 탐색, BST.md",
+    "_posts/computer-science/algorithm/2025-07-31-⚡ 정렬 알고리즘 - 퀵정렬, 병합정렬, 힙정렬.md",
     "_posts/computer-science/data-structure/2025-08-01-⚡ 스택, 큐, 덱, 우선순위 큐.md",
     "_posts/computer-science/data-structure/2025-08-01-⚡ 배열과 연결 리스트.md",
     "_posts/computer-science/data-structure/2025-08-01-⚡ 해시 테이블.md",
@@ -249,8 +251,6 @@
     "_posts/computer-science",
     "_private/profile/태웅로직스 프로토타입.md",
     "_private/profile/태웅로직스.md",
-    "_private/profile/생성형 AI 기반 이력서 및 포트폴리오 작성.md",
-    "_private/profile/포트폴리오 · SW-Capstone-Design.md",
     "_posts/project",
     "_posts/tech/elk",
     "_posts/tech/redis",
