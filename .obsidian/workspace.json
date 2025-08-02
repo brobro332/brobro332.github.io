@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/computer-science/2025-08-02-⚡ 운영체제 기초 - 프로세스, 스레드, 컨텍스트 스위칭.md",
+                "file": "_posts/computer-science/algorithm/2025-08-01-⚡ 탐색 알고리즘 - 이진 탐색, 해시 탐색, BST.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-02-⚡ 운영체제 기초 - 프로세스, 스레드, 컨텍스트 스위칭"
+              "title": "2025-08-01-⚡ 탐색 알고리즘 - 이진 탐색, 해시 탐색, BST"
             }
           },
           {
@@ -210,15 +210,19 @@
       "markdown-importer:마크다운 형식 불러오기 열기": false
     }
   },
-  "active": "f96f157fd90bf782",
+  "active": "711da87d9c319ab4",
   "lastOpenFiles": [
-    "_posts/computer-science/2025-08-02-⚡ 멀티프로세스 vs 멀티스레드.md",
-    "_posts/computer-science/2025-08-02-⚡ 운영체제 기초 - 프로세스, 스레드, 컨텍스트 스위칭.md",
-    "_posts/computer-science/algorithm/2025-08-01-⚡ 탐색 알고리즘 - 이진 탐색, 해시 탐색, BST.md",
     "_posts/computer-science/algorithm/2025-07-31-⚡ 정렬 알고리즘 - 퀵정렬, 병합정렬, 힙정렬.md",
-    "_posts/computer-science/data-structure/2025-08-01-⚡ 스택, 큐, 덱, 우선순위 큐.md",
+    "_posts/computer-science/2025-08-02-⚡ 멀티프로세스 vs 멀티스레드.md",
+    "_posts/computer-science/2025-07-31-⚡ HTML과 XML의 차이점.md",
+    "_posts/computer-science/algorithm/2025-08-01-⚡ 탐색 알고리즘 - 이진 탐색, 해시 탐색, BST.md",
     "_posts/computer-science/data-structure/2025-08-01-⚡ 배열과 연결 리스트.md",
+    "_posts/computer-science/data-structure/2025-08-01-⚡ 스택, 큐, 덱, 우선순위 큐.md",
     "_posts/computer-science/data-structure/2025-08-01-⚡ 해시 테이블.md",
+    "_posts/computer-science/2025-07-31-⚡ Document Object Model.md",
+    "_posts/computer-science/2025-07-31-⚡ Java의 특징과 SOLID 원칙.md",
+    "_posts/computer-science/2025-07-31-⚡Cookie와 Session의 차이 1.md",
+    "_posts/computer-science/2025-08-02-⚡ 운영체제 기초 - 프로세스, 스레드, 컨텍스트 스위칭.md",
     "_posts/computer-science/data-structure",
     "_posts/computer-science/무제.md",
     "_private/profile/면접 질문 통합.md",
@@ -235,10 +239,6 @@
     "_posts/problem-solving/baekjoon/2025-08-01-🧩 Baekjoon 2775 - 부녀회장이 될테야.md",
     "_posts/problem-solving/baekjoon/2025-08-01-🧩 Baekjoon 14503 - 로봇 청소기.md",
     "_private/profile/무제.md",
-    "_posts/computer-science/2025-07-31-⚡ HTML과 XML의 차이점.md",
-    "_posts/computer-science/2025-07-31-⚡Cookie와 Session의 차이 1.md",
-    "_posts/computer-science/2025-07-31-⚡ Java의 특징과 SOLID 원칙.md",
-    "_posts/computer-science/2025-07-31-⚡ Document Object Model.md",
     "_posts/problem-solving/baekjoon/2025-07-31-🧩 Baekjoon 15829 - Hashing.md",
     "_posts/problem-solving/baekjoon/2025-07-31-🧩 Baekjoon 2609 - 최대공약수와 최소공배수.md",
     "_posts/problem-solving/baekjoon/2025-07-30-🧩 Baekjoon 11653 - 소인수분해.md",
