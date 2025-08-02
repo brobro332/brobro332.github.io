@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/computer-science/os/2025-08-02-⚡ 멀티프로세스 vs 멀티스레드.md",
+                "file": "_posts/computer-science/database/2025-08-02-⚡ 데이터베이스 - 트랜잭션, 정규화, 인덱스, 조인.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-02-⚡ 멀티프로세스 vs 멀티스레드"
+              "title": "2025-08-02-⚡ 데이터베이스 - 트랜잭션, 정규화, 인덱스, 조인"
             }
           },
           {
@@ -27,26 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/computer-science/os/2025-08-02-⚡ 운영체제 - 프로세스 동기화와 교착 상태.md",
+                "file": "_private/profile/면접 질문 통합.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-02-⚡ 운영체제 - 프로세스 동기화와 교착 상태"
-            }
-          },
-          {
-            "id": "fb1043c5f63fa62d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/problem-solving/baekjoon/2025-08-02-🧩 Baekjoon 14891 - 톱니바퀴.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2025-08-02-🧩 Baekjoon 14891 - 톱니바퀴"
+              "title": "면접 질문 통합"
             }
           },
           {
@@ -77,8 +63,7 @@
               "title": "면접 질문 통합"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -239,20 +224,26 @@
       "markdown-importer:마크다운 형식 불러오기 열기": false
     }
   },
-  "active": "fb1043c5f63fa62d",
+  "active": "711da87d9c319ab4",
   "lastOpenFiles": [
+    "_posts/computer-science/os/2025-08-02-⚡ 멀티프로세스 vs 멀티스레드.md",
+    "_private/profile/면접 질문 통합.md",
+    "_posts/computer-science/os/2025-08-02-⚡ 운영체제 - 프로세스 동기화와 교착 상태.md",
+    "_private/profile/무제.md",
+    "_private/profile/태웅로직스.md",
+    "_private/profile/김진형 · 이력서.md",
+    "_private/profile/경력기술서 · 네이버시스템(주) · 자바 웹 개발자.md",
+    "_private/profile/면접 준비 - 공고.md",
+    "_posts/problem-solving/baekjoon/2025-08-02-🧩 Baekjoon 14891 - 톱니바퀴.md",
     "assets/image/Pasted image 20250802201631.png",
     "assets/image/Pasted image 20250802201618.png",
     "assets/image/Pasted image 20250802201553.png",
     "assets/image/Pasted image 20250802201517.png",
-    "_posts/problem-solving/baekjoon/2025-08-02-🧩 Baekjoon 14891 - 톱니바퀴.md",
     "assets/image/Pasted image 20250802201419.png",
     "assets/image/Pasted image 20250802201411.png",
     "assets/image/Pasted image 20250802201330.png",
     "_posts/computer-science/algorithm/2025-07-31-⚡ 정렬 알고리즘 - 퀵정렬, 병합정렬, 힙정렬.md",
-    "_posts/computer-science/database/2025-08-02-⚡ 데이터베이스 - 트랜잭션과 정규화.md",
-    "_private/profile/무제.md",
-    "_posts/computer-science/os/2025-08-02-⚡ 멀티프로세스 vs 멀티스레드.md",
+    "_posts/computer-science/database/2025-08-02-⚡ 데이터베이스 - 트랜잭션, 정규화, 인덱스, 조인.md",
     "_posts/computer-science/os/2025-08-02-⚡ 운영체제 - 가상 메모리와 페이지 교체 알고리즘.md",
     "_posts/computer-science/network/2025-07-31-⚡Cookie와 Session의 차이 1.md",
     "_posts/computer-science/algorithm/2025-08-02-⚡ 동적 계획법(Dynamic Programming).md",
@@ -266,9 +257,7 @@
     "_posts/computer-science/2025-07-31-⚡ HTML과 XML의 차이점.md",
     "_posts/computer-science/network",
     "_posts/computer-science/os/2025-08-02-⚡ 운영체제 - 프로세스, 스레드, 컨텍스트 스위칭.md",
-    "_posts/computer-science/os/2025-08-02-⚡ 운영체제 - 프로세스 동기화와 교착 상태.md",
     "_posts/computer-science/os",
-    "_private/profile/면접 질문 통합.md",
     "_posts/computer-science/2025-07-31-⚡ Document Object Model.md",
     "_posts/computer-science/data-structure/2025-08-01-⚡ 배열과 연결 리스트.md",
     "_posts/computer-science/data-structure/2025-08-01-⚡ 스택, 큐, 덱, 우선순위 큐.md",
@@ -277,10 +266,6 @@
     "assets/image/Pasted image 20250731194824.png",
     "assets/image/Pasted image 20250731194737.png",
     "assets/image/Pasted image 20250715220707.png",
-    "assets/image/Pasted image 20250715214507.png",
-    "_posts/problem-solving/baekjoon/2025-08-01-🧩 Baekjoon 2775 - 부녀회장이 될테야.md",
-    "_posts/problem-solving/baekjoon/2025-08-01-🧩 Baekjoon 14503 - 로봇 청소기.md",
-    "_posts/problem-solving/baekjoon/2025-07-31-🧩 Baekjoon 15829 - Hashing.md",
     "_posts/computer-science/algorithm",
     "_posts/computer-science",
     "_posts/project",
