@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/computer-science/algorithm/2025-08-02-⚡ 동적 계획법(Dynamic Programming).md",
-                "mode": "source",
+                "file": "_posts/computer-science/database/2025-08-02-⚡ 데이터베이스 - 트랜잭션과 정규화.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-02-⚡ 동적 계획법(Dynamic Programming)"
+              "title": "2025-08-02-⚡ 데이터베이스 - 트랜잭션과 정규화"
             }
           },
           {
@@ -241,10 +241,10 @@
   },
   "active": "fb1043c5f63fa62d",
   "lastOpenFiles": [
+    "_posts/computer-science/algorithm/2025-08-02-⚡ 동적 계획법(Dynamic Programming).md",
     "_posts/computer-science/algorithm/2025-08-02-⚡ 그리디 알고리즘(Greedy Algorithm).md",
     "_posts/computer-science/algorithm/2025-08-01-⚡ 탐색 알고리즘 - 이진 탐색, 해시 탐색, BST.md",
     "_posts/computer-science/algorithm/2025-07-31-⚡ 정렬 알고리즘 - 퀵정렬, 병합정렬, 힙정렬.md",
-    "_posts/computer-science/algorithm/2025-08-02-⚡ 동적 계획법(Dynamic Programming).md",
     "_posts/computer-science/algorithm/무제.md",
     "_posts/computer-science/data-structure/2025-08-01-⚡ 해시 테이블.md",
     "_posts/computer-science/database/2025-08-02-⚡ 데이터베이스 - 트랜잭션과 정규화.md",
