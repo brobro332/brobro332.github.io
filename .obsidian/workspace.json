@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/computer-science/java/2025-08-03-⚡ Java - JVM 메모리 구조와 GC의 동작 원리.md",
+                "file": "_posts/computer-science/database/2025-08-02-⚡ 데이터베이스 - 트랜잭션, 정규화, 인덱스, 조인.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-03-⚡ Java - JVM 메모리 구조와 GC의 동작 원리"
+              "title": "2025-08-02-⚡ 데이터베이스 - 트랜잭션, 정규화, 인덱스, 조인"
             }
           },
           {
@@ -226,27 +226,27 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
-    "_posts/computer-science/os/2025-08-03-⚡ 운영체제 - 메모리 단편화와 해결 기법.md",
-    "_posts/computer-science/java/2025-08-03-⚡ Java - JVM 메모리 구조와 GC의 동작 원리.md",
-    "_posts/computer-science/os/2025-08-03-⚡ 운영체제 - 스케줄링 알고리즘.md",
-    "_posts/computer-science/web/2025-07-31-⚡ Web - HTML과 XML의 차이점.md",
+    "_posts/computer-science/algorithm/2025-08-02-⚡ 알고리즘 - 동적 계획법(Dynamic Programming).md",
+    "_posts/computer-science/database/2025-08-02-⚡ 데이터베이스 - 트랜잭션, 정규화, 인덱스, 조인.md",
+    "_posts/computer-science/data-structure/2025-08-01-⚡ 자료구조 - 해시 테이블.md",
+    "_posts/computer-science/os/2025-08-02-⚡ 운영체제 - 가상 메모리와 페이지 교체 알고리즘.md",
+    "_posts/computer-science/os/2025-08-02-⚡ 운영체제 - 멀티프로세스 vs 멀티스레드.md",
     "_posts/computer-science/os/2025-08-02-⚡ 운영체제 - 프로세스, 스레드, 컨텍스트 스위칭.md",
+    "_posts/computer-science/os/2025-08-03-⚡ 운영체제 - 메모리 단편화와 해결 기법.md",
+    "_posts/computer-science/os/2025-08-03-⚡ 운영체제 - 스케줄링 알고리즘.md",
+    "_posts/computer-science/java/2025-08-03-⚡ Java - JVM 메모리 구조와 GC의 동작 원리.md",
+    "_posts/computer-science/web/2025-07-31-⚡ Web - HTML과 XML의 차이점.md",
     "_posts/computer-science/java/2025-08-03-⚡ Java - 객체 지향 프로그래밍 핵심 개념.md",
     "_posts/computer-science/os/2025-08-02-⚡ 운영체제 - 프로세스 동기화와 교착 상태.md",
-    "_posts/computer-science/os/2025-08-02-⚡ 운영체제 - 멀티프로세스 vs 멀티스레드.md",
     "_posts/computer-science/network/2025-07-31-⚡ 네트워크 - Cookie와 Session의 차이.md",
     "_posts/computer-science/java/2025-08-03-⚡ Java - 오버로딩과 오버라이딩의 차이점.md",
-    "_posts/computer-science/algorithm/2025-08-02-⚡ 알고리즘 - 동적 계획법(Dynamic Programming).md",
     "_posts/computer-science/algorithm/2025-08-01-⚡ 알고리즘 - 이진 탐색, 해시 탐색, BST.md",
     "_posts/computer-science/algorithm/2025-07-31-⚡ 알고리즘 - 퀵정렬, 병합정렬, 힙정렬.md",
     "_posts/computer-science/algorithm/2025-08-02-⚡ 알고리즘 - 그리디(Greedy).md",
     "_posts/computer-science/web/2025-07-31-⚡ Web - Document Object Model.md",
     "_posts/computer-science/data-structure/2025-08-01-⚡ 자료구조 - 스택, 큐, 덱, 우선순위 큐.md",
-    "_posts/computer-science/data-structure/2025-08-01-⚡ 자료구조 - 해시 테이블.md",
     "_posts/computer-science/data-structure/2025-08-01-⚡ 자료구조 - 배열과 연결 리스트.md",
-    "_posts/computer-science/database/2025-08-02-⚡ 데이터베이스 - 트랜잭션, 정규화, 인덱스, 조인.md",
     "_posts/computer-science/java/2025-07-31-⚡ Java - 언어의 특징과 SOLID 원칙.md",
-    "_posts/computer-science/os/2025-08-02-⚡ 운영체제 - 가상 메모리와 페이지 교체 알고리즘.md",
     "_posts/computer-science/web",
     "_posts/computer-science/java",
     "_posts/computer-science/network/2025-08-02-⚡ 네트워크 - OSI 7계층과 TCP · IP.md",

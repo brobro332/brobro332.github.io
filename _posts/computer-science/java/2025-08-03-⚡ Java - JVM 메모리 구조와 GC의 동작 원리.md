@@ -1,5 +1,5 @@
 ---
-title: Java - JVM 메모리 구조와 GC의 동작 원리
+title: ⚡ Java - JVM 메모리 구조와 GC의 동작 원리
 date: 2025-08-03 11:34:00 +0900
 categories:
   - Computer-Science
