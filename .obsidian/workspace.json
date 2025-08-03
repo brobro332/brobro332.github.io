@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅴ - Factory Method.md",
+                "file": "_posts/problem-solving/baekjoon/2025-08-03-🧩 Baekjoon 11050 - 이항 계수 1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-03-⛓️ Java Design-Pattern Ⅴ - Factory Method"
+              "title": "2025-08-03-🧩 Baekjoon 11050 - 이항 계수 1"
             }
           },
           {
@@ -226,8 +226,19 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
-    "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅸ - Abstract Factory.md",
+    "_posts/java/design-pattern/2024-11-12-⛓️ Java Design-Pattern Ⅰ - 개요.md",
+    "_posts/problem-solving/baekjoon/2025-08-03-🧩 Baekjoon 11050 - 이항 계수 1.md",
+    "_posts/react/tutorial/2024-11-05-🌌 React 입문 Ⅰ - 개요.md",
+    "_posts/react/tutorial/2025-03-11-🌌 React 입문 XⅢ -  Component 간 State 공유.md",
+    "_posts/react/tutorial/2024-11-23-🌌 React 입문 Ⅷ - Hook.md",
+    "_posts/react/tutorial/2024-11-24-🌌 React 입문 Ⅸ - Event.md",
+    "_posts/react/tutorial/2024-11-11-🌌 React 입문 Ⅵ - State.md",
+    "_posts/react/tutorial/2024-11-10-🌌 React 입문 Ⅴ - Component.md",
+    "_posts/react/tutorial/2024-11-09-🌌 React 입문 Ⅳ - Element.md",
+    "_posts/react/tutorial/2024-11-07-🌌 React 입문 Ⅲ - JSX 문법.md",
+    "_posts/react/tutorial/2024-11-06-🌌 React 입문 Ⅱ - 사전 준비 · 프로젝트 생성 · 실행.md",
     "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅴ - Factory Method.md",
+    "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅸ - Abstract Factory.md",
     "_posts/java/design-pattern/2024-11-27-⛓️ Java Design-Pattern Ⅳ - Template Method.md",
     "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅵ - Singleton.md",
     "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅶ - Prototype.md",
@@ -251,16 +262,6 @@
     "_posts/infra/2025-01-04-🚀 Ubuntu 서버에 프로젝트 배포.md",
     "_posts/computer-science/os/2025-08-03-⚡ 운영체제 - 메모리 단편화와 해결 기법.md",
     "_posts/computer-science/os/2025-08-02-⚡ 운영체제 - 가상 메모리와 페이지 교체 알고리즘.md",
-    "_posts/computer-science/os/2025-08-02-⚡ 운영체제 - 멀티프로세스 vs 멀티스레드.md",
-    "_posts/computer-science/os/2025-08-02-⚡ 운영체제 - 프로세스, 스레드, 컨텍스트 스위칭.md",
-    "_posts/computer-science/os/2025-08-03-⚡ 운영체제 - 스케줄링 알고리즘.md",
-    "_posts/computer-science/java/2025-08-03-⚡ Java - 오버로딩과 오버라이딩의 차이점.md",
-    "_posts/computer-science/java/2025-07-31-⚡ Java - 언어의 특징과 SOLID 원칙.md",
-    "_posts/computer-science/java/2025-08-03-⚡ Java - JVM 메모리 구조와 GC의 동작 원리.md",
-    "_posts/computer-science/database/2025-08-02-⚡ 데이터베이스 - 트랜잭션, 정규화, 인덱스, 조인.md",
-    "_posts/computer-science/algorithm/2025-08-02-⚡ 알고리즘 - 동적 계획법(Dynamic Programming).md",
-    "_posts/computer-science/data-structure/2025-08-01-⚡ 자료구조 - 해시 테이블.md",
-    "_posts/computer-science/web/2025-07-31-⚡ Web - HTML과 XML의 차이점.md",
     "_posts/computer-science/web",
     "_posts/computer-science/java",
     "_posts/computer-science/database",
