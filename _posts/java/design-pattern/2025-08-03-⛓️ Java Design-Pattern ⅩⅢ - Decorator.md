@@ -164,8 +164,8 @@ public class FullBorder extends Border {
 public class Main {
 	public static void main(String[] args) {
 		Display d1 = new StringDisplay("Hello, world.");
-        Display d2 = new SideBorder(b1, '#');
-        Display d3 = new StringDisplay(b2);
+        Display d2 = new SideBorder(d1, '#');
+        Display d3 = new StringDisplay(d2);
         
         d1.show();
         d2.show();

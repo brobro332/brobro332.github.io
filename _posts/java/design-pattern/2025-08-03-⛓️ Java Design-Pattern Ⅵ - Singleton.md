@@ -37,6 +37,23 @@ _"처음부터 프로그래머가 주의해서 외부에서 생성자 호출을 
 - 사실 해당 메소드는 `static Factory Method`의 일종이다. 
 - 이름은 달리 해도 되지만, 유일한 인스턴스를 얻을 방법이 무언가 필요하다.
 
+#### `Singleton` 클래스
+
+```java
+public class Singleton {
+    private static Singleton instance;
+    
+    private Singleton() { }
+    
+    public static Singleton getInstance() {
+        if (instance == null) {
+            instance = new Singleton();
+        }
+        return instance;
+    }
+}
+```
+
 #### `Main` 클래스
 
 ```java
