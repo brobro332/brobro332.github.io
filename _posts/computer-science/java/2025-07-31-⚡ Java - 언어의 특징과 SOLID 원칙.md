@@ -1,5 +1,5 @@
 ---
-title: ⚡ Java의 특징과 SOLID 원칙
+title: ⚡ Java - 언어의 특징과 SOLID 원칙
 date: 2025-07-31 15:57:00 +0900
 categories:
   - Computer-Science

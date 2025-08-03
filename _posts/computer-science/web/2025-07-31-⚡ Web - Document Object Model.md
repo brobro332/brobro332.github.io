@@ -1,10 +1,11 @@
 ---
-title: ⚡ Document Object Model
+title: ⚡ Web -Document Object Model
 date: 2025-07-31 17:00:00 +0900
 categories:
   - Computer-Science
 tags:
   - Computer-Science
+  - Web
   - Dom
 ---
 

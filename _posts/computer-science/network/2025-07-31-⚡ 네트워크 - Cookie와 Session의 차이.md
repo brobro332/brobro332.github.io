@@ -1,5 +1,5 @@
 ---
-title: ⚡ Cookie와 Session의 차이
+title: ⚡ 네트워크 - Cookie와 Session의 차이
 date: 2025-07-31 16:32:00 +0900
 categories:
   - Computer-Science

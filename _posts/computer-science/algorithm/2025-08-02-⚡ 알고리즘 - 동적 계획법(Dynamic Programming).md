@@ -1,5 +1,5 @@
 ---
-title: ⚡ 동적 계획법(Dynamic Programming)
+title: ⚡ 알고리즘 - 동적 계획법(Dynamic Programming)
 date: 2025-08-02 13:13:00 +0900
 categories:
   - Computer-Science
