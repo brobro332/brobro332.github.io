@@ -2,9 +2,9 @@
 title: 🚀 Raspberry Pi 서버에 프로젝트 배포
 date: 2025-04-06 14:32:00 +0900
 categories:
-  - infra
+  - Infra
 tags:
-  - infra
+  - Infra
   - Raspberry Pi
 ---
 

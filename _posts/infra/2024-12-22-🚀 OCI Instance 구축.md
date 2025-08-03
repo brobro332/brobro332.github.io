@@ -2,9 +2,9 @@
 title: 🚀 OCI Instance 구축
 date: 2024-12-22 23:10:00 +0900
 categories:
-  - infra
+  - Infra
 tags:
-  - infra
+  - Infra
   - OCI
 ---
 
