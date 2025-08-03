@@ -1,6 +1,6 @@
 ---
 title: ⛓️ Java Design-Pattern Ⅹ - Bridge
-date: 2025-08-03 02:20:00 +0900
+date: 2025-08-03 14:20:00 +0900
 categories:
   - Java
 tags:

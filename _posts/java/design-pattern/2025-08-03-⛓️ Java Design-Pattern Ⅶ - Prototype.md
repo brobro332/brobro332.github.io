@@ -1,6 +1,6 @@
 ---
 title: ⛓️ Java Design-Pattern Ⅶ - Prototype
-date: 2025-08-03 01:33:00 +0900
+date: 2025-08-03 13:33:00 +0900
 categories:
   - Java
 tags:

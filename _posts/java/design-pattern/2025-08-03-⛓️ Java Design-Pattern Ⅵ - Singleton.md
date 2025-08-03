@@ -1,6 +1,6 @@
 ---
 title: ⛓️ Java Design-Pattern Ⅵ - Singleton
-date: 2025-08-03 01:25:00 +0900
+date: 2025-08-03 13:25:00 +0900
 categories:
   - Java
 tags:

@@ -1,6 +1,6 @@
 ---
 title: ⛓️ Java Design-Pattern Ⅻ - Composite
-date: 2025-08-03 02:35:00 +0900
+date: 2025-08-03 14:35:00 +0900
 categories:
   - Java
 tags:
