@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅵ - Singleton.md",
+                "file": "_posts/computer-science/database/2025-08-04-⚡ 데이터베이스 - RDB와 NoSQL의 차이점.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-03-⛓️ Java Design-Pattern Ⅵ - Singleton"
+              "title": "2025-08-04-⚡ 데이터베이스 - RDB와 NoSQL의 차이점"
             }
           },
           {
@@ -208,7 +208,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,6 +226,12 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
+    "_private/profile/면접 질문 통합.md",
+    "_posts/computer-science/database/2025-08-04-⚡ 데이터베이스 - RDB와 NoSQL의 차이점.md",
+    "_private/profile/무제 1.md",
+    "_private/profile/무제.md",
+    "_private/profile/상추 인프라 구축 매뉴얼 Ⅰ - OCI.md",
+    "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅵ - Singleton.md",
     "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅺ - Strategy.md",
     "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern ⅩⅢ - Decorator.md",
     "_posts/problem-solving/baekjoon/2025-08-03-🧩 Baekjoon 11050 - 이항 계수 1.md",
@@ -242,7 +248,6 @@
     "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅴ - Factory Method.md",
     "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅸ - Abstract Factory.md",
     "_posts/java/design-pattern/2024-11-27-⛓️ Java Design-Pattern Ⅳ - Template Method.md",
-    "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅵ - Singleton.md",
     "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅶ - Prototype.md",
     "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅷ - Builder.md",
     "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅹ - Bridge.md",
@@ -257,11 +262,6 @@
     "assets/image/Pasted image 20250803140745.png",
     "assets/image/Pasted image 20250803135023.png",
     "assets/image/Pasted image 20250803140337.png",
-    "_posts/infra/2025-04-06-🚀 Raspberry Pi 서버에 프로젝트 배포.md",
-    "_posts/infra/2024-12-22-🚀 OCI Instance 구축.md",
-    "_posts/infra/2025-01-04-🚀 Ubuntu 서버에 프로젝트 배포.md",
-    "_posts/computer-science/os/2025-08-03-⚡ 운영체제 - 메모리 단편화와 해결 기법.md",
-    "_posts/computer-science/os/2025-08-02-⚡ 운영체제 - 가상 메모리와 페이지 교체 알고리즘.md",
     "_posts/computer-science/web",
     "_posts/computer-science/java",
     "_posts/computer-science/database",
