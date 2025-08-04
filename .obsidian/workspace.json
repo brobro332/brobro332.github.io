@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/computer-science/database/2025-08-04-⚡ 데이터베이스 - RDB와 NoSQL의 차이점.md",
+                "file": "_posts/computer-science/network/2025-08-04-⚡ 네트워크 - REST API.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-04-⚡ 데이터베이스 - RDB와 NoSQL의 차이점"
+              "title": "2025-08-04-⚡ 네트워크 - REST API"
             }
           },
           {
@@ -226,6 +226,9 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
+    "_posts/computer-science/network/무제.md",
+    "_posts/computer-science/network/2025-08-04-⚡ 네트워크 - REST API.md",
+    "_posts/computer-science/network/2025-08-02-⚡ 네트워크 - OSI 7계층과 TCP · IP.md",
     "_private/profile/면접 질문 통합.md",
     "_posts/computer-science/database/2025-08-04-⚡ 데이터베이스 - RDB와 NoSQL의 차이점.md",
     "_private/profile/무제 1.md",
@@ -249,9 +252,6 @@
     "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅸ - Abstract Factory.md",
     "_posts/java/design-pattern/2024-11-27-⛓️ Java Design-Pattern Ⅳ - Template Method.md",
     "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅶ - Prototype.md",
-    "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅷ - Builder.md",
-    "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅹ - Bridge.md",
-    "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅻ - Composite.md",
     "assets/image/Pasted image 20250803144229.png",
     "assets/image/Pasted image 20250803143724.png",
     "assets/image/Pasted image 20250803143222.png",
