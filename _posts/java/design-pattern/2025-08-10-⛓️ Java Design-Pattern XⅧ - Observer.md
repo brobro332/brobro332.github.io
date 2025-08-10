@@ -194,11 +194,11 @@ public class Main {
 #### 갱신을 위한 힌트 정보 다루기
 - `RandomNumberGenerator`는 `update()` 메서드를 사용하여 '갱신됐어요'라고 `Observer`에게 통지한다.
 - `update()` 메서드의 인수로 주어지는 것은 `RandomNumberGenerator` 인스턴스 뿐이기 때문에, `Observer`는 `getNumber()` 메서드를 호출하여 필요로 하는 값을 얻어야 한다.
-- 상황에 따라 다음과 같이 적절하게 로직을 생략할 수 있다.
+- 상황에 따라 다음과 같이 적절하게 힌트 정보를 넘길 수 있다.
 
-1. `void update(NumberGenerator generator);` `...` 현행
+1. `void update(NumberGenerator generator);` `... (현행)`
 2. `void update(NumberGenerator generator, int number);` `... (2)`
-3. `void update(NumberGenerator generator, int number);` `... (3)`
+3. `void update(int number);` `... (3)`
 
 - `(2)`부터는 `Subject`에 더해 힌트 정보를 넘겨 준다.
 - 이로써 `Observer`는 `Subject`로부터 정보를 얻어 오는 수고를 덜 수 있다.

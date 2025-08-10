@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/java/design-pattern/2025-08-09-⛓️ Java Design-Pattern XⅧ - Observer.md",
+                "file": "_posts/java/design-pattern/2025-08-10-⛓️ Java Design-Pattern XⅨ - Memento.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-09-⛓️ Java Design-Pattern XⅧ - Observer"
+              "title": "2025-08-10-⛓️ Java Design-Pattern XⅨ - Memento"
             }
           },
           {
@@ -226,8 +226,13 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
+    "_posts/java/design-pattern/2025-08-10-⛓️ Java Design-Pattern XⅧ - Observer.md",
+    "_posts/java/design-pattern/2025-08-10-⛓️ Java Design-Pattern XⅨ - Memento.md",
+    "_posts/java/design-pattern/2025-08-08-⛓️ Java Design-Pattern XIV - Visitor.md",
+    "assets/image/Pasted image 20250810153500.png",
+    "assets/image/Pasted image 20250810153306.png",
+    "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅸ - Abstract Factory.md",
     "_posts/java/design-pattern/2025-08-09-⛓️ Java Design-Pattern XⅦ - Mediator.md",
-    "_posts/java/design-pattern/2025-08-09-⛓️ Java Design-Pattern XⅧ - Observer.md",
     "_posts/java/design-pattern/2025-08-09-⛓️ Java Design-Pattern XV - Chain of Responsibility.md",
     "assets/image/Pasted image 20250810131927.png",
     "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅷ - Builder.md",
@@ -239,7 +244,6 @@
     "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅶ - Prototype.md",
     "_posts/java/design-pattern/2025-08-09-⛓️ Java Design-Pattern XVI - Facade.md",
     "assets/image/Pasted image 20250809190424.png",
-    "_posts/java/design-pattern/2025-08-08-⛓️ Java Design-Pattern XIV - Visitor.md",
     "assets/image/Pasted image 20250809185835.png",
     "_posts/react/tutorial/2025-04-06-🌌 React 입문 XV -  Context.md",
     "_private/profile/무제.md",
@@ -256,11 +260,7 @@
     "_posts/react/tutorial/2025-04-06-🌌 React 입문 XIV -  Composition · Specialization.md",
     "_private/profile/면접 CS 통합.md",
     "_private/profile/비비디글로벌 신입 개발자 면접 예상 질문 총정리.md",
-    "_private/profile/포트폴리오 · Blokey-Land.md",
-    "_posts/computer-science/database/2025-08-02-⚡ 데이터베이스 - 트랜잭션, 인덱스, 조인.md",
     "assets/image/Pasted image 20250803144229.png",
-    "assets/image/Pasted image 20250803143724.png",
-    "assets/image/Pasted image 20250803143222.png",
     "_posts/computer-science/web",
     "_posts/computer-science/java",
     "_posts/computer-science/database",
