@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/problem-solving/baekjoon/2025-08-11-🧩 Baekjoon 28702 - FizzBuzz.md",
+                "file": "_posts/java/design-pattern/2025-08-11-⛓️ Java Design-Pattern XXⅡ - Proxy.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-11-🧩 Baekjoon 28702 - FizzBuzz"
+              "title": "2025-08-11-⛓️ Java Design-Pattern XXⅡ - Proxy"
             }
           },
           {
@@ -226,7 +226,16 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
+    "_posts/java/design-pattern/2025-08-11-⛓️ Java Design-Pattern XXⅠ - Flyweight.md",
+    "_posts/java/design-pattern/2025-08-11-⛓️ Java Design-Pattern XXⅡ - Proxy.md",
+    "assets/image/Pasted image 20250811211531.png",
+    "assets/image/Pasted image 20250811211450.png",
     "_posts/java/design-pattern/2025-08-11-⛓️ Java Design-Pattern XX - State.md",
+    "assets/image/Pasted image 20250811195244.png",
+    "_posts/java/design-pattern/2024-11-13-⛓️ Java Design-Pattern Ⅱ - Iterator.md",
+    "_posts/java/design-pattern/2024-11-12-⛓️ Java Design-Pattern Ⅰ - 개요.md",
+    "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅺ - Strategy.md",
+    "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern ⅩⅢ - Decorator.md",
     "_posts/problem-solving/baekjoon/2025-08-11-🧩 Baekjoon 28702 - FizzBuzz.md",
     "_posts/java/design-pattern/2025-08-10-⛓️ Java Design-Pattern XⅧ - Observer.md",
     "assets/image/Pasted image 20250811155320.png",
@@ -254,16 +263,6 @@
     "_posts/problem-solving/baekjoon/2025-08-09-🧩 Baekjoon 1181 - 단어 정렬.md",
     "_posts/problem-solving/baekjoon/2025-08-03-🧩 Baekjoon 11050 - 이항 계수 1.md",
     "assets/image/Pasted image 20250809191839.png",
-    "assets/image/Pasted image 20250809191805.png",
-    "_posts/java/design-pattern/2025-08-03-⛓️ Java Design-Pattern Ⅶ - Prototype.md",
-    "_posts/java/design-pattern/2025-08-09-⛓️ Java Design-Pattern XVI - Facade.md",
-    "assets/image/Pasted image 20250809190424.png",
-    "assets/image/Pasted image 20250809185835.png",
-    "_posts/react/tutorial/2025-04-06-🌌 React 입문 XV -  Context.md",
-    "_private/profile/무제.md",
-    "_private/profile/지원서.md",
-    "_private/profile/B2B.md",
-    "_private/profile/환인제약.md",
     "_posts/computer-science/web",
     "_posts/computer-science/java",
     "_posts/computer-science/database",
