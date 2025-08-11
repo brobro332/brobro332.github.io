@@ -204,10 +204,10 @@ public class NightState implements State {
 
 ```java
 public interface Context {
-	public abstract void setClock(int hour);             // 시간 설정
-	public abstract void changeState(State state);       // 상태 변화
+	public abstract void setClock(int hour);             // 시간 설정
+	public abstract void changeState(State state);       // 상태 변화
 	public abstract void callSecurityCenter(String msg); // 경비 센터 경비원 호출
-	public abstract void recordLog(String msg);          // 경비 센터 기록
+	public abstract void recordLog(String msg);          // 경비 센터 기록
 }
 ```
 - 상태를 관리하거나 경비 센터를 호출한다.
@@ -226,13 +226,13 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class SafeFrame extends Frame implements ActionListener, Context {
-	private TextField textClock = new TextField(60);      // 현재 시간 표시
+	private TextField textClock = new TextField(60);      // 현재 시간 표시
 	private TextArea textScreen = new TextArea(10, 60);   // 경비 센터 출력
 	private Button buttonUse = new Button("금고 사용");    // 금고 사용 버튼
 	private Button buttonAlarm = new Button("비상벨");     // 비상벨 버튼
-	private Button buttonPhone = new Button("일반 통화");  // 일반 통화 버튼
-	private Button buttonExit = new Button("종료");       // 종료 버튼
-	private State state = DayState.getInstance();        // 현재 상태
+	private Button buttonPhone = new Button("일반 통화");  // 일반 통화 버튼
+	private Button buttonExit = new Button("종료");       // 종료 버튼
+	private State state = DayState.getInstance();        // 현재 상태
 	
 	/* 생성자 */
 	public SafeFrame(String title) {
@@ -273,13 +273,13 @@ public class SafeFrame extends Frame implements ActionListener, Context {
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		System.out.println(e.toString());
-		if (e.getSource() == buttonUse) {       // 금고 사용 버튼
+		if (e.getSource() == buttonUse) {           // 금고 사용 버튼
 			state.doUse(this);
-		} else if (e.getSource() == buttonAlarm) {  // 비상벨 버튼
+		} else if (e.getSource() == buttonAlarm) {  // 비상벨 버튼
 			state.doAlarm(this);
-		} else if (e.getSource() == buttonPhone) {  // 일반 통화 버튼  
+		} else if (e.getSource() == buttonPhone) {  // 일반 통화 버튼  
 			state.doPhone(this);
-		} else if (e.getSource() == buttonExit) {   // 종료 버튼
+		} else if (e.getSource() == buttonExit) {   // 종료 버튼
 			System.exit(0);
 		} else {
 			System.out.println("?");
