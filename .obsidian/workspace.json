@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/problem-solving/baekjoon/2025-08-10-🧩 Baekjoon 14626 - ISBN.md",
+                "file": "_posts/java/design-pattern/2025-08-11-⛓️ Java Design-Pattern XX - State.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-10-🧩 Baekjoon 14626 - ISBN"
+              "title": "2025-08-11-⛓️ Java Design-Pattern XX - State"
             }
           },
           {
@@ -226,9 +226,21 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
-    "_posts/java/design-pattern/2025-08-10-⛓️ Java Design-Pattern XⅨ - Memento.md",
-    "_posts/problem-solving/baekjoon/2025-08-10-🧩 Baekjoon 14626 - ISBN.md",
     "_posts/java/design-pattern/2025-08-10-⛓️ Java Design-Pattern XⅧ - Observer.md",
+    "_posts/java/design-pattern/2025-08-11-⛓️ Java Design-Pattern XX - State.md",
+    "assets/image/Pasted image 20250811155320.png",
+    "assets/image/Pasted image 20250811155203.png",
+    "_posts/java/design-pattern/2025-08-10-⛓️ Java Design-Pattern XⅨ - Memento.md",
+    "_posts/database/mysql/2025-08-11-🦤 MySQL 심화 Ⅰ - 쿼리 응답 시간.md",
+    "_posts/devops/docker/tutorial/2025-05-07-🐋 Docker 입문 Ⅱ - 명령어 및 실습.md",
+    "_posts/devops/docker/tutorial/2025-05-09-🐋 Docker 입문 Ⅲ - File과 Volume.md",
+    "_posts/devops/docker/practice/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
+    "_posts/devops/docker/tutorial/2025-05-06-🐋 Docker 입문 Ⅰ - 개요.md",
+    "assets/image/Pasted image 20250811001714.png",
+    "_posts/database/mysql/무제.md",
+    "_posts/problem-solving/baekjoon/2025-08-10-🧩 Baekjoon 14626 - ISBN.md",
+    "_posts/database/mysql",
+    "_posts/database",
     "_posts/java/design-pattern/2025-08-08-⛓️ Java Design-Pattern XIV - Visitor.md",
     "assets/image/Pasted image 20250810153500.png",
     "assets/image/Pasted image 20250810153306.png",
@@ -251,17 +263,6 @@
     "_private/profile/지원서.md",
     "_private/profile/B2B.md",
     "_private/profile/환인제약.md",
-    "_private/profile/현대이지웰 1.md",
-    "_private/profile/현대이지웰.md",
-    "_private/profile/태웅로직스 프로토타입.md",
-    "_private/profile/태웅로직스.md",
-    "_private/profile/면접 질문 통합.md",
-    "assets/image/Pasted image 20250808222422.png",
-    "assets/image/Pasted image 20250808222048.png",
-    "_posts/react/tutorial/2025-04-06-🌌 React 입문 XIV -  Composition · Specialization.md",
-    "_private/profile/면접 CS 통합.md",
-    "_private/profile/비비디글로벌 신입 개발자 면접 예상 질문 총정리.md",
-    "assets/image/Pasted image 20250803144229.png",
     "_posts/computer-science/web",
     "_posts/computer-science/java",
     "_posts/computer-science/database",
@@ -269,8 +270,6 @@
     "_posts/computer-science/os",
     "_posts/computer-science/data-structure",
     "_posts/computer-science/algorithm",
-    "_posts/computer-science",
-    "_posts/project",
-    "_posts/tech/elk"
+    "_posts/computer-science"
   ]
 }
