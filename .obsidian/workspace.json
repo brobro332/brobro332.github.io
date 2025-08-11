@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/java/design-pattern/2025-08-11-⛓️ Java Design-Pattern XX - State.md",
+                "file": "_posts/problem-solving/baekjoon/2025-08-11-🧩 Baekjoon 28702 - FizzBuzz.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-11-⛓️ Java Design-Pattern XX - State"
+              "title": "2025-08-11-🧩 Baekjoon 28702 - FizzBuzz"
             }
           },
           {
@@ -226,8 +226,9 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
-    "_posts/java/design-pattern/2025-08-10-⛓️ Java Design-Pattern XⅧ - Observer.md",
     "_posts/java/design-pattern/2025-08-11-⛓️ Java Design-Pattern XX - State.md",
+    "_posts/problem-solving/baekjoon/2025-08-11-🧩 Baekjoon 28702 - FizzBuzz.md",
+    "_posts/java/design-pattern/2025-08-10-⛓️ Java Design-Pattern XⅧ - Observer.md",
     "assets/image/Pasted image 20250811155320.png",
     "assets/image/Pasted image 20250811155203.png",
     "_posts/java/design-pattern/2025-08-10-⛓️ Java Design-Pattern XⅨ - Memento.md",
