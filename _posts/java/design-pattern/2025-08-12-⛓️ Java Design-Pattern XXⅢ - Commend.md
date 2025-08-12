@@ -214,7 +214,7 @@ public class Main extends JFrame implements MouseMotionListener, WindowListener 
 	private DrawCanvas canvas = new DrawCanvas(400, 400, history);
 	
 	/* 삭제 버튼 */
-	private JButton clearButton  = new JButton("clear");
+	private JButton clearButton = new JButton("clear");
 	
 	/* 생성자 */
 	public Main(String title) {
