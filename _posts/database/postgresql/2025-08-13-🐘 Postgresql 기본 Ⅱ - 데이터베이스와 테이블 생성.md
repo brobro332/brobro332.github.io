@@ -5,7 +5,7 @@ categories:
   - Database
 tags:
   - Database
-  - Postgresql
+  - PostgreSQL
 ---
 
 ![](/assets/image/Pasted%20image%2020250813142544.png)
