@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/database/postgresql/2025-08-13-🐗 Postgresql 기본 Ⅱ - 데이터베이스와 테이블 생성.md",
-                "mode": "preview",
+                "file": "_posts/database/mysql/2025-08-13-🦤 MySQL 심화 Ⅰ - 쿼리 응답 시간.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-13-🐗 Postgresql 기본 Ⅱ - 데이터베이스와 테이블 생성"
+              "title": "2025-08-13-🦤 MySQL 심화 Ⅰ - 쿼리 응답 시간"
             }
           },
           {
@@ -226,9 +226,9 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
-    "_posts/database/mysql/2025-08-11-🦤 MySQL 심화 Ⅰ - 쿼리 응답 시간.md",
-    "_posts/database/postgresql/2025-08-13-🐗 Postgresql 기본 Ⅱ - 데이터베이스와 테이블 생성.md",
-    "_posts/database/postgresql/2025-08-13-🐗 Postgresql 기본 Ⅰ - 코딩 환경 설정.md",
+    "_posts/database/postgresql/2025-08-13-🐘 Postgresql 기본 Ⅰ - 코딩 환경 설정.md",
+    "_posts/database/postgresql/2025-08-13-🐘 Postgresql 기본 Ⅱ - 데이터베이스와 테이블 생성.md",
+    "_posts/database/mysql/2025-08-13-🦤 MySQL 심화 Ⅰ - 쿼리 응답 시간.md",
     "_posts/devops/docker/tutorial/2025-05-07-🐋 Docker 입문 Ⅱ - 명령어 및 실습.md",
     "assets/image/Pasted image 20250813142544.png",
     "_posts/java/design-pattern/2025-08-12-⛓️ Java Design-Pattern XXⅣ - Interpreter.md",

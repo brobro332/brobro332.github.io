@@ -1,5 +1,5 @@
 ---
-title: 🐗 Postgresql 기본 Ⅰ - 코딩 환경 설정
+title: 🐘 Postgresql 기본 Ⅰ - 코딩 환경 설정
 date: 2025-08-13 14:01:00 +0900
 categories:
   - Database
