@@ -1,5 +1,5 @@
 ---
-title: ⛓️ Java Design-Pattern XXⅢ - Commend
+title: ⛓️ Java Design-Pattern XXⅢ - Command
 date: 2025-08-12 13:49:00 +0900
 categories:
   - Java
@@ -11,7 +11,7 @@ tags:
 ![](/assets/image/Pasted%20image%2020250528230454.png)
 > 📗 `『JAVA 언어로 배우는 디자인 패턴 : 쉽게 배우는 GoF의 23가지 디자인 패턴』`를 읽고 정리한 글입니다.
 
-### `Commend` 패턴이란?
+### `Command` 패턴이란?
 - 클래스는 자기 자신이나 다른 클래스의 메서드를 호출해서 일을 처리한다.
 - 메서드를 호출한 결과는 객체에 반영되지만, 일한 이력은 어디에도 남지 않는다.
 - 이럴 때 명령을 표현하는 클래스가 있으면 편리하다.

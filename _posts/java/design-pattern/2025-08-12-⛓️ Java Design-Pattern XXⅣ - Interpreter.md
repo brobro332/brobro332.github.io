@@ -108,6 +108,9 @@ program repeat 4 repeat 3 go right go left end right end end
 
 ### 예제 프로그램
 - 다음은 미니 언어를 구문 해석하는 예제 프로그램이다.
+
+![](/assets/image/Pasted%20image%2020250813133102.png)
+
 - 단순한 문자열인 미니 프로그램을 분해하여 각 부분이 어떤 구조로 되어 있는지를 해석하는 것이 구문 해석이다.
 - 가령 다음 미니 프로그램이 주어졌다고 하자.
 
