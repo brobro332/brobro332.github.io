@@ -1,5 +1,5 @@
 ---
-title: 🐘 Postgresql 기본 Ⅱ - 데이터베이스와 테이블 생성
+title: 🐘 PostgreSQL 기본 Ⅱ - 데이터베이스와 테이블 생성
 date: 2025-08-13 14:40:00 +0900
 categories:
   - Database
