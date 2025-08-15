@@ -113,12 +113,13 @@ ORDER BY state_name, county_name;
 ```
 - 위 코드는 각 카운티의 출생자 수에서 사망자 수를 빼 인구 조사에서 자연 증가하는 수를 구한다.
 
-|county        |state  |births|deaths|natural_increase|
-|--------------|-------|------|------|----------------|
-|Autauga County|Alabama|624   |541   |83              |
-|Baldwin County|Alabama|2,304 |2,326 |-22             |
-|Barbour County|Alabama|256   |312   |-56             |
-|Bibb County   |Alabama|240   |252   |-12             |
+| county         | state   | births | deaths | natural_increase |
+| -------------- | ------- | ------ | ------ | ---------------- |
+| Autauga County | Alabama | 624    | 541    | 83               |
+| Baldwin County | Alabama | 2,304  | 2,326  | -22              |
+| Barbour County | Alabama | 256    | 312    | -56              |
+| Bibb County    | Alabama | 240    | 252    | -12              |
+
 - 이제 이를 기반으로 데이터를 테스트하고 열을 올바르게 가져왔는지 확인해야 한다.
 - 2019년 인구 추정치는 2018년 추정치와 출생자 수, 사망자 수, 이주 및 잔여 요인에 대한 열의 합계와 같아야 한다.
 
