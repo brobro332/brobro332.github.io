@@ -212,10 +212,10 @@ SQL Error [23503]: ERROR: insert or update on table "registrations" violates for
 
 ```sql
 CREATE TABLE registrations (
-    registration_id text,
-    registration_date timestamp with time zone,
-    license_id text REFERENCES licenses (license_id) ON DELETE CASCADE,
-    CONSTRAINT registration_key PRIMARY KEY (registration_id, license_id)
+	registration_id text,
+	registration_date timestamp with time zone,
+	license_id text REFERENCES licenses (license_id) ON DELETE CASCADE,
+	CONSTRAINT registration_key PRIMARY KEY (registration_id, license_id)
 );
 ```
 - 테이블을 위 코드와 같이 생성할 경우 `licenses` 테이블의 행을 삭제할 경우 관련 테이블의 모든 관련 행이 함께 삭제된다. 
