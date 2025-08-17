@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/database/postgresql/2025-08-15-🐘 PostgreSQL 기본 Ⅵ - SQL을 사용한 기본 수학 및 통계.md",
+                "file": "_posts/database/postgresql/2025-08-17-🐘 PostgreSQL 기본 Ⅶ - 관계형 데이터베이스에서 테이블 조인.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-15-🐘 PostgreSQL 기본 Ⅵ - SQL을 사용한 기본 수학 및 통계"
+              "title": "2025-08-17-🐘 PostgreSQL 기본 Ⅶ - 관계형 데이터베이스에서 테이블 조인"
             }
           },
           {
@@ -226,8 +226,9 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
-    "_posts/devops/docker/tutorial/2025-07-03-🐋 Docker 입문 Ⅵ - Kubernetes.md",
     "_posts/database/postgresql/2025-08-15-🐘 PostgreSQL 기본 Ⅵ - SQL을 사용한 기본 수학 및 통계.md",
+    "_posts/database/postgresql/2025-08-17-🐘 PostgreSQL 기본 Ⅶ - 관계형 데이터베이스에서 테이블 조인.md",
+    "_posts/devops/docker/tutorial/2025-07-03-🐋 Docker 입문 Ⅵ - Kubernetes.md",
     "_posts/database/postgresql/2025-08-15-🐘 PostgreSQL 기본 Ⅴ - 데이터 가져오고 내보내기.md",
     "_posts/database/postgresql/2025-08-13-🐘 PostgreSQL 기본 Ⅱ - 데이터베이스와 테이블 생성.md",
     "_posts/database/postgresql/2025-08-14-🐘 PostgreSQL 기본 Ⅳ - 데이터 타입 이해.md",
@@ -259,7 +260,6 @@
     "assets/image/Pasted image 20250812160812.png",
     "Excalidraw/Drawing 2025-08-12 16.05.11.excalidraw.md",
     "_posts/java/design-pattern/2024-11-14-⛓️ Java Design-Pattern Ⅲ - Adapter.md",
-    "_posts/java/design-pattern/2025-08-10-⛓️ Java Design-Pattern XⅧ - Observer.md",
     "assets/image/Pasted image 20250811211531.png",
     "assets/image/Pasted image 20250811211450.png",
     "assets/image/Pasted image 20250811195244.png",
