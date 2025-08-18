@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/database/postgresql/2025-08-18-🐘 PostgreSQL 기본 Ⅸ - 그루핑과 요약으로 정보 추출.md",
+                "file": "_posts/database/postgresql/2025-08-18-🐘 PostgreSQL 기본 Ⅹ - 데이터 검사 및 수정.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-18-🐘 PostgreSQL 기본 Ⅸ - 그루핑과 요약으로 정보 추출"
+              "title": "2025-08-18-🐘 PostgreSQL 기본 Ⅹ - 데이터 검사 및 수정"
             }
           },
           {
@@ -226,11 +226,13 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
+    "_posts/react/tutorial/2025-03-07-🌌 React 입문 Ⅹ - 조건부 렌더링.md",
+    "_posts/database/postgresql/2025-08-18-🐘 PostgreSQL 기본 Ⅹ - 데이터 검사 및 수정.md",
+    "_posts/database/postgresql/2025-08-18-🐘 PostgreSQL 기본 Ⅸ - 그루핑과 요약으로 정보 추출.md",
     "_posts/database/postgresql/2025-08-15-🐘 PostgreSQL 기본 Ⅴ - 데이터 가져오고 내보내기.md",
     "_posts/database/postgresql/2025-08-14-🐘 PostgreSQL 기본 Ⅳ - 데이터 타입 이해.md",
     "_posts/database/postgresql/2025-08-13-🐘 PostgreSQL 기본 Ⅱ - 데이터베이스와 테이블 생성.md",
     "_posts/database/postgresql/2025-08-13-🐘 PostgreSQL 기본 Ⅰ - 코딩 환경 설정.md",
-    "_posts/database/postgresql/2025-08-18-🐘 PostgreSQL 기본 Ⅸ - 그루핑과 요약으로 정보 추출.md",
     "_posts/react/tutorial/2024-11-24-🌌 React 입문 Ⅸ - Event.md",
     "_posts/database/postgresql/2025-08-17-🐘 PostgreSQL 기본 Ⅷ - 적시적소에 알맞은 테이블 디자인.md",
     "_private/profile/혼자 진행하는 캐릭터 → 숏츠 → 카카오 이모티콘 로드맵.md",
@@ -255,8 +257,6 @@
     "Excalidraw",
     "Excalidraw/Drawing 2025-08-12 21.08.17.excalidraw.md",
     "assets/image/Pasted image 20250812211112.png",
-    "_posts/java/design-pattern/2025-08-11-⛓️ Java Design-Pattern XX - State.md",
-    "_posts/java/design-pattern/2025-08-11-⛓️ Java Design-Pattern XXⅡ - Proxy.md",
     "assets/image/Pasted image 20250812161939.png",
     "assets/image/Pasted image 20250812161901.png",
     "assets/image/Pasted image 20250812160812.png",

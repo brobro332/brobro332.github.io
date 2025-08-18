@@ -1,0 +1,549 @@
+---
+title: 🐘 PostgreSQL 기본 Ⅹ - 데이터 검사 및 수정
+date: 2025-08-18 12:10:00 +0900
+categories:
+  - Database
+tags:
+  - Database
+  - PostgreSQL
+---
+
+![](/assets/image/Pasted%20image%2020250813142544.png)
+> 📙 `『실용 SQL』`을 읽고 정리한 글입니다.
+
+### 육류, 가금류 및 계란 생산업체 데이터 가져오기
+
+```sql
+CREATE TABLE meat_poultry_egg_establishments (
+	establishment_number text CONSTRAINT est_number_key PRIMARY KEY,
+	company text,
+	street text,
+	city text,
+	st text,
+	zip text,
+	phone text,
+	grant_date date,
+	activities text,
+	dbas text
+);
+
+COPY meat_poultry_egg_establishments
+FROM 'C:\YourDirectory\MPI_Directory_by_Establishment_Name.csv'
+WITH (FORMAT CSV, HEADER);
+
+CREATE INDEX company_idx ON meat_poultry_egg_establishments (company);
+```
+
+
+### 데이터셋 인터뷰하기
+
+```sql
+SELECT company,
+	street,
+	city,
+	st,
+	count(*) AS address_count
+FROM meat_poultry_egg_establishments
+GROUP BY company, street, city, st
+HAVING count(*) > 1
+ORDER BY company, street, city, st;
+```
+- `meat_poultry_egg_establishments` 테이블은 식품 생산업체를 설명한다.
+- 언뜻 보면 각 행의 각 회사들이 서로 다른 주소에서 운영된다고 생각할 수 있지만, 그렇지 않을 수 있으므로 같은 주소를 가진 여러 회사를 조회해보자.
+- `HAVING` 절을 통해 두 개 이상의 행이 있는 경우만 출력한다.
+
+|company                                       |street                              |city         |st |
+|----------------------------------------------|------------------------------------|-------------|---|
+|Acre Station Meat Farm                        |17076 Hwy 32 N                      |Pinetown     |NC |
+|Beltex Corporation                            |3801 North Grove Street             |Fort Worth   |TX |
+|Cloverleaf Cold Storage                       |111 Imperial Drive                  |Sanford      |NC |
+|Crete Core Ingredients, LLC                   |2220 County Road I                  |Crete        |NE |
+|Crider, Inc.                                  |1 Plant Avenue                      |Stillmore    |GA |
+|Dimension Marketing & Sales, Inc.             |386 West 9400 South                 |Sandy        |UT |
+|Foster Poultry Farms, A California Corporation|6648 Highway 15 North               |Farmerville  |LA |
+|Freezer & Dry Storage, LLC                    |21740 Trolley Industrial Drive      |Taylor       |MI |
+|JBS Souderton Inc.                            |249 Allentown Road                  |Souderton    |PA |
+|KB Poultry Processing LLC                     |15024 Sandstone Dr.                 |Utica        |MN |
+|Lakeside Refrigerated Services                |2600 Oldmans Creek Road             |Swedesboro   |NJ |
+|Liberty Cold Storage                          |1310 Remington Blvd.                |Bolingbrook  |IL |
+|M.G. Waldbaum Company                         |120 Tower Street                    |Gaylord      |MN |
+|Midway International Logistics LLC            |948 Bradley Street                  |Watertown    |NY |
+|Nordic Logistics and Warehousing, LLC         |220 Nordic Way                      |Pooler       |GA |
+|OK Foods, Inc.                                |3921 Reed Lane                      |Fort Smith   |AR |
+|Pacific Produce Corporation                   |220 East Harmon Industrial Park Road|Tamuning     |GU |
+|Payless Distribution Center (PDC)             |370 Mendioka Street                 |Dededo       |GU |
+|Piatkowski Riteway Meats Inc.                 |3555 Witmer Road                    |Niagara Falls|NY |
+|Preferred Freezer Services                    |2700 Trade Street                   |Chesapeake   |VA |
+|THE AMERICAN PIG                              |25 MEADOW ROAD                      |ASHEVILLE    |NC |
+|The Classic Jerky Company                     |21655 Trolley Industrial Drive      |Taylor       |MI |
+|United States Cold Storage Inc.               |11801 NW 102 Road                   |Medley       |FL |
+
+- 총 23개의 행이 출력되었다.
+- 회사가 동일한 주소에 여러 번 나타나는 데 타당한 이유가 있을 수 있지만, 데이터 입력 오류가 발견된 것일 수도 있으므로 데이터셋에 의존하지 않고 유효성에 대한 우려를 제기하는 것이 현명한 방법이다.
+
+#### 결측값 확인하기
+
+```sql
+-- 주 그룹화하고 세기
+SELECT st,
+	count(*) AS st_count
+FROM meat_poultry_egg_establishments
+GROUP BY st
+ORDER BY st;
+
+-- IS NULL을 사용하여 st 열에서 결측 값 찾기
+SELECT establishment_number,
+	company,
+	city,
+	st,
+	zip
+FROM meat_poultry_egg_establishments
+WHERE st IS NULL;
+```
+- 첫 번째 쿼리는 모든 주 열에 값이 있는지, 있다면 몇 개씩 있는지 확인하는 명령어다. 
+- 실행해보면, `NULL` 값을 가진 행이 3개 있다는 사실을 알 수 있다.
+- 두 번째 쿼리를 통해 결측값을 조회한 결과는 다음과 같다.
+
+|establishment_number|company                        |city  |st |zip  |
+|--------------------|-------------------------------|------|---|-----|
+|V18677A             |Atlas Inspection, Inc.         |Blaine|   |55449|
+|M45319+P45319       |Hall-Namie Packing Company, Inc|      |   |36671|
+|M263A+P263A+V263A   |Jones Dairy Farm               |      |   |53538|
+
+- 각 주에서 보유한 시설의 정확한 개수를 알고자 할 때 위와 같은 결측값은 잘못된 결과를 초래할 수 있다.
+- 이와 같은 오류를 발생하면 다운로드한 원본 파일을 직접 확인하여, 데이터를 가져오는 과정에서 발생한 것인지, 데이터 자체에 내재된 오류인지 확인해야 한다.
+
+#### 일관성 없는 데이터 값 확인하기
+
+```sql
+SELECT company,
+count(*) AS company_count
+FROM meat_poultry_egg_establishments
+GROUP BY company
+ORDER BY company ASC;
+```
+- `count()`와 함께 `GROUP BY`를 사용하여 열 내에서 일관되지 않게 입력된 데이터를 확인할 수 있다.
+- 가령 조회 결과 중 일부는 다음과 같다.
+
+|company                   |company_count|
+|--------------------------|-------------|
+|AdvancePierre Foods       |1            |
+|Advance Pierre Foods, Inc |2            |
+|Advance Pierre Foods, Inc.|1            |
+|AdvancePierre Foods, Inc  |1            |
+|AdvancePierre Foods, Inc. |7            |
+
+- 동일한 회사가 소유하고 있을 가능성이 높은 12개 시설에 대해 적어도 다섯 개 이상의 서로 다른 표기 방식이 존재한다.
+- 집계되거나 합산된 모든 항목이 적절하게 그룹화되도록 이름을 표준화하는 것이 좋다.
+
+#### `length()`를 사용하여 잘못된 값 확인하기
+
+```sql
+-- length()와 count()를 사용하여 zip 열 테스트해 보기
+SELECT length(zip),
+	count(*) AS length_count
+FROM meat_poultry_egg_establishments
+GROUP BY length(zip)
+ORDER BY length(zip) ASC;
+
+-- zip 열에서 짧은 값을 찾기 위해 length()로 필터링하기
+SELECT st,
+	count(*) AS st_count
+FROM meat_poultry_egg_establishments
+WHERE length(zip) < 5
+GROUP BY st
+ORDER BY st ASC;
+```
+- 사실 `CSV` 데이터를 가져오는 과정에서 오류를 재현하기 위해 우편번호를 텍스트 값 대신 일반 숫자 형식으로 스프레드시트에 저장했다.
+- 이렇게 하면 정수가 0으로 시작할 수 없기 때문에 07502처럼 0으로 시작되는 우편번호는 선행하는 0을 잃는다.
+- 실제로는 이러한 상황을 방지하기 위해 텍스트 형식을 지정해야 하는 숫자에 주의를 기울여야 한다.
+- 우편번호는 다섯 자리 숫자인데, 첫 번째 쿼리를 통해 3, 4 자리의 숫자도 존재하는 걸 확인할 수 있다.
+- 두 번째 쿼리를 통해 어떤 주의 우편번호가 잘못 저장되었는지 목록을 확인할 수 있다.
+- 지금까지 확인한 문제 목록은 다음과 같다.
+
+1. `st` 열의 3개 행에 대한 결측값
+2. 하나 이상의 회사 이름 철자 불일치
+3. 파일 변환으로 인해 부정확해진 우편번호
+
+
+### 테이블, 열, 데이터 수정하기
+- 테이블에서 열, 데이터 타입, 값에 이르기까지 데이터베이스에서 생성된 후 구체적으로 고정되는 것은 거의 없다.
+- 필요에 따라 테이블에 열을 추가하고, 기존 열의 데이터 타입을 변경하고, 값을 편집하게 된다.
+
+> 데이터 인터뷰에서 너무 많은 결측값 또는 수천을 예상했는데 수십 억에 이르는 식으로 상식에 어긋나는 값이 발견되면 그 데이터의 사용을 재평가해야 한다.
+> 많이 의심되는 경우 첫 번째 단계는 원본 데이터 파일을 다시 확인하는 것이다.
+> 올바르게 가져왔는지, 모든 열의 데이터가 테이블의 동일한 열에 있는지 확인해야 한다.
+> 또는 데이터를 생성한 기관이나 회사에 연락하여 보고 있는 내용을 확인하고 설명을 요청하는 것이다.
+> 동일한 데이터를 사용한 다른 사람에게 조언을 구하는 방법도 있다.
+
+#### `ALTER TABLE`로 테이블 수정하기
+
+```sql
+-- 테이블 열 추가
+ALTER TABLE table_name ADD COLUMN column_name data_type; 
+
+-- 테이블 열 제거
+ALTER TABLE table_name DROP COLUMN column_name;
+
+-- 테이블 열 데이터 타입 변경
+ALTER TABLE table_name ALTER COLUMN column_name SET DATA TYPE data_type;
+
+-- 테이블 열 제약 조건 추가/삭제
+ALTER TABLE table_name ALTER COLUMN column_name SET NOT NULL;
+ALTER TABLE table_name ALTER COLUMN column_name DROP NOT NULL;
+```
+
+#### `UPDATE`로 값 수정하기
+
+```sql
+-- 모든 행의 단일 열 수정
+UPDATE table_name SET column = value;
+
+-- 모든 행의 여러 열 수정
+UPDATE table_name SET column_a = value, column_b = value;
+
+-- 특정 행 수정
+UPDATE table_name SET column = value WHERE criteria;
+
+-- 한 테이블을 다른 테이블의 값으로 수정
+UPDATE table_name
+SET column = ( SELECT column
+	FROM table_b
+	WHERE table.column = table_b.column )
+WHERE EXISTS ( SELECT column
+	FROM table_b
+	WHERE table.column = table_b.column );
+```
+- 마지막 쿼리의 경우 `WHERE EXISTS` 절이 없으면 의도치 않게 일부 값을 `NULL`로 설정하게 될 수 있다.
+- 일부 데이터베이스 관리자는 테이블 간 업데이트를 위한 추가 구문을 제공한다.
+- 가령 `PostgreSQL`에서는 다음 쿼리도 가능하다.
+
+```sql
+UPDATE table
+SET column = table_b.column
+FROM table_b
+WHERE table.column = table_b.column;
+```
+- `UPDATE` 문을 실행할 때 `PostgreSQL`은 영향을 받는 행 수와 함께 `UPDATE`를 나타내는 메시지를 반환한다.
+
+#### `RETURNING`으로 수정된 데이터 보기
+- `UPDATE` 문에 `RETURNING` 키워드를 추가하면 별도의 쿼리를 추가 입력할 필요 없이 수정된 값을 확인할 수 있다.
+
+```sql
+UPDATE table_name
+SET column_a = value
+RETURNING column_a, column_b, column_c;
+```
+- `RETURNING`은 데이터베이스가 수정된 행 수를 표시하는 대신 수정된 행에서 지정한 열을 표시하도록 지시한다.
+- `RETURNING`은 `PostgreSQL` 전용 구현으로 `INSERT`와 `DELETE FROM`과 함께 사용할 수도 있다.
+
+#### 백업 테이블 생성하기
+
+```sql
+CREATE TABLE meat_poultry_egg_establishments_backup AS
+SELECT * FROM meat_poultry_egg_establishments;
+
+-- 레코드 수 확인
+SELECT
+	(SELECT count(*) FROM meat_poultry_egg_establishments) AS original,
+	(SELECT count(*) FROM meat_poultry_egg_establishments_backup) AS backup;
+```
+- 테이블을 수정하기 전에 참조 및 백업을 위한 복사본을 만드는 것이 좋다.
+- 잘 만들어졌는지는 두 번째 쿼리를 통해 두 테이블의 레코드 수를 비교하면 된다.
+
+|original|backup|
+|--------|------|
+|6,287   |6,287 |
+
+- 참고로 `CREATE TABLE` 문을 통해 테이블 백업을 생성할 때 인덱스는 복사되지 않는다.
+- 백업에서 쿼리를 실행하기로 결정된 경우 별도의 인덱스를 생성해야 한다.
+
+#### 누락된 열 값 복원하기
+- 앞선 데이터 인터뷰에서 `meat_poultry_egg_establishments` 테이블의 세 행은 `NULL` 값을 갖고 있음을 알 수 있었다.
+- 각 주에서 전체 시설 수를 얻으려면 `UPDATE` 문을 사용하여 누락된 값을 채워야 한다.
+
+##### 열 복사본 생성하기
+
+```sql
+ALTER TABLE meat_poultry_egg_establishments ADD COLUMN st_copy text;
+UPDATE meat_poultry_egg_establishments SET st_copy = "st";
+```
+- 어딘가에 심각한 오류가 발생하더라도 원래 데이터가 유지되도록 주의를 기울이기 위해서는 열 복사본을 만드는 것이 좋다.
+- 다음 쿼리를 통해 값이 제대로 복사되었는지 확인할 수 있다.
+
+```sql
+SELECT st,
+	st_copy
+FROM meat_poultry_egg_establishments
+WHERE st IS DISTINCT FROM st_copy
+ORDER BY st;
+```
+- `IS DISTINCT FROM`은 두 열의 값이 다른지 확인한다.
+- 또한 `NULL`을 값으로 취급하기 때문에 비교 결과는 항상 `true`, `false`이다.
+
+##### 값이 누락된 행 업데이트하기
+
+```sql
+UPDATE meat_poultry_egg_establishments
+SET st = 'MN'
+WHERE establishment_number = 'V18677A';
+
+UPDATE meat_poultry_egg_establishments
+SET st = 'AL'
+WHERE establishment_number = 'M45319+P45319';
+
+UPDATE meat_poultry_egg_establishments
+SET st = 'WI'
+WHERE establishment_number = 'M263A+P263A+V263A'
+RETURNING establishment_number, company, city, st, zip;
+```
+- 각 `UPDATE` 문이 단일 행에 영향을 미치길 원하므로 `WHERE` 절에 기본 키에 대한 조건을 추가해야 한다.
+
+##### 원래 값 복원하기
+
+```sql
+-- 백업한 열 복원하기
+UPDATE meat_poultry_egg_establishments
+SET st = st_copy;
+
+-- 백업한 테이블 복원하기
+UPDATE meat_poultry_egg_establishments original
+SET st = backup.st
+FROM meat_poultry_egg_establishments_backup backup
+WHERE original.establishment_number = backup.establishment_number;
+```
+- 첫 번째 쿼리는 열 복사본을 통해 데이터를 복원하고, 두 번째 쿼리는 백업한 테이블 통해 데이터를 복원하는 것이다.
+
+#### 일관성을 위한 값 업데이트하기
+
+```bash
+AdvancePierre Foods
+Advance Pierre Foods, Inc
+Advance Pierre Foods, Inc.
+AdvancePierre Foods, Inc
+AdvancePierre Foods, Inc.
+```
+- 앞선 데이터 인터뷰에서 회사 이름이 일관되지 않게 입력된 경우를 발견했다.
+- `UPDATE` 문을 사용해 이 회사 이름의 철자를 표준화할 수 있다.
+- 데이터를 보호하기 위해 새 열을 만들고, `company` 열 값을 새 열에 복사하고서, 복사한 값으로 작업하면 된다.
+
+```sql
+ALTER TABLE meat_poultry_egg_establishments ADD COLUMN company_standard text;
+
+UPDATE meat_poultry_egg_establishments
+SET company_standard = company;
+```
+- `company` 열에 있는 회사 이름 중 `Pierre`가 포함되어 있는 경우 `Advance-Pierre Foods, Inc.`로 표시하고자 한다.
+- 다음과 같이 데이터를 수정해야 한다.
+
+```sql
+UPDATE meat_poultry_egg_establishments
+SET company_standard = 'Advance-Pierre Foods, Inc.'
+WHERE company LIKE '%Pierre%'
+RETURNING company, company_standard;
+```
+
+|company                   |company_standard          |
+|--------------------------|--------------------------|
+|Advance Pierre Foods, Inc |Advance-Pierre Foods, Inc.|
+|Advance Pierre Foods, Inc |Advance-Pierre Foods, Inc.|
+|Advance Pierre Foods, Inc.|Advance-Pierre Foods, Inc.|
+|AdvancePierre Foods       |Advance-Pierre Foods, Inc.|
+|AdvancePierre Foods, Inc  |Advance-Pierre Foods, Inc.|
+|AdvancePierre Foods, Inc. |Advance-Pierre Foods, Inc.|
+|AdvancePierre Foods, Inc. |Advance-Pierre Foods, Inc.|
+|AdvancePierre Foods, Inc. |Advance-Pierre Foods, Inc.|
+|AdvancePierre Foods, Inc. |Advance-Pierre Foods, Inc.|
+|AdvancePierre Foods, Inc. |Advance-Pierre Foods, Inc.|
+|AdvancePierre Foods, Inc. |Advance-Pierre Foods, Inc.|
+|AdvancePierre Foods, Inc. |Advance-Pierre Foods, Inc.|
+
+- 이제 해당 회사 이름은 일관된 철자로 표준화되었고, 참조를 위해 기존 `company` 열은 유지한다.
+
+#### 연결을 사용하여 우편번호 복구하기
+
+```sql
+ALTER TABLE meat_poultry_egg_establishments ADD COLUMN zip_copy text;
+
+UPDATE meat_poultry_egg_establishments
+SET zip_copy = zip;
+```
+- 위 코드는 열 복사본을 생성하는 쿼리다.
+
+```sql
+-- 두 개의 선행 0이 누락된 zip 열의 코드 수정하기
+UPDATE meat_poultry_egg_establishments
+SET zip = '00' || zip
+WHERE st IN('PR','VI') AND length(zip) = 3;
+
+-- 한 개의 선행 0이 누락된 zip 열의 코드 수정하기
+UPDATE meat_poultry_egg_establishments
+SET zip = '0' || zip
+WHERE st IN('CT','MA','ME','NH','NJ','RI','VT') AND length(zip) = 4;
+```
+- 우편번호에 누락된 0을 추가하는 쿼리다.
+- 데이터를 수정할 때, 데이터 인터뷰 시 발견된 행 수와 실제로 수정된 행 수를 확인해야 한다.
+
+#### 여러 테이블에서 값 업데이트하기
+
+```sql
+-- state_regions 테이블 생성 및 채우기
+CREATE TABLE state_regions (
+	st text CONSTRAINT st_key PRIMARY KEY,
+	region text NOT NULL
+);
+
+COPY state_regions
+FROM 'C:\YourDirectory\state_regions.csv'
+WITH (FORMAT CSV, HEADER);
+```
+- 우리가 다루는 테이블에 있는 각 회사들의 검사 날짜를 설정하기 위해 테이블을 생성하고 데이터를 가져오자.
+
+```sql
+-- inspection_deadline 열 추가 및 업데이트하기
+ALTER TABLE meat_poultry_egg_establishments
+	ADD COLUMN inspection_deadline timestamp with time zone;
+
+UPDATE meat_poultry_egg_establishments establishments
+SET inspection_deadline = '2022-12-01 00:00 EST'
+WHERE EXISTS (SELECT state_regions.region
+	FROM state_regions
+	WHERE establishments.st = state_regions.st
+		AND state_regions.region = 'New England');
+```
+- `ALTER TABLE` 문에서 열을 추가하고,  같은 주에 속하면서 그 지역이 뉴잉글랜드인 경우 검사 날짜 값을 갱신한다.
+
+```sql
+SELECT st, inspection_deadline
+FROM meat_poultry_egg_establishments
+GROUP BY st, inspection_deadline
+ORDER BY st;
+```
+- 결과를 확인해보면 뉴잉글랜드 지역 외에는 아직 검사 날짜 값이 `NULL`로 설정되어 있는 것을 확인할 수 있다.
+
+
+### 불필요한 데이터 삭제하기
+#### 테이블에서 행 삭제하기
+
+```sql
+-- 모든 행 삭제
+DELETE FROM table_name;
+
+-- 특정 행 삭제
+DELETE FROM table_name WHERE expression;
+
+-- 예제 테이블에서 미국 영토를 제외
+DELETE FROM meat_poultry_egg_establishments
+WHERE st IN('AS','GU','MP','PR','VI');
+
+-- 테이블 데이터 비우기
+TRUNCATE table_name
+
+-- 테이블 시퀀스 재설정
+TRUNCATE table_name RESTART IDENTITY;
+```
+
+#### 테이블 열 삭제하기
+
+```sql
+-- 테이블 열 삭제 
+ALTER TABLE table_name DROP COLUMN column_name;
+
+-- 예제 테이블에서 열 복사본 삭제
+ALTER TABLE meat_poultry_egg_establishments DROP COLUMN zip_copy;
+```
+
+#### 데이터베이스에서 테이블 삭제하기
+
+```sql
+-- 데이터베이스에서 테이블 삭제
+DROP TABLE table_name;
+
+-- 데이터베이스에서 예제 테이블 삭제
+DROP TABLE meat_poultry_egg_establishments_backup;
+```
+
+
+### 트랜잭션으로 변경 사항 저장하기 또는 되돌리기
+- 지금까지 배운 데이터 변경은 최종적인 변경이다.
+- 즉 `DELETE`나 `UPDATE` 쿼리를 실행한 후 변경 사항을 실행 취소하는 유일한 방법은 백업에서 복원하는 것이다.
+- 이 방법들과 다르게 변경 사항을 완료하기 전에 확인하여, 의도한 변경이 아니라면 그 변경 사항을 취소하는 방법도 있다.
+- 쿼리의 시작과 끝에 다음 키워드를 사용해 정의하는 명령문 그룹인 트랜잭션 블록 내에서 `SQL` 문으로 감싸 이를 수행한다.
+
+1. `START TRANSACTION`
+	- 트랜잭션 블록의 시작을 알린다.
+	- `PostgreSQL`에서는 표준 `ANSI SQL`에 속하지 않는 `BEGIN` 키워드를 사용할 수도 있다.
+2. `COMMIT`
+	- 블록의 끝을 알리고 모든 변경 사항을 저장한다.
+3. `ROLLBACK`
+	- 블록의 끝을 알리고 모든 변경 사항을 되돌린다.
+
+- `BEGIN`과 `COMMIT` 사이에 여러 명령문을 포함하여 데이터베이스에서 하나의 작업 단위를 수행하는 일련의 작업, 즉 트랜잭션을 정의할 수 있다.
+- 이때 한 단계가 실패하면 다른 단계도 모두 취소된다.
+- 가령 우리의 테이블에서 `ARGO Merchants Oakland LLC`라는 회사와 관련된 지저분한 데이터를 정리한다고 가정해보자.
+
+| company                     |
+| --------------------------- |
+| ARGO Merchants Oakland LLC  |
+| ARGO Merchants Oakland LLC  |
+| ARGO Merchants Oakland, LLC |
+
+- 우리는 이름이 일관되기를 원하므로 `UPDATE` 쿼리를 사용하여 세 번째 행을 수정하되, 이번에는 최종 업데이트 전에 업데이트 결과를 먼저 확인해볼 것이다.
+
+```sql
+-- 트랜잭션을 시작하고 업데이트하기
+START TRANSACTION;
+
+UPDATE meat_poultry_egg_establishments
+SET company = 'AGRO Merchantss Oakland LLC'
+WHERE company = 'AGRO Merchants Oakland, LLC';
+
+-- 변경사항 확인하기
+SELECT company
+FROM meat_poultry_egg_establishments
+WHERE company LIKE 'AGRO%'
+ORDER BY company;
+
+-- 변경사항 무시하기
+ROLLBACK;
+```
+
+|company                    |
+|---------------------------|
+|AGRO Merchants Oakland LLC |
+|AGRO Merchants Oakland LLC |
+|AGRO Merchantss Oakland LLC|
+
+ - 결과를 보면 위와 같이 수정이 잘못 된 것을 확인할 수 있다.
+- `ROLLBACK` 명령어를 통해 변경 사항을 되돌릴 수 있고, 그대로 저장하려면 `COMMIT` 명령어를 사용하면 된다.
+
+> 트랜잭션을 시작하면 `COMMIT`을 실행하기 전까지 데이터에 대한 변경 사항이 다른 데이터베이스 사용자에게 표시되지 않는다.
+
+
+### 큰 테이블을 업데이트할 때 성능 향상하기
+
+```sql
+-- 새 열을 추가하고 채우면서 테이블 백업하기
+CREATE TABLE meat_poultry_egg_establishments_backup AS
+SELECT *,
+	'2023-02-14 00:00 EST'::timestamp with time zone AS reviewed_date
+FROM meat_poultry_egg_establishments;
+
+-- ALTER TABLE을 사용하여 테이블 이름 바꾸기
+ALTER TABLE meat_poultry_egg_establishments
+	RENAME TO meat_poultry_egg_establishments_temp;
+ALTER TABLE meat_poultry_egg_establishments_backup
+	RENAME TO meat_poultry_egg_establishments;
+ALTER TABLE meat_poultry_egg_establishments_temp
+	RENAME TO meat_poultry_egg_establishments_backup;
+```
+- `PostgreSQL`이 내부적으로 작동하는 방식 때문에 테이블에 열을 추가하고 값으로 채우면 테이블 크기가 급격히 커질 수 있다.
+- 가령 값이 업데이트될 때마다 데이터베이스가 기존 행의 새 버전을 생성하면서 이전 버전 행을 삭제하지는 않기 때문에 본질적으로 테이블의 크기를 두 배로 늘린다.
+- 사용하지 않는 불필요한 공간 제거는 이후에 19장에서 학습한다.
+- 작은 데이터셋을 다룬다면 무시할 정도지만, 수십만 또는 수백만 행을 다룬다면 업데이트하는데 필요한 시간과 그에 따른 추가 디스크 사용량은 상당할 수 있다.
+- 이를 해결하기 위해 전체 테이블을 복사하고 작업 중에 채워진 열을 추가하는 방식으로 디스크 공간을 절약할 수 있다.
+- 그런 다음 테이블 이름을 변경하여 복사본이 원본을 대체하고 원본이 백업용이 되도록 한다.
+- 그러면 추가된 기존 행 없이 새로운 테이블을 갖게 된다.
+- 여기서는 테이블 이름을 수정하기 위해 `ALTER TABLE`을 `RENAME TO`와 함께 사용한다.
+- 이제 원본 테이블은 `meat_poultry_egg_establishments_backup`이고, 추가된 열이 있는 복사본 테이블은 `meat_poultry_egg_establishments`이다.
+- 이러한 프로세스를 사용하면 행 업데이트를 방지하여 테이블의 과도한 팽창을 피할 수 있다.

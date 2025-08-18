@@ -1,6 +1,6 @@
 ---
-title: 🐘 PostgreSQL 기본 Ⅷ - 적시적소에 알맞은 테이블 디자인
-date: 2025-08-17 18:10:00 +0900
+title: 🐘 PostgreSQL 기본 Ⅸ - 그루핑과 요약으로 정보 추출
+date: 2025-08-18 10:10:00 +0900
 categories:
   - Database
 tags:
