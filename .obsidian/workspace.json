@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/problem-solving/baekjoon/2025-08-13-🧩 Baekjoon 2751 - 수 정렬하기 2.md",
+                "file": "_posts/problem-solving/baekjoon/2025-08-18-🧩 Baekjoon 2751 - 수 정렬하기 2.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-13-🧩 Baekjoon 2751 - 수 정렬하기 2"
+              "title": "2025-08-18-🧩 Baekjoon 2751 - 수 정렬하기 2"
             }
           },
           {
@@ -224,10 +224,10 @@
       "markdown-importer:마크다운 형식 불러오기 열기": false
     }
   },
-  "active": "711da87d9c319ab4",
+  "active": "f96f157fd90bf782",
   "lastOpenFiles": [
     "_posts/problem-solving/baekjoon/2025-08-13-🧩 Baekjoon 1676 - 팩토리얼 0의 개수.md",
-    "_posts/problem-solving/baekjoon/2025-08-13-🧩 Baekjoon 2751 - 수 정렬하기 2.md",
+    "_posts/problem-solving/baekjoon/2025-08-18-🧩 Baekjoon 2751 - 수 정렬하기 2.md",
     "_posts/database/postgresql/2025-08-18-🐘 PostgreSQL 기본 Ⅹ - 데이터 검사 및 수정.md",
     "_posts/react/tutorial/2025-03-07-🌌 React 입문 Ⅹ - 조건부 렌더링.md",
     "_posts/database/postgresql/2025-08-18-🐘 PostgreSQL 기본 Ⅸ - 그루핑과 요약으로 정보 추출.md",
