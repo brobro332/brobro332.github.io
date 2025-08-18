@@ -127,6 +127,7 @@ COPY us_counties_pop_est_2019
 FROM 'C:\YourDirectory\us_counties_pop_est_2019.csv'
 WITH (FORMAT CSV, HEADER);
 ```
+- `Docker`를 사용한다면 `docker cp us_counties_pop_est_2019.csv postgres-practice:/tmp/my_data.csv` 명령어를 통해 컨테이너에 파일을 넘겨야 한다.
 
 ```bash
 Updated Rows	3142
