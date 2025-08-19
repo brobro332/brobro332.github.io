@@ -385,7 +385,7 @@ ORDER BY year, month;
 
 -- 롤링 평균 계산
 SELECT year, month, citrus_export_value,
-	round(  
+	round(
 		avg(citrus_export_value)
 			OVER(ORDER BY year, month
 				ROWS BETWEEN 11 PRECEDING AND CURRENT ROW), 0)
