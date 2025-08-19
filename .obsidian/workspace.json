@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/problem-solving/baekjoon/2025-08-18-🧩 Baekjoon 2751 - 수 정렬하기 2.md",
+                "file": "_posts/database/postgresql/2025-08-19-🐘 PostgreSQL 기본 Ⅺ - SQL 통계 함수.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-18-🧩 Baekjoon 2751 - 수 정렬하기 2"
+              "title": "2025-08-19-🐘 PostgreSQL 기본 Ⅺ - SQL 통계 함수"
             }
           },
           {
@@ -224,13 +224,15 @@
       "markdown-importer:마크다운 형식 불러오기 열기": false
     }
   },
-  "active": "f96f157fd90bf782",
+  "active": "711da87d9c319ab4",
   "lastOpenFiles": [
-    "_posts/problem-solving/baekjoon/2025-08-13-🧩 Baekjoon 1676 - 팩토리얼 0의 개수.md",
-    "_posts/problem-solving/baekjoon/2025-08-18-🧩 Baekjoon 2751 - 수 정렬하기 2.md",
-    "_posts/database/postgresql/2025-08-18-🐘 PostgreSQL 기본 Ⅹ - 데이터 검사 및 수정.md",
+    "_posts/react/tutorial/2025-03-08-🌌 React 입문 Ⅺ -  List와 Key.md",
     "_posts/react/tutorial/2025-03-07-🌌 React 입문 Ⅹ - 조건부 렌더링.md",
+    "_posts/database/postgresql/2025-08-19-🐘 PostgreSQL 기본 Ⅺ - SQL 통계 함수.md",
+    "_posts/database/postgresql/2025-08-18-🐘 PostgreSQL 기본 Ⅹ - 데이터 검사 및 수정.md",
     "_posts/database/postgresql/2025-08-18-🐘 PostgreSQL 기본 Ⅸ - 그루핑과 요약으로 정보 추출.md",
+    "_posts/problem-solving/baekjoon/2025-08-18-🧩 Baekjoon 2751 - 수 정렬하기 2.md",
+    "_posts/problem-solving/baekjoon/2025-08-13-🧩 Baekjoon 1676 - 팩토리얼 0의 개수.md",
     "_posts/database/postgresql/2025-08-15-🐘 PostgreSQL 기본 Ⅴ - 데이터 가져오고 내보내기.md",
     "_posts/database/postgresql/2025-08-14-🐘 PostgreSQL 기본 Ⅳ - 데이터 타입 이해.md",
     "_posts/database/postgresql/2025-08-13-🐘 PostgreSQL 기본 Ⅱ - 데이터베이스와 테이블 생성.md",
@@ -253,8 +255,6 @@
     "_posts/database/postgresql",
     "assets/image/Pasted image 20250813133102.png",
     "_posts/java/design-pattern/2025-08-12-⛓️ Java Design-Pattern XXⅢ - Command.md",
-    "_posts/problem-solving/baekjoon/2025-08-12-🧩 Baekjoon 1436 - 영화감독 숌.md",
-    "Excalidraw/Drawing 2025-08-12 21.11.46.excalidraw.md",
     "Excalidraw",
     "assets/image/Pasted image 20250812211112.png",
     "assets/image/Pasted image 20250812161939.png",
