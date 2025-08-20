@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/database/postgresql/2025-08-19-🐘 PostgreSQL 기본 Ⅺ - SQL 통계 함수.md",
+                "file": "_posts/database/postgresql/2025-08-20-🐘 PostgreSQL 기본 Ⅺ - 날짜와 시간을 사용한 작업.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-19-🐘 PostgreSQL 기본 Ⅺ - SQL 통계 함수"
+              "title": "2025-08-20-🐘 PostgreSQL 기본 Ⅺ - 날짜와 시간을 사용한 작업"
             }
           },
           {
@@ -212,6 +212,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:새 베이스 생성하기": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -226,9 +227,10 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
+    "_posts/database/postgresql/2025-08-19-🐘 PostgreSQL 기본 Ⅺ - SQL 통계 함수.md",
+    "_posts/database/postgresql/2025-08-20-🐘 PostgreSQL 기본 Ⅺ - 날짜와 시간을 사용한 작업.md",
     "_posts/react/tutorial/2025-03-08-🌌 React 입문 Ⅺ -  List와 Key.md",
     "_posts/react/tutorial/2025-03-07-🌌 React 입문 Ⅹ - 조건부 렌더링.md",
-    "_posts/database/postgresql/2025-08-19-🐘 PostgreSQL 기본 Ⅺ - SQL 통계 함수.md",
     "_posts/database/postgresql/2025-08-18-🐘 PostgreSQL 기본 Ⅹ - 데이터 검사 및 수정.md",
     "_posts/database/postgresql/2025-08-18-🐘 PostgreSQL 기본 Ⅸ - 그루핑과 요약으로 정보 추출.md",
     "_posts/problem-solving/baekjoon/2025-08-18-🧩 Baekjoon 2751 - 수 정렬하기 2.md",
@@ -254,7 +256,6 @@
     "_posts/java/design-pattern/2025-08-12-⛓️ Java Design-Pattern XXⅣ - Interpreter.md",
     "_posts/database/postgresql",
     "assets/image/Pasted image 20250813133102.png",
-    "_posts/java/design-pattern/2025-08-12-⛓️ Java Design-Pattern XXⅢ - Command.md",
     "Excalidraw",
     "assets/image/Pasted image 20250812211112.png",
     "assets/image/Pasted image 20250812161939.png",
