@@ -1,11 +1,12 @@
 ---
-title: 🐘 PostgreSQL 기본 Ⅺ - 날짜와 시간을 사용한 작업
-date: 2025-08-20 12:10:00 +0900
+title: 🐘 PostgreSQL 기본 Ⅻ - 날짜와 시간을 사용한 작업
+date: 2025-08-21 12:10:00 +0900
 categories:
   - Database
 tags:
   - Database
   - PostgreSQL
+  - Unfinished
 ---
 
 ![](/assets/image/Pasted%20image%2020250813142544.png)
@@ -154,3 +155,80 @@ SELECT * FROM current_time_example;
 - 두 번째 열에는 `clock_timestamp()`을 통해 각 행의 삽입 시간을 기록했다.
 - `PostgreSQL` 전용 구문인 `generate_series()`를 통해 1000개의 행을 삽입했다.
 
+
+### 시간대 다루기
+#### 시간대 설정 찾기
+
+```sql
+SHOW timezone;
+SELECT current_setting('timezone');
+```
+- 위 두 명령어 중 하나를 사용하면 현재 시간대를 알 수 있다.
+
+> `SHOW ALL;` 명령어를 사용하면 `PostgreSQL` 서버의 모든 매개 변수 설정을 알 수 있다.
+
+```sql
+SELECT make_timestamptz(2022, 2, 22, 18, 4, 30.3, current_setting('timezone'));
+```
+- 두 문장 모두 동일한 정보를 제공하지만, 다른 함수에 대한 입력으로는 `current_setting()`을 사용하는 게 좋다.
+
+```sql
+SELECT * FROM pg_timezone_abbrevs ORDER BY abbrev;
+SELECT * FROM pg_timezone_names ORDER BY name;
+
+SELECT * FROM pg_timezone_names
+WHERE name LIKE 'Europe%'
+ORDER BY name;
+```
+- 위 두 명령문은 시간대 약어와 이름을 출력하는 쿼리다.
+- 마지막 쿼리를 통해 약어를 필터링 할 수도 있다.
+- 실행 결과는 다음과 같다.
+
+|name            |abbrev|utc_offset|is_dst|
+|----------------|------|----------|------|
+|Europe/Amsterdam|CEST  |02:00:00  |true  |
+|Europe/Andorra  |CEST  |02:00:00  |true  |
+|Europe/Astrakhan|+04   |04:00:00  |false |
+|Europe/Athens   |EEST  |03:00:00  |true  |
+
+#### 시간대 설정하기
+- `PostgreSQL`을 설치할 때 서버의 기본 시간대는 `postgresql.conf`에서 매개 변수로 설정되었다.
+- 해당 파일을 변경하면 다른 사용자나 응용 프로그램에 의도하지 않은 결과가 발생할 수 있으므로 주의해야 하며, 이번 장에서는 세션 별로 시간대를 설정하는 방법을 알아볼 것이다.
+
+```sql
+SET TIME ZONE 'America/Los_Angeles';
+
+CREATE TABLE time_zone_test (
+	test_date timestamptz
+);
+
+INSERT INTO time_zone_test VALUES ('2023-01-01 4:00');
+
+SELECT test_date
+FROM time_zone_test;
+
+SET TIME ZONE 'America/Indiana/Petersburg';
+
+SELECT test_date
+FROM time_zone_test;
+
+SELECT test_date AT TIME ZONE 'Asia/Seoul'
+FROM time_zone_test;
+```
+
+|test_date                    |
+|-----------------------------|
+|2023-01-01 21:00:00.000 +0900|
+
+- 위 결과는 `America/Los_Angeles`, `America/Indiana/Petersburg`의 결과다.
+- `UTC`보다 9시간이 빠르다는 의미다.
+
+|timezone               |
+|-----------------------|
+|2023-01-01 21:00:00.000|
+
+- 마지막 쿼리의 결과는 위와 같으며, 다음과 같은 사실을 알 수 있다.
+
+1. `timestamptz`는 절대적 시각을 보장한다.
+2. 타임존은 단지 출력 및 변환 시점에서의 표현 방식일 뿐이다.
+3. 같은 행을 보더라도 세션 타임존에 따라 달리 보일 수 있다.
