@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/database/postgresql/2025-08-21-🐘 PostgreSQL 기본 Ⅻ - 날짜와 시간을 사용한 작업.md",
+                "file": "_posts/database/mysql/2025-08-13-🦤 MySQL 심화 Ⅰ - 쿼리 응답 시간.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-08-21-🐘 PostgreSQL 기본 Ⅻ - 날짜와 시간을 사용한 작업"
+              "title": "2025-08-13-🦤 MySQL 심화 Ⅰ - 쿼리 응답 시간"
             }
           },
           {
@@ -227,8 +227,8 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
-    "_posts/database/mysql/2025-08-13-🦤 MySQL 심화 Ⅰ - 쿼리 응답 시간.md",
     "_posts/database/postgresql/2025-08-21-🐘 PostgreSQL 기본 Ⅻ - 날짜와 시간을 사용한 작업.md",
+    "_posts/database/mysql/2025-08-13-🦤 MySQL 심화 Ⅰ - 쿼리 응답 시간.md",
     "assets/image/Pasted image 20250821221135.png",
     "_posts/react/tutorial/2025-03-09-🌌 React 입문 Ⅻ -  Form.md",
     "_posts/database/postgresql/2025-08-19-🐘 PostgreSQL 기본 Ⅺ - SQL 통계 함수.md",
