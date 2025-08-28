@@ -32,6 +32,7 @@ tags:
 
 ### 예제
 #### ✅ 입력 1
+
 ```bash
 3 
 0 3 
@@ -40,6 +41,7 @@ tags:
 ```
 
 #### ✅ 출력 1
+
 ```bash
 3 
 3 
@@ -48,6 +50,7 @@ tags:
 
 
 ### 작성 코드
+
 ```java
 public class Main {
 	public static void main(String[] args) throws IOException {
@@ -106,6 +109,7 @@ public class Main {
 
 
 ### 개선 코드
+
 ```java
 /*
     1
