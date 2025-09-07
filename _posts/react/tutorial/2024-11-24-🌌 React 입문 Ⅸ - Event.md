@@ -16,7 +16,7 @@ tags:
 // DOM
 <button onclick="activate()">Activate</button>
 
-// 리액트
+// React
 <button onClick={activate}>Activate</button>
 ```
 - `DOM`에도 `React`에도 `Event`가 있지만 사용하는 방법이 조금 다르다.
