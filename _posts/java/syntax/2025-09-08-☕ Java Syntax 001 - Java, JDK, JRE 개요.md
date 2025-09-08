@@ -1,5 +1,5 @@
 ---
-title: ☕ Java Syntax 001 - Java, JDK, JRE, Complie, JVM 개요
+title: ☕ Java Syntax 001 - Java, JDK, JRE 개요
 date: 2025-09-08 21:46:00 +0900
 categories:
   - Java
