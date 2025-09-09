@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/java/syntax/2025-09-08-☕ Java Syntax 001 - Java, JDK, JRE 개요.md",
-                "mode": "preview",
+                "file": "_posts/java/syntax/2025-09-09-☕ Java Syntax 002 - 변수.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-09-08-☕ Java Syntax 001 - Java, JDK, JRE 개요"
+              "title": "2025-09-09-☕ Java Syntax 002 - 변수"
             }
           },
           {
@@ -227,11 +227,13 @@
   },
   "active": "711da87d9c319ab4",
   "lastOpenFiles": [
+    "_private/profile/U-Camp SQL 1일차.md",
+    "_posts/java/syntax/2025-09-09-☕ Java Syntax 002 - 변수.md",
+    "_posts/java/syntax/2025-09-08-☕ Java Syntax 001 - Java, JDK, JRE 개요.md",
     "assets/image/Pasted image 20250908223509.png",
     "assets/image/Pasted image 20250908222858.png",
     "assets/image/Pasted image 20250908222336.png",
     "assets/image/Pasted image 20250908221514.png",
-    "_posts/java/syntax/2025-09-08-☕ Java Syntax 001 - Java, JDK, JRE 개요.md",
     "assets/image/Pasted image 20250908220410.png",
     "assets/image/Pasted image 20250908215751.png",
     "_posts/react/tutorial/2025-04-06-🌌 React 입문 16 -  Styled-Component.md",
@@ -257,7 +259,6 @@
     "_posts/database/postgresql/2025-08-21-🐘 PostgreSQL 기본 12 - 날짜와 시간을 사용한 작업.md",
     "_posts/database/postgresql/2025-08-19-🐘 PostgreSQL 기본 11 - SQL 통계 함수.md",
     "_posts/database/postgresql/2025-08-18-🐘 PostgreSQL 기본 10 - 데이터 검사 및 수정.md",
-    "_posts/database/postgresql/2025-08-17-🐘 PostgreSQL 기본 08 - 적시적소에 알맞은 테이블 디자인.md",
     "_posts/java/무제",
     "assets/image/Pasted image 20250521205232.png",
     "assets/image/Pasted image 20250821221135.png",
@@ -265,7 +266,6 @@
     "assets/image/Pasted image 20250904220200.png",
     "_posts/java/syntax",
     "_posts/database/sql",
-    "assets/image/Pasted image 20250813142544.png",
     "_posts/database/postgresql",
     "Excalidraw",
     "_posts/database/mysql",
