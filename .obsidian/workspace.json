@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_private/profile/무제 1.md",
+                "file": "_posts/problem-solving/baekjoon/2025-10-13-🧩 Baekjoon 10816 - 숫자 카드 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제 1"
+              "title": "2025-10-13-🧩 Baekjoon 10816 - 숫자 카드 2"
             }
           }
         ],
@@ -240,15 +240,16 @@
       "markdown-importer:마크다운 형식 불러오기 열기": false
     }
   },
-  "active": "adbe46e33711b240",
+  "active": "260884b02e16e2eb",
   "lastOpenFiles": [
+    "_posts/problem-solving/baekjoon/2025-10-12-🧩 Baekjoon 11651 - 좌표 정렬하기 2.md",
+    "_posts/problem-solving/baekjoon/2025-10-13-🧩 Baekjoon 10816 - 숫자 카드 2.md",
+    "_private/profile/무제 1.md",
     "무제.base",
     "_posts/problem-solving/baekjoon/2025-10-12-🧩 Baekjoon 9012 - 괄호.md",
-    "_posts/problem-solving/baekjoon/2025-10-12-🧩 Baekjoon 11651 - 좌표 정렬하기 2.md",
     "_posts/problem-solving/baekjoon/2025-10-12-🧩 Baekjoon 2164 - 카드2.md",
     "_posts/problem-solving/baekjoon/2025-10-12-🧩 Baekjoon 1920 - 수 찾기.md",
     "_posts/problem-solving/baekjoon/2025-08-28-🧩 Baekjoon 11650 - 좌표 정렬하기.md",
-    "_private/profile/무제 1.md",
     "_private/profile/구글 스프레드시트 연도별·월별 실적 관리 구조 정리.md",
     "_posts/java/syntax/2025-09-11-☕ Java Syntax 004 - 조건문.md",
     "_posts/java/syntax/2025-09-10-☕ Java Syntax 003 - 연산자.md",
