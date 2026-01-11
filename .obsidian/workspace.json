@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/computer-science/web/2025-07-31-⚡ Web - HTML과 XML.md",
+                "file": "_posts/computer-science/java/2025-07-31-⚡ Java - 왜 자바인가.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-31-⚡ Web - HTML과 XML"
+              "title": "2025-07-31-⚡ Java - 왜 자바인가"
             }
           }
         ],
@@ -198,12 +198,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/computer-science/web/2025-07-31-⚡ Web - HTML과 XML.md",
+                "file": "_posts/computer-science/java/2025-07-31-⚡ Java - 왜 자바인가.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-07-31-⚡ Web - HTML과 XML"
+              "title": "Outgoing links from 2025-07-31-⚡ Java - 왜 자바인가"
             }
           },
           {
@@ -270,10 +270,10 @@
   },
   "active": "f89400bfe94a9745",
   "lastOpenFiles": [
+    "_posts/computer-science/web/2025-07-31-⚡ Web - HTML과 XML.md",
     "무제.md",
     "README.md",
     "📂 사이버다임 기술 전형 전 문항 통합 복습 가이드 (SET 1~4).md",
-    "_posts/computer-science/web/2025-07-31-⚡ Web - HTML과 XML.md",
     "오르카스튜디오 PRODUCT 레포 이슈사항 예상.md",
     "_private/profile/면접 질문 통합.md",
     "_private/profile/리액트 CRUD + FETCH + 라우팅 전체 미션.md",
