@@ -64,21 +64,49 @@
             }
           },
           {
-            "id": "260884b02e16e2eb",
+            "id": "52f86945048d54c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/problem-solving/baekjoon/2025-10-13-🧩 Baekjoon 10816 - 숫자 카드 2.md",
+                "file": "무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-10-13-🧩 Baekjoon 10816 - 숫자 카드 2"
+              "title": "무제"
+            }
+          },
+          {
+            "id": "7e83b992b90ae997",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📂 사이버다임 기술 전형 전 문항 통합 복습 가이드 (SET 1~4).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "📂 사이버다임 기술 전형 전 문항 통합 복습 가이드 (SET 1~4)"
+            }
+          },
+          {
+            "id": "f89400bfe94a9745",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/computer-science/web/2025-07-31-⚡ Web - HTML과 XML.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-07-31-⚡ Web - HTML과 XML"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -101,7 +129,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
+              "title": "Files"
             }
           },
           {
@@ -170,12 +198,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/docker/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
+                "file": "_posts/computer-science/web/2025-07-31-⚡ Web - HTML과 XML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드 의 나가는 링크"
+              "title": "Outgoing links from 2025-07-31-⚡ Web - HTML과 XML"
             }
           },
           {
@@ -199,17 +227,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/docker/2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드.md",
+                "file": "오르카스튜디오 PRODUCT 레포 이슈사항 예상.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2024-11-03-🐳 Docker 컨테이너 환경에서 프로젝트 빌드 의 개요"
+              "title": "Outline of 오르카스튜디오 PRODUCT 레포 이슈사항 예상"
             }
           },
           {
-            "id": "f96f157fd90bf782",
+            "id": "9e55961255b61484",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -227,23 +255,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:새 베이스 생성하기": false,
-      "switcher:빠른 전환기 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 일일 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "markdown-importer:마크다운 형식 불러오기 열기": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "260884b02e16e2eb",
+  "active": "f89400bfe94a9745",
   "lastOpenFiles": [
-    "_posts/problem-solving/baekjoon/2025-10-12-🧩 Baekjoon 11651 - 좌표 정렬하기 2.md",
+    "무제.md",
+    "README.md",
+    "📂 사이버다임 기술 전형 전 문항 통합 복습 가이드 (SET 1~4).md",
+    "_posts/computer-science/web/2025-07-31-⚡ Web - HTML과 XML.md",
+    "오르카스튜디오 PRODUCT 레포 이슈사항 예상.md",
+    "_private/profile/면접 질문 통합.md",
+    "_private/profile/리액트 CRUD + FETCH + 라우팅 전체 미션.md",
     "_posts/problem-solving/baekjoon/2025-10-13-🧩 Baekjoon 10816 - 숫자 카드 2.md",
+    "_posts/problem-solving/baekjoon/2025-10-12-🧩 Baekjoon 11651 - 좌표 정렬하기 2.md",
     "_private/profile/무제 1.md",
     "무제.base",
     "_posts/problem-solving/baekjoon/2025-10-12-🧩 Baekjoon 9012 - 괄호.md",
@@ -262,13 +297,6 @@
     "_private/profile/현대이지웰 1.md",
     "_private/profile/ai 로드맵 2.md",
     "_private/profile/U-Camp SQL 1일차.md",
-    "_private/profile/poke api.md",
-    "_private/profile/U-Camp 3일차.md",
-    "_private/profile/포트폴리오 · 상추 - 상호명 추천 시스템.md",
-    "_private/profile/지원서.md",
-    "_private/profile/생성형 AI 기반 이력서 및 포트폴리오 작성.md",
-    "_private/profile/상추 인프라 구축 매뉴얼 Ⅱ - DB 서버.md",
-    "_private/profile/무제.md",
     "assets/image/Pasted image 20250911220133.png",
     "assets/image/Pasted image 20250908223509.png",
     "assets/image/Pasted image 20250908222858.png",
