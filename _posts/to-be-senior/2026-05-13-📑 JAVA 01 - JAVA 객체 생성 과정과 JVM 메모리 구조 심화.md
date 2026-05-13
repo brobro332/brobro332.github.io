@@ -38,6 +38,27 @@ Java 백엔드 면접에서 굉장히 자주 등장하는 질문:
 
 # JVM 메모리 구조
 
+```mermaid
+graph TD
+
+JVM[JVM Memory]
+
+JVM --> MA[Method Area]
+JVM --> HEAP[Heap]
+JVM --> STACK[Stack]
+
+MA --> MA1[클래스 정보]
+MA --> MA2[static 변수]
+MA --> MA3[런타임 상수 풀]
+
+HEAP --> H1[User 객체]
+HEAP --> H2[Order 객체]
+HEAP --> H3[String 객체]
+
+STACK --> S1[Thread-1 Stack]
+STACK --> S2[Thread-2 Stack]
+```
+
 JVM 메모리는 크게 다음 영역으로 나뉜다.
 
 - Method Area
@@ -73,6 +94,13 @@ Heap은:
 ---
 
 # 왜 Heap은 공유 영역일까?
+
+```mermaid
+graph LR
+
+T1[Thread-1] --> H[Heap의 User 객체]
+T2[Thread-2] --> H
+```
 
 매우 중요한 질문.
 
@@ -122,6 +150,19 @@ Stack은:
 ---
 
 # 왜 Stack은 스레드별 독립일까?
+
+```mermaid
+graph TD
+
+T1[Thread-1 Stack]
+T2[Thread-2 Stack]
+
+T1 --> A1[methodA]
+T1 --> A2[local variable]
+
+T2 --> B1[methodB]
+T2 --> B2[local variable]
+```
 
 이유:
 
@@ -174,6 +215,16 @@ Heap 객체 내부가 아니라
 ---
 
 # 객체 생성 과정
+
+```mermaid
+graph TD
+A[new User 실행] --> B[ClassLoader 확인]
+B --> C[Heap 메모리 할당]
+C --> D[기본값 초기화]
+D --> E[생성자 호출]
+E --> F[Stack 참조 저장]
+F --> G[GC Root 연결]
+```
 
 다음 코드 기준으로 보자.
 
@@ -263,6 +314,11 @@ C/C++처럼:
 
 # 4. 참조 연결
 
+```mermaid
+graph LR
+S[Stack의 user 변수] --> H[Heap의 User 객체]
+```
+
 최종적으로:
 
     User user
@@ -278,6 +334,24 @@ Heap 객체 주소 참조.
 ---
 
 # GC Root와 객체 생명주기
+
+## Reachable 객체
+
+```mermaid
+graph TD
+ROOT[GC Root]
+
+ROOT --> USER[User 객체]
+USER --> ORDER[Order 객체]
+```
+
+## Unreachable 객체
+
+```mermaid
+graph TD
+ROOT[GC Root]
+OBJ[User 객체]
+```
 
 Java GC 핵심 기준:
 
@@ -342,6 +416,15 @@ Java GC 핵심 기준:
 ---
 
 # 왜 객체 생성 비용이 중요할까?
+
+```mermaid
+graph TD
+
+A[객체 생성 증가] --> B[Heap 사용량 증가]
+B --> C[GC 빈도 증가]
+C --> D[Stop-The-World 증가]
+D --> E[응답 지연 발생 가능]
+```
 
 Java는 객체 생성이 쉬운 언어다.
 
@@ -434,6 +517,17 @@ Trade-off 존재.
 
 # 좋은 답변 예시
 
+```mermaid
+graph TD
+
+A[new User 호출] --> B[ClassLoader 확인]
+B --> C[Heap 객체 생성]
+C --> D[생성자 호출]
+D --> E[Stack 참조 저장]
+E --> F[GC Root 연결]
+F --> G[참조 제거 시 GC 대상]
+```
+
 > Java에서 객체 생성 시 먼저 클래스 로딩 여부를 확인합니다.
 > 이후 Heap 영역에 객체 메모리를 할당하고,
 > 생성자를 호출합니다.
@@ -478,3 +572,5 @@ Trade-off 존재.
 > "객체 생성 → 메모리 → GC → 성능"
 
 흐름을 연결해서 이해하는 것이다.
+
+

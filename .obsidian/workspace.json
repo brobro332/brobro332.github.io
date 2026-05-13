@@ -147,12 +147,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/to-be-senior/2026-05-13-📜 PS 01 - HashMap 기초와 빈도수 문제.md",
+                "file": "_posts/to-be-senior/2026-05-13-📑 JAVA 01 - JAVA 객체 생성 과정과 JVM 메모리 구조 심화.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-05-13-📜 PS 01 - HashMap 기초와 빈도수 문제"
+              "title": "2026-05-13-📑 JAVA 01 - JAVA 객체 생성 과정과 JVM 메모리 구조 심화"
             }
           },
           {
@@ -332,8 +332,8 @@
   },
   "active": "701747ccbcb218b3",
   "lastOpenFiles": [
-    "_posts/to-be-senior/2026-05-13-📑 JAVA 01 - JAVA 객체 생성 과정과 JVM 메모리 구조 심화.md",
     "_posts/to-be-senior/2026-05-13-📜 PS 01 - HashMap 기초와 빈도수 문제.md",
+    "_posts/to-be-senior/2026-05-13-📑 JAVA 01 - JAVA 객체 생성 과정과 JVM 메모리 구조 심화.md",
     "_posts/project/2026-05-13 ⚓ 개인프로젝트_DATT_Record_Your_Anchor.md",
     "_posts/trouble-shooting/2025-03-18-💥 MyBatis camelCase 처리.md",
     "_posts/trouble-shooting/2025-05-01-💥 LetsEncrypt SSL 인증서 발급 횟수 제한.md",
