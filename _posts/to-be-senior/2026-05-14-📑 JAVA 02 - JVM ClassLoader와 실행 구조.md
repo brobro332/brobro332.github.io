@@ -1,6 +1,6 @@
 ---
 title: 📑 JAVA 02 - JVM ClassLoader와 실행 구조
-date: 2026-05-14 00:00:00 +0900  
+date: 2026-05-14 00:01:00 +0900  
 categories: To-Be-Senior
 tags: [Java, JVM, ClassLoader, Reflection, Runtime, Backend]
 ---
