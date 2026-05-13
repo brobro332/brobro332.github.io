@@ -175,7 +175,7 @@
               "state": {
                 "file": "_posts/to-be-senior/2026-05-14-📃 DATT 01 - 성능 측정 환경 구축 및 응답 시간 계측.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "2026-05-14-📃 DATT 01 - 성능 측정 환경 구축 및 응답 시간 계측"
@@ -346,9 +346,9 @@
   },
   "active": "4ed9b3b6eb105611",
   "lastOpenFiles": [
-    "_posts/to-be-senior/2026-05-13-📑 JAVA 01 - 객체 생성 과정과 JVM 메모리 구조 심화.md",
-    "_posts/to-be-senior/2026-05-14-📃 DATT 01 - 성능 측정 환경 구축 및 응답 시간 계측.md",
     "_posts/to-be-senior/2026-05-13-📜 실무형 Java 백엔드 집중 성장 플랜 및 템플릿.md",
+    "_posts/to-be-senior/2026-05-14-📃 DATT 01 - 성능 측정 환경 구축 및 응답 시간 계측.md",
+    "_posts/to-be-senior/2026-05-13-📑 JAVA 01 - 객체 생성 과정과 JVM 메모리 구조 심화.md",
     "_posts/to-be-senior/2026-05-14-⚓ DATT 01 - 성능 병목 분석 및 개선 전략 수립 및 템플릿.md",
     "_posts/project/2026-05-13 ⚓ 개인프로젝트_DATT_Record_Your_Anchor.md",
     "_posts/to-be-senior/2026-05-13-📜 PS 01 - HashMap 기초와 빈도수 문제.md",
