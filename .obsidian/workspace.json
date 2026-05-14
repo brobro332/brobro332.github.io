@@ -201,12 +201,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/to-be-senior/2026-05-15-📑 JAVA 04 - Collection Framework와 HashMap 내부 구조.md",
+                "file": "_posts/to-be-senior/2026-05-15-⚓ DATT 04 - 패키지 구조 설계.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-05-15-📑 JAVA 04 - Collection Framework와 HashMap 내부 구조"
+              "title": "2026-05-15-⚓ DATT 04 - 패키지 구조 설계"
             }
           }
         ],
@@ -374,14 +374,14 @@
   },
   "active": "86b10d322247d169",
   "lastOpenFiles": [
-    "_posts/to-be-senior/2026-05-14-📑 JAVA 02 - JVM ClassLoader와 실행 구조.md",
-    "_posts/to-be-senior/2026-05-15-📑 JAVA 04 - Collection Framework와 HashMap 내부 구조.md",
-    "_posts/to-be-senior/2026-05-15-📑 JAVA 03 - JVM GC와 메모리 관리.md",
-    "_posts/to-be-senior/2026-05-15-⚓ DATT 02 - ERD 설계 및 도메인 관계 분석.md",
-    "_posts/to-be-senior/2026-05-15-⚓ DATT 04 - 패키지 구조 설계.md",
     "_posts/to-be-senior/2026-05-15-⚓ DATT 03 - 공통 예외 처리 설계.md",
+    "_posts/to-be-senior/2026-05-15-⚓ DATT 02 - ERD 설계 및 도메인 관계 분석.md",
     "_posts/to-be-senior/2026-05-15-⚓ DATT 01 - 아키텍처 설계 및 도메인 구조 분석.md",
     "_posts/to-be-senior/2026-05-15-⚓ 실무형 백엔드 포트폴리오 로드맵.md",
+    "_posts/to-be-senior/2026-05-15-⚓ DATT 04 - 패키지 구조 설계.md",
+    "_posts/to-be-senior/2026-05-15-📑 JAVA 04 - Collection Framework와 HashMap 내부 구조.md",
+    "_posts/to-be-senior/2026-05-14-📑 JAVA 02 - JVM ClassLoader와 실행 구조.md",
+    "_posts/to-be-senior/2026-05-15-📑 JAVA 03 - JVM GC와 메모리 관리.md",
     "무제.md",
     "_posts/project/2026-05-13 ⚓ 개인프로젝트_DATT_Record_Your_Anchor.md",
     "_posts/to-be-senior/2026-05-13-📜 실무형 Java 백엔드 집중 성장 플랜 및 템플릿.md",
