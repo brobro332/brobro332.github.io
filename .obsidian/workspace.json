@@ -201,12 +201,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/to-be-senior/2026-05-15-⚓ DATT 01 - 아키텍처 설계 및 도메인 구조 분석.md",
+                "file": "_posts/to-be-senior/2026-05-16-⚓ DATT 02 - Flyway 기반 DB Migration 및 Member 도메인 초기 설계.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-15-⚓ DATT 01 - 아키텍처 설계 및 도메인 구조 분석"
+              "title": "2026-05-16-⚓ DATT 02 - Flyway 기반 DB Migration 및 Member 도메인 초기 설계"
             }
           }
         ],
@@ -374,13 +374,15 @@
   },
   "active": "86b10d322247d169",
   "lastOpenFiles": [
+    "_posts/to-be-senior/2026-05-16-⚓ DATT 01 - 공통 응답, 예외 처리, Request Logging 기반 구축.md",
+    "_posts/to-be-senior/2026-05-16-⚓ DATT 02 - Flyway 기반 DB Migration 및 Member 도메인 초기 설계.md",
+    "_posts/to-be-senior/2026-05-15-⚓ ERD 설계 및 도메인 관계 분석.md",
+    "_posts/to-be-senior/2026-05-15-⚓ 아키텍처 설계 및 도메인 구조 분석.md",
+    "_posts/to-be-senior/2026-05-15-⚓ 패키지 구조 설계.md",
     "_posts/to-be-senior/2026-05-15-⚓ 실무형 백엔드 포트폴리오 로드맵.md",
-    "_posts/to-be-senior/2026-05-15-⚓ DATT 01 - 아키텍처 설계 및 도메인 구조 분석.md",
-    "_posts/to-be-senior/2026-05-15-⚓ DATT 04 - 패키지 구조 설계.md",
-    "_posts/to-be-senior/2026-05-15-⚓ DATT 03 - 공통 예외 처리 설계.md",
-    "_posts/to-be-senior/2026-05-15-⚓ DATT 02 - ERD 설계 및 도메인 관계 분석.md",
-    "_posts/to-be-senior/2026-05-15-📑 JAVA 04 - Collection Framework와 HashMap 내부 구조.md",
     "_posts/to-be-senior/2026-05-14-📑 JAVA 02 - JVM ClassLoader와 실행 구조.md",
+    "_posts/to-be-senior/2026-05-15-⚓ 공통 예외 처리 설계.md",
+    "_posts/to-be-senior/2026-05-15-📑 JAVA 04 - Collection Framework와 HashMap 내부 구조.md",
     "_posts/to-be-senior/2026-05-15-📑 JAVA 03 - JVM GC와 메모리 관리.md",
     "무제.md",
     "_posts/project/2026-05-13 ⚓ 개인프로젝트_DATT_Record_Your_Anchor.md",
@@ -400,8 +402,6 @@
     "README.md",
     "_private/image/Pasted image 20250523013953.png",
     "_private/profile/사이버다임 면접.md",
-    "_private/profile/경력기술서 · 네이버시스템(주) · 자바 웹 개발자.md",
-    "_private/profile/면접 준비 - 경력기술서.md",
     "_private/image/Pasted image 20250616130410.png",
     "무제.base",
     "assets/image/Pasted image 20250911220133.png",
