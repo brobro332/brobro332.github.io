@@ -201,16 +201,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/to-be-senior/2026-05-17-⚓ DATT 05 - Refresh Token 기반 인증 유지 구조.md",
+                "file": "_posts/to-be-senior/2026-05-18-📑 JAVA 05 - Spring은 객체를 어떻게 생성하고 관리하는가.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-05-17-⚓ DATT 05 - Refresh Token 기반 인증 유지 구조"
+              "title": "2026-05-18-📑 JAVA 05 - Spring은 객체를 어떻게 생성하고 관리하는가"
+            }
+          },
+          {
+            "id": "5192003dc93453de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/to-be-senior/2026-05-18-📑 JAVA 06 - Java Thread, synchronized, volatile, Atomic.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2026-05-18-📑 JAVA 06 - Java Thread, synchronized, volatile, Atomic"
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -372,10 +386,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "86b10d322247d169",
+  "active": "5192003dc93453de",
   "lastOpenFiles": [
-    "_posts/to-be-senior/2026-05-16-⚓ DATT 04 - JWT 기반 로그인 흐름 구현.md",
+    "_posts/to-be-senior/2026-05-18-📑 JAVA 05 - Spring은 객체를 어떻게 생성하고 관리하는가.md",
+    "_posts/to-be-senior/2026-05-18-📑 JAVA 06 - Java Thread, synchronized, volatile, Atomic.md",
+    "무제 1.md",
+    "무제",
+    "_posts/to-be-senior/2026-05-15-📑 JAVA 04 - Collection Framework와 HashMap 내부 구조.md",
+    "_posts/to-be-senior/2026-05-15-📑 JAVA 03 - JVM GC와 메모리 관리.md",
     "_posts/to-be-senior/2026-05-17-⚓ DATT 05 - Refresh Token 기반 인증 유지 구조.md",
+    "_posts/to-be-senior/2026-05-16-⚓ DATT 04 - JWT 기반 로그인 흐름 구현.md",
     "_posts/to-be-senior/2026-05-16-⚓ DATT 03 - Spring Security 기반 JWT 인증 구조.md",
     "_posts/to-be-senior/2026-05-16-⚓ DATT 02 - Flyway 기반 DB Migration 및 Member 도메인 초기 설계.md",
     "_posts/to-be-senior/2026-05-16-⚓ DATT 01 - 공통 응답, 예외 처리, Request Logging 기반 구축.md",
@@ -385,8 +405,6 @@
     "_posts/to-be-senior/2026-05-15-⚓ 실무형 백엔드 포트폴리오 로드맵.md",
     "_posts/to-be-senior/2026-05-14-📑 JAVA 02 - JVM ClassLoader와 실행 구조.md",
     "_posts/to-be-senior/2026-05-15-⚓ 공통 예외 처리 설계.md",
-    "_posts/to-be-senior/2026-05-15-📑 JAVA 04 - Collection Framework와 HashMap 내부 구조.md",
-    "_posts/to-be-senior/2026-05-15-📑 JAVA 03 - JVM GC와 메모리 관리.md",
     "무제.md",
     "_posts/project/2026-05-13 ⚓ 개인프로젝트_DATT_Record_Your_Anchor.md",
     "_posts/to-be-senior/2026-05-13-📜 실무형 Java 백엔드 집중 성장 플랜 및 템플릿.md",
@@ -397,9 +415,6 @@
     "_posts/to-be-senior/2026-05-13-📜 PS 01 - HashMap 기초와 빈도수 문제.md",
     "_posts/trouble-shooting/2025-03-18-💥 MyBatis camelCase 처리.md",
     "_posts/trouble-shooting/2025-05-01-💥 LetsEncrypt SSL 인증서 발급 횟수 제한.md",
-    "_posts/problem-solving/leetcode/2025-03-11-💡 LeetCode 101 - Symmetric Tree.md",
-    "_posts/problem-solving/leetcode/2025-02-18-💡 LeetCode 9 - Palindrome Number.md",
-    "_posts/project/2025-06-23-🎈 quiz-stream-service.md",
     "_posts/to-be-senior",
     "_private/image/Pasted image 20250523013953.png",
     "_private/image/Pasted image 20250616130410.png",
@@ -418,7 +433,6 @@
     "_posts/database/postgresql",
     "Excalidraw",
     "_posts/database/mysql",
-    "_posts/database",
-    "_posts/computer-science/web"
+    "_posts/database"
   ]
 }
