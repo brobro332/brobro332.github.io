@@ -215,12 +215,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/to-be-senior/2026-05-18-⚓ DATT 06 - Place 도메인 및 장소 검색 구조 설계.md",
+                "file": "_posts/to-be-senior/2026-05-18-⚓ DATT 07 - Spring Batch 기반 공공데이터 장소 동기화 구조 설계.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-05-18-⚓ DATT 06 - Place 도메인 및 장소 검색 구조 설계"
+              "title": "2026-05-18-⚓ DATT 07 - Spring Batch 기반 공공데이터 장소 동기화 구조 설계"
             }
           }
         ],
@@ -388,8 +388,9 @@
   },
   "active": "5192003dc93453de",
   "lastOpenFiles": [
-    "_posts/to-be-senior/2026-05-18-📑 JAVA 06 - Java Thread, synchronized, volatile, Atomic.md",
     "_posts/to-be-senior/2026-05-18-⚓ DATT 06 - Place 도메인 및 장소 검색 구조 설계.md",
+    "_posts/to-be-senior/2026-05-18-⚓ DATT 07 - Spring Batch 기반 공공데이터 장소 동기화 구조 설계.md",
+    "_posts/to-be-senior/2026-05-18-📑 JAVA 06 - Java Thread, synchronized, volatile, Atomic.md",
     "_posts/to-be-senior/2026-05-15-📑 JAVA 03 - JVM GC와 메모리 관리.md",
     "_posts/to-be-senior/2026-05-18-📑 JAVA 05 - Spring은 객체를 어떻게 생성하고 관리하는가.md",
     "_posts/problem-solving/leetcode/2025-02-18-💡 LeetCode 9 - Palindrome Number.md",
@@ -414,7 +415,6 @@
     "_posts/to-be-senior/2026-05-14-📃 DATT 01 - 성능 측정 환경 구축 및 응답 시간 계측.md",
     "_posts/to-be-senior/2026-05-13-📑 JAVA 01 - 객체 생성 과정과 JVM 메모리 구조 심화.md",
     "_posts/to-be-senior/2026-05-14-📃 DATT 02 - 부하 테스트 및 병목 구간 분석.md",
-    "_posts/to-be-senior/2026-05-14-⚓ DATT 01 - 성능 병목 분석 및 개선 전략 수립 및 템플릿.md",
     "_posts/to-be-senior",
     "_private/image/Pasted image 20250523013953.png",
     "_private/image/Pasted image 20250616130410.png",
