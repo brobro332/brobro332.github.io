@@ -215,12 +215,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/to-be-senior/2026-05-15-⚓ 실무형 백엔드 포트폴리오 로드맵.md",
+                "file": "_posts/to-be-senior/2026-05-19-⚓ DATT 09 - 좌표 기반 Nearby Search API 설계 및 위치 기반 검색 시스템 구현.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-05-15-⚓ 실무형 백엔드 포트폴리오 로드맵"
+              "title": "2026-05-19-⚓ DATT 09 - 좌표 기반 Nearby Search API 설계 및 위치 기반 검색 시스템 구현"
             }
           }
         ],
@@ -389,6 +389,8 @@
   "active": "5192003dc93453de",
   "lastOpenFiles": [
     "_posts/to-be-senior/2026-05-19-⚓ DATT 08 - QueryDSL 기반 장소 검색 API 설계 및 구현.md",
+    "_posts/to-be-senior/2026-05-19-⚓ DATT 09 - 좌표 기반 Nearby Search API 설계 및 위치 기반 검색 시스템 구현.md",
+    "_posts/to-be-senior/2026-05-15-⚓ 실무형 백엔드 포트폴리오 로드맵.md",
     "_posts/to-be-senior/2026-05-18-⚓ DATT 07 - Spring Batch 기반 공공데이터 장소 동기화 구조 설계.md",
     "_posts/to-be-senior/2026-05-18-⚓ DATT 06 - Place 도메인 및 장소 검색 구조 설계.md",
     "_posts/to-be-senior/2026-05-18-📑 JAVA 06 - Java Thread, synchronized, volatile, Atomic.md",
@@ -408,13 +410,11 @@
     "_posts/to-be-senior/2026-05-15-⚓ ERD 설계 및 도메인 관계 분석.md",
     "_posts/to-be-senior/2026-05-15-⚓ 아키텍처 설계 및 도메인 구조 분석.md",
     "_posts/to-be-senior/2026-05-15-⚓ 패키지 구조 설계.md",
-    "_posts/to-be-senior/2026-05-15-⚓ 실무형 백엔드 포트폴리오 로드맵.md",
     "_posts/to-be-senior/2026-05-14-📑 JAVA 02 - JVM ClassLoader와 실행 구조.md",
     "_posts/to-be-senior/2026-05-15-⚓ 공통 예외 처리 설계.md",
     "_posts/project/2026-05-13 ⚓ 개인프로젝트_DATT_Record_Your_Anchor.md",
     "_posts/to-be-senior/2026-05-13-📜 실무형 Java 백엔드 집중 성장 플랜 및 템플릿.md",
     "_posts/to-be-senior/2026-05-14-📃 DATT 01 - 성능 측정 환경 구축 및 응답 시간 계측.md",
-    "_posts/to-be-senior/2026-05-13-📑 JAVA 01 - 객체 생성 과정과 JVM 메모리 구조 심화.md",
     "_posts/to-be-senior",
     "_private/image/Pasted image 20250523013953.png",
     "_private/image/Pasted image 20250616130410.png",
