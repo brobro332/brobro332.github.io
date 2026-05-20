@@ -1,5 +1,5 @@
 ---
-title: 📑 JAVA 06 - Java Thread, synchronized, volatile, Atomic
+title: 📑 JAVA 05 - Java Thread, synchronized, volatile, Atomic
 date: 2026-05-18 00:04:00 +0900
 categories: [To-Be-Senior]  
 tags: [Spring, Bean, Lifecycle, IoC, DI, Proxy, SpringBoot]
