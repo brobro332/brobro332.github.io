@@ -215,12 +215,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/to-be-senior/2026-05-22-⚓ DATT 11 - Bookmark 시스템 설계 및 사용자 저장 기능 모델링 전략.md",
+                "file": "_posts/to-be-senior/2026-05-22-⚓ DATT 12 - Anchor 시스템 설계와 지역 기반 자동 큐레이션 구조.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-05-22-⚓ DATT 11 - Bookmark 시스템 설계 및 사용자 저장 기능 모델링 전략"
+              "title": "2026-05-22-⚓ DATT 12 - Anchor 시스템 설계와 지역 기반 자동 큐레이션 구조"
             }
           }
         ],
@@ -388,8 +388,9 @@
   },
   "active": "5192003dc93453de",
   "lastOpenFiles": [
-    "_posts/to-be-senior/2026-05-21-⚓ DATT 10 - 장소 상세 조회 API 설계 및 Detail 응답 구조 분리 전략.md",
     "_posts/to-be-senior/2026-05-22-⚓ DATT 11 - Bookmark 시스템 설계 및 사용자 저장 기능 모델링 전략.md",
+    "_posts/to-be-senior/2026-05-21-⚓ DATT 10 - 장소 상세 조회 API 설계 및 Detail 응답 구조 분리 전략.md",
+    "_posts/to-be-senior/2026-05-22-⚓ DATT 12 - Anchor 시스템 설계와 지역 기반 자동 큐레이션 구조.md",
     "_posts/to-be-senior/2026-05-19-⚓ DATT 09 - 좌표 기반 Nearby Search API 설계 및 위치 기반 검색 시스템 구현.md",
     "_posts/to-be-senior/2026-05-18-📑 JAVA 06 - Spring은 객체를 어떻게 생성하고 관리하는가.md",
     "_posts/to-be-senior/2026-05-18-📑 JAVA 05 - Java Thread, synchronized, volatile, Atomic.md",
@@ -414,7 +415,6 @@
     "_posts/to-be-senior/2026-05-15-⚓ 패키지 구조 설계.md",
     "_posts/to-be-senior/2026-05-14-📑 JAVA 02 - JVM ClassLoader와 실행 구조.md",
     "_posts/to-be-senior/2026-05-15-⚓ 공통 예외 처리 설계.md",
-    "_posts/project/2026-05-13 ⚓ 개인프로젝트_DATT_Record_Your_Anchor.md",
     "_posts/to-be-senior",
     "_private/image/Pasted image 20250523013953.png",
     "_private/image/Pasted image 20250616130410.png",

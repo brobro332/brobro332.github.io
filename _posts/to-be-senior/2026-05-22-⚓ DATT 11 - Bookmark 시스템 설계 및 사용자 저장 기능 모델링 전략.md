@@ -1,6 +1,6 @@
 ---
 title: ⚓ DATT 11 - Bookmark 시스템 설계 및 사용자 저장 기능 모델링 전략
-date: 2026-05-21  
+date: 2026-05-21 00:06:00 +0900
 categories:
 - To-Be-Senior
 tags:   
