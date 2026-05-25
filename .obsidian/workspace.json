@@ -215,12 +215,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/to-be-senior/2026-05-26-⚓ DATT 18 - Anchor · 게이미피케이션 프론트엔드 구조 설계.md",
+                "file": "_posts/to-be-senior/2026-05-26-⚓ DATT 19 - 사용자 성장 시스템 및 게이미피케이션 프론트엔드 구조 설계.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-05-26-⚓ DATT 18 - Anchor · 게이미피케이션 프론트엔드 구조 설계"
+              "title": "2026-05-26-⚓ DATT 19 - 사용자 성장 시스템 및 게이미피케이션 프론트엔드 구조 설계"
             }
           }
         ],
@@ -388,8 +388,9 @@
   },
   "active": "5192003dc93453de",
   "lastOpenFiles": [
-    "_posts/to-be-senior/2026-05-25-⚓ DATT 17 - Kakao Map 기반 지도 탐색 구조 설계.md",
     "_posts/to-be-senior/2026-05-26-⚓ DATT 18 - Anchor · 게이미피케이션 프론트엔드 구조 설계.md",
+    "_posts/to-be-senior/2026-05-26-⚓ DATT 19 - 사용자 성장 시스템 및 게이미피케이션 프론트엔드 구조 설계.md",
+    "_posts/to-be-senior/2026-05-25-⚓ DATT 17 - Kakao Map 기반 지도 탐색 구조 설계.md",
     "_posts/to-be-senior/2026-05-25-⚓ DATT 16 - 인증 및 Place 탐색 기반 UI 구축.md",
     "_posts/to-be-senior/2026-05-24-⚓ DATT 15 - Frontend Architecture 설계.md",
     "_posts/to-be-senior/2026-05-22-⚓ DATT 14 - Gamification 시스템과 사용자 성장 구조 설계.md",
@@ -414,7 +415,6 @@
     "_posts/to-be-senior/2026-05-17-⚓ DATT 05 - Refresh Token 기반 인증 유지 구조.md",
     "_posts/to-be-senior/2026-05-16-⚓ DATT 04 - JWT 기반 로그인 흐름 구현.md",
     "_posts/to-be-senior/2026-05-16-⚓ DATT 03 - Spring Security 기반 JWT 인증 구조.md",
-    "_posts/to-be-senior/2026-05-16-⚓ DATT 02 - Flyway 기반 DB Migration 및 Member 도메인 초기 설계.md",
     "_posts/to-be-senior",
     "_private/image/Pasted image 20250523013953.png",
     "_private/image/Pasted image 20250616130410.png",
