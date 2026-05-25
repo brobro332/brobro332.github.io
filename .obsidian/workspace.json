@@ -215,12 +215,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/to-be-senior/2026-05-25-⚓ DATT 16 - 인증 및 Place 탐색 기반 UI 구축.md",
+                "file": "_posts/to-be-senior/2026-05-25-⚓ DATT 17 - Kakao Map 기반 지도 탐색 구조 설계.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-05-25-⚓ DATT 16 - 인증 및 Place 탐색 기반 UI 구축"
+              "title": "2026-05-25-⚓ DATT 17 - Kakao Map 기반 지도 탐색 구조 설계"
             }
           }
         ],
@@ -388,8 +388,9 @@
   },
   "active": "5192003dc93453de",
   "lastOpenFiles": [
-    "_posts/to-be-senior/2026-05-24-⚓ DATT 15 - Frontend Architecture 설계.md",
     "_posts/to-be-senior/2026-05-25-⚓ DATT 16 - 인증 및 Place 탐색 기반 UI 구축.md",
+    "_posts/to-be-senior/2026-05-25-⚓ DATT 17 - Kakao Map 기반 지도 탐색 구조 설계.md",
+    "_posts/to-be-senior/2026-05-24-⚓ DATT 15 - Frontend Architecture 설계.md",
     "_posts/to-be-senior/2026-05-22-⚓ DATT 14 - Gamification 시스템과 사용자 성장 구조 설계.md",
     "_posts/to-be-senior/2026-05-22-⚓ DATT 12 - Anchor 시스템 설계와 지역 기반 자동 큐레이션 구조.md",
     "_posts/to-be-senior/2026-05-22-⚓ DATT 13 - Place 리뷰, 평점 시스템과 사용자 반응 기반 추천 구조.md",
@@ -414,7 +415,6 @@
     "_posts/to-be-senior/2026-05-16-⚓ DATT 03 - Spring Security 기반 JWT 인증 구조.md",
     "_posts/to-be-senior/2026-05-16-⚓ DATT 02 - Flyway 기반 DB Migration 및 Member 도메인 초기 설계.md",
     "_posts/to-be-senior/2026-05-16-⚓ DATT 01 - 공통 응답, 예외 처리, Request Logging 기반 구축.md",
-    "_posts/to-be-senior/2026-05-15-⚓ ERD 설계 및 도메인 관계 분석.md",
     "_posts/to-be-senior",
     "_private/image/Pasted image 20250523013953.png",
     "_private/image/Pasted image 20250616130410.png",
